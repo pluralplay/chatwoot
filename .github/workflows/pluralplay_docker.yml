@@ -1,5 +1,5 @@
 # Builds the pluralplay fork image and publishes it to GHCR.
-# Mirrors the upstream EE image (same Dockerfile, CW_EDITION=ee).
+# Community Edition: enterprise/ stripped, CW_EDITION=ce (as upstream publish_foss_docker).
 
 name: Publish pluralplay docker image
 
@@ -23,9 +23,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      - name: Strip enterprise code
+        run: |
+          rm -rf enterprise
+          rm -rf spec/enterprise
+
       - name: Set Chatwoot edition
         run: |
-          echo -en '\nENV CW_EDITION="ee"' >> docker/Dockerfile
+          echo -en '\nENV CW_EDITION="ce"' >> docker/Dockerfile
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v4
