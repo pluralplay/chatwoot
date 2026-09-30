@@ -1,53 +1,53 @@
 {
   "WHATSAPP_TEMPLATE_MGMT": {
-    "TITLE": "Templates",
-    "DESCRIPTION": "View the message templates synced from your WhatsApp inboxes. To create or edit a template, manage it with your provider.",
-    "COUNT": "{n} template | {n} templates",
-    "LEARN_MORE": "Learn more about WhatsApp templates",
-    "SYNC_TEMPLATES": "Sync templates",
-    "SYNC_SUCCESS": "Template sync started for all WhatsApp inboxes. Updates may take a couple of minutes.",
-    "PARTIAL_SYNC_ERROR": "Template sync started for some WhatsApp inboxes, but others could not be synced.",
-    "SYNC_ERROR": "Unable to start template sync. Please try again.",
-    "SEARCH_PLACEHOLDER": "Search by content or name...",
-    "MANAGE_IN_META": "Manage in Meta",
-    "MANAGE_IN_TWILIO": "Manage in Twilio",
-    "LOADING": "Loading WhatsApp templates...",
-    "EMPTY": "No WhatsApp templates found.",
-    "NO_RESULTS": "No templates match your filters.",
-    "FETCH_ERROR": "Unable to load WhatsApp templates. Please try again.",
-    "PARTIAL_FETCH_ERROR": "Some WhatsApp templates could not be loaded. Please try again.",
-    "LAST_SYNC_ATTEMPT": "Last sync attempt on {date}",
+    "TITLE": "Шаблоны",
+    "DESCRIPTION": "Здесь показаны шаблоны сообщений, синхронизированные из ваших каналов WhatsApp. Создавать и изменять шаблоны можно у вашего провайдера.",
+    "COUNT": "{n} шаблон | {n} шаблона | {n} шаблонов",
+    "LEARN_MORE": "Подробнее о шаблонах WhatsApp",
+    "SYNC_TEMPLATES": "Синхронизировать шаблоны",
+    "SYNC_SUCCESS": "Синхронизация шаблонов запущена для всех каналов WhatsApp. Обновление может занять несколько минут.",
+    "PARTIAL_SYNC_ERROR": "Синхронизация шаблонов запущена для части каналов WhatsApp, остальные синхронизировать не удалось.",
+    "SYNC_ERROR": "Не удалось запустить синхронизацию шаблонов. Попробуйте ещё раз.",
+    "SEARCH_PLACEHOLDER": "Поиск по содержимому или названию…",
+    "MANAGE_IN_META": "Управлять в Meta",
+    "MANAGE_IN_TWILIO": "Управлять в Twilio",
+    "LOADING": "Загрузка шаблонов WhatsApp…",
+    "EMPTY": "Шаблоны WhatsApp не найдены.",
+    "NO_RESULTS": "Нет шаблонов, подходящих под фильтры.",
+    "FETCH_ERROR": "Не удалось загрузить шаблоны WhatsApp. Попробуйте ещё раз.",
+    "PARTIAL_FETCH_ERROR": "Не удалось загрузить некоторые шаблоны WhatsApp. Попробуйте ещё раз.",
+    "LAST_SYNC_ATTEMPT": "Последняя попытка синхронизации: {date}",
     "MORE_INBOXES": "+{n}",
     "STATUSES": {
-      "UNSUBMITTED": "Not submitted for WhatsApp approval"
+      "UNSUBMITTED": "Не отправлен на проверку в WhatsApp"
     },
     "FILTERS": {
-      "ALL_INBOXES": "Все письма",
-      "ALL_LANGUAGES": "All languages",
-      "ALL_TYPES": "All types"
+      "ALL_INBOXES": "Все каналы",
+      "ALL_LANGUAGES": "Все языки",
+      "ALL_TYPES": "Все типы"
     },
     "TYPES": {
       "TEXT": "Текст",
-      "IMAGE": "Image",
-      "VIDEO": "Video",
-      "DOCUMENT": "Document",
+      "IMAGE": "Изображение",
+      "VIDEO": "Видео",
+      "DOCUMENT": "Документ",
       "MEDIA": "Медиа",
-      "QUICK_REPLY": "Quick reply",
-      "CALL_TO_ACTION": "Call to action",
-      "CATALOG": "Catalog",
-      "COPY_CODE": "Copy code"
+      "QUICK_REPLY": "Быстрый ответ",
+      "CALL_TO_ACTION": "Призыв к действию",
+      "CATALOG": "Каталог",
+      "COPY_CODE": "Копирование кода"
     },
     "PREVIEW": {
-      "TITLE": "Template preview",
-      "DESCRIPTION": "Preview how this template appears in WhatsApp.",
-      "OPEN": "Preview {name}",
-      "CLOSE": "Close preview",
-      "DETAILS": "Template details",
+      "TITLE": "Предпросмотр шаблона",
+      "DESCRIPTION": "Так шаблон будет выглядеть в WhatsApp.",
+      "OPEN": "Предпросмотр {name}",
+      "CLOSE": "Закрыть предпросмотр",
+      "DETAILS": "Сведения о шаблоне",
       "STATUS": "Статус",
-      "TYPE": "Content type",
+      "TYPE": "Тип содержимого",
       "CATEGORY": "Категория",
       "LANGUAGE": "Язык",
-      "INBOXES": "Источники"
+      "INBOXES": "Каналы"
     }
   }
 }

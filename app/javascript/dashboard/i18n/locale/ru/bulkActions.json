@@ -1,46 +1,52 @@
 {
   "BULK_ACTION": {
-    "CONVERSATIONS_SELECTED": "{conversationCount} бесед выбрано",
-    "NONE": "Ничего",
+    "CONVERSATIONS_SELECTED": "Выбрано: {conversationCount}",
+    "NONE": "Нет",
     "CLEAR_SELECTION": "Сбросить",
-    "ASSIGN_AGENT_CONFIRMATION_LABEL": "Вы уверены, что вы хотите назначить разговор {n} для {agentName}? | Вы уверены, что хотите назначить {n} разговоры {agentName}?",
-    "UNASSIGN_AGENT_CONFIRMATION_LABEL": "Вы уверены, что хотите отменить назначение разговора {n}? | Вы уверены, что хотите отменить назначение разговоров {n}?",
+    "ASSIGN_AGENT_CONFIRMATION_LABEL": "Назначить {n} обращение оператору {agentName}? | Назначить {n} обращения оператору {agentName}? | Назначить {n} обращений оператору {agentName}?",
+    "UNASSIGN_AGENT_CONFIRMATION_LABEL": "Снять оператора с {n} обращения? | Снять оператора с {n} обращений? | Снять оператора с {n} обращений?",
     "YES": "Да",
-    "CANCEL": "Отменить",
+    "CANCEL": "Отмена",
     "SEARCH_INPUT_PLACEHOLDER": "Поиск",
-    "ASSIGN_AGENT_TOOLTIP": "Назначить агента",
+    "ASSIGN_AGENT_TOOLTIP": "Назначить оператора",
     "ASSIGN_TEAM_TOOLTIP": "Назначить команду",
-    "ASSIGN_SUCCESFUL": "Беседы успешно назначены.",
-    "ASSIGN_FAILED": "Не удалось назначить диалоги, попробуйте еще раз.",
-    "RESOLVE_SUCCESFUL": "Беседы успешно завершены.",
-    "RESOLVE_FAILED": "Не удалось завершить диалоги, попробуйте еще раз.",
-    "ALL_CONVERSATIONS_SELECTED_ALERT": "Выбраны только беседы, видимые на этой странице.",
+    "ASSIGN_SUCCESFUL": "Обращения назначены.",
+    "ASSIGN_FAILED": "Не удалось назначить обращения. Попробуйте ещё раз.",
+    "RESOLVE_SUCCESFUL": "Обращения отмечены решёнными.",
+    "RESOLVE_FAILED": "Не удалось отметить обращения решёнными. Попробуйте ещё раз.",
+    "ALL_CONVERSATIONS_SELECTED_ALERT": "Выбраны только обращения, видимые на этой странице.",
     "UPDATE": {
       "CHANGE_STATUS": "Изменить статус",
-      "SNOOZE_UNTIL": "Отложено",
-      "UPDATE_SUCCESFUL": "Статус беседы успешно обновлен.",
-      "UPDATE_FAILED": "Не удалось обновить диалоги, попробуйте еще раз."
+      "SNOOZE_UNTIL": "Отложить",
+      "UPDATE_SUCCESFUL": "Статус обращений обновлён.",
+      "UPDATE_FAILED": "Не удалось обновить обращения. Попробуйте ещё раз."
     },
     "RESOLVE": {
-      "ALL_MISSING_ATTRIBUTES": "Невозможно завершить диалоги: отсутствуют обязательные атрибуты",
-      "PARTIAL_SUCCESS": "Некоторые диалоги были пропущены: перед завершением необходимо заполнить обязательные атрибуты"
+      "ALL_MISSING_ATTRIBUTES": "Не удалось отметить обращения решёнными: не заполнены обязательные атрибуты",
+      "PARTIAL_SUCCESS": "Некоторые обращения пропущены: перед решением нужно заполнить обязательные атрибуты"
     },
     "LABELS": {
-      "ASSIGN_LABELS": "Назначить метки",
-      "REMOVE_LABELS": "Remove labels",
-      "ASSIGN_SELECTED_LABELS": "Назначить выбранные метки",
-      "REMOVE_SELECTED_LABELS": "Remove selected labels",
-      "ASSIGN_SUCCESFUL": "Метки успешно назначены.",
-      "ASSIGN_FAILED": "Не удалось назначить метки, пожалуйста, попробуйте снова.",
-      "REMOVE_SUCCESFUL": "Labels removed successfully.",
-      "REMOVE_FAILED": "Failed to remove labels. Please try again."
+      "ASSIGN_LABELS": "Добавить метки",
+      "REMOVE_LABELS": "Снять метки",
+      "ASSIGN_SELECTED_LABELS": "Добавить выбранные метки",
+      "REMOVE_SELECTED_LABELS": "Снять выбранные метки",
+      "ASSIGN_SUCCESFUL": "Метки добавлены.",
+      "ASSIGN_FAILED": "Не удалось добавить метки. Попробуйте ещё раз.",
+      "REMOVE_SUCCESFUL": "Метки сняты.",
+      "REMOVE_FAILED": "Не удалось снять метки. Попробуйте ещё раз."
     },
     "TEAMS": {
-      "NONE": "Ничего",
-      "ASSIGN_TEAM_CONFIRMATION_LABEL": "Вы уверены, что вы хотите назначить разговор {n} для {teamName}? | Вы уверены, что хотите назначить {n} разговоры {teamName}?",
-      "UNASSIGN_TEAM_CONFIRMATION_LABEL": "Вы уверены, что хотите отменить назначение разговора {n}? | Вы уверены, что хотите отменить назначение разговоров {n}?",
-      "ASSIGN_SUCCESFUL": "Команды успешно назначены.",
-      "ASSIGN_FAILED": "Не удалось назначить команду, попробуйте еще раз."
+      "NONE": "Нет",
+      "ASSIGN_TEAM_CONFIRMATION_LABEL": "Назначить {n} обращение команде {teamName}? | Назначить {n} обращения команде {teamName}? | Назначить {n} обращений команде {teamName}?",
+      "UNASSIGN_TEAM_CONFIRMATION_LABEL": "Снять команду с {n} обращения? | Снять команду с {n} обращений? | Снять команду с {n} обращений?",
+      "ASSIGN_SUCCESFUL": "Команда назначена.",
+      "ASSIGN_FAILED": "Не удалось назначить команду. Попробуйте ещё раз."
+    },
+    "MACROS": {
+      "EXECUTE_MACRO": "Выполнить макрос",
+      "EXECUTE_CONFIRMATION_LABEL": "Выполнить макрос {macroName} для {n} обращения? | Выполнить макрос {macroName} для {n} обращений? | Выполнить макрос {macroName} для {n} обращений?",
+      "QUEUED": "Макрос поставлен в очередь для {count} обращения. | Макрос поставлен в очередь для {count} обращений. | Макрос поставлен в очередь для {count} обращений.",
+      "QUEUED_WITH_MISSING_ATTRIBUTES": "Макрос поставлен в очередь для {count} обращения. У обращения не заполнены обязательные атрибуты, поэтому оно может остаться открытым. | Макрос поставлен в очередь для {count} обращений. Как минимум у одного из них не заполнены обязательные атрибуты, поэтому оно может остаться открытым. | Макрос поставлен в очередь для {count} обращений. Как минимум у одного из них не заполнены обязательные атрибуты, поэтому оно может остаться открытым."
     }
   }
 }

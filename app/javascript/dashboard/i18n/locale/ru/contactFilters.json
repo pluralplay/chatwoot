@@ -1,20 +1,20 @@
 {
   "CONTACTS_FILTER": {
-    "TITLE": "Фильтровать контакты",
-    "SUBTITLE": "Добавьте фильтры и нажмите 'Отправить' для фильтрации контактов.",
-    "EDIT_CUSTOM_SEGMENT": "Редактировать сегмент",
-    "CUSTOM_VIEWS_SUBTITLE": "Добавляйте или удаляйте фильтры и обновляйте свой сегмент.",
+    "TITLE": "Фильтр контактов",
+    "SUBTITLE": "Добавьте фильтры и нажмите «Применить», чтобы отфильтровать контакты.",
+    "EDIT_CUSTOM_SEGMENT": "Изменить сегмент",
+    "CUSTOM_VIEWS_SUBTITLE": "Добавьте или удалите фильтры, чтобы обновить сегмент.",
     "ADD_NEW_FILTER": "Добавить фильтр",
-    "CLEAR_ALL_FILTERS": "Очистить фильтры",
-    "FILTER_DELETE_ERROR": "У вас должен быть по крайней мере один фильтр для сохранения",
-    "SUBMIT_BUTTON_LABEL": "Отправить",
+    "CLEAR_ALL_FILTERS": "Сбросить все фильтры",
+    "FILTER_DELETE_ERROR": "Для сохранения нужен хотя бы один фильтр",
+    "SUBMIT_BUTTON_LABEL": "Применить",
     "UPDATE_BUTTON_LABEL": "Обновить сегмент",
-    "CANCEL_BUTTON_LABEL": "Отменить",
-    "CLEAR_BUTTON_LABEL": "Очистить фильтры",
-    "EMPTY_VALUE_ERROR": "Необходимо указать значение",
-    "SEGMENT_LABEL": "Имя сегмента",
-    "SEGMENT_QUERY_LABEL": "Запрос сегмента",
-    "TOOLTIP_LABEL": "Фильтровать контакты",
+    "CANCEL_BUTTON_LABEL": "Отмена",
+    "CLEAR_BUTTON_LABEL": "Сбросить фильтры",
+    "EMPTY_VALUE_ERROR": "Укажите значение",
+    "SEGMENT_LABEL": "Название сегмента",
+    "SEGMENT_QUERY_LABEL": "Условия сегмента",
+    "TOOLTIP_LABEL": "Фильтр контактов",
     "QUERY_DROPDOWN_LABELS": {
       "AND": "И",
       "OR": "ИЛИ"
@@ -24,14 +24,14 @@
       "not_equal_to": "Не равно",
       "contains": "Содержит",
       "does_not_contain": "Не содержит",
-      "is_present": "Присутствует",
-      "is_not_present": "Отсутствует",
-      "is_greater_than": "Больше чем",
-      "is_lesser_than": "Меньше чем",
-      "days_before": "x дней до"
+      "is_present": "Заполнено",
+      "is_not_present": "Не заполнено",
+      "is_greater_than": "Больше",
+      "is_lesser_than": "Меньше",
+      "days_before": "Более x дней назад"
     },
     "ERRORS": {
-      "VALUE_REQUIRED": "Необходимо указать значение"
+      "VALUE_REQUIRED": "Укажите значение"
     },
     "ATTRIBUTES": {
       "NAME": "Имя",
@@ -46,10 +46,10 @@
       "CUSTOM_ATTRIBUTE_LINK": "Ссылка",
       "CUSTOM_ATTRIBUTE_CHECKBOX": "Флажок",
       "CREATED_AT": "Дата создания",
-      "LAST_ACTIVITY": "Последние действия",
-      "REFERER_LINK": "Реферальная ссылка",
+      "LAST_ACTIVITY": "Последняя активность",
+      "REFERER_LINK": "Ссылка-источник",
       "BLOCKED": "Заблокирован",
-      "LABELS": "Категории"
+      "LABELS": "Метки"
     },
     "GROUPS": {
       "STANDARD_FILTERS": "Стандартные фильтры",

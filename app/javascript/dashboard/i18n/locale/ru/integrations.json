@@ -3,92 +3,97 @@
     "SHOPIFY": {
       "HEADER": "Shopify",
       "DELETE": {
-        "TITLE": "Delete Shopify Integration",
-        "MESSAGE": "Are you sure you want to delete the Shopify integration?"
+        "TITLE": "Удалить интеграцию с Shopify",
+        "MESSAGE": "Удалить интеграцию с Shopify?"
       },
       "STORE_URL": {
-        "TITLE": "Connect Shopify Store",
-        "LABEL": "Store URL",
+        "TITLE": "Подключить магазин Shopify",
+        "LABEL": "URL магазина",
         "PLACEHOLDER": "your-store.myshopify.com",
-        "HELP": "Enter your Shopify store's myshopify.com URL",
-        "CANCEL": "Отменить",
-        "SUBMIT": "Connect Store"
+        "HELP": "Введите адрес магазина Shopify на домене myshopify.com",
+        "INVALID_URL": "Введите корректный URL магазина Shopify (например, your-store.myshopify.com)",
+        "CANCEL": "Отмена",
+        "SUBMIT": "Подключить магазин"
       },
-      "ERROR": "There was an error connecting to Shopify. Please try again or contact support if the issue persists."
+      "HELP_TEXT": {
+        "TITLE": "Как работает интеграция с Shopify?",
+        "BODY": "Благодаря этой интеграции ваш магазин Shopify ***{storeDomain}*** подключён к аккаунту Chatwoot. Вот что можно делать:\n\n**Отслеживать заказы в обращениях:** когда вы открываете обращение, на боковой панели Shopify автоматически отображаются последние заказы клиента, найденные по его адресу электронной почты. Команда поддержки сразу видит контекст, не переключаясь между вкладками.\n\n**Смотреть детали заказа:** статус заказа, статус выполнения и итоговая сумма доступны прямо на панели обращения."
+      },
+      "ERROR": "Не удалось подключиться к Shopify. Попробуйте ещё раз или обратитесь в поддержку, если ошибка повторится."
     },
     "HEADER": "Интеграции",
-    "DESCRIPTION": "Chatwoot интегрируется с несколькими инструментами и сервисами, чтобы повысить эффективность вашей команды. Изучите список ниже, чтобы настроить ваши любимые приложения.",
-    "LEARN_MORE": "Узнать больше об интеграциях",
-    "LOADING": "Получение интеграций",
-    "SEARCH_PLACEHOLDER": "Search integrations...",
-    "NO_RESULTS": "No integrations found matching your search",
+    "DESCRIPTION": "Chatwoot интегрируется с множеством инструментов и сервисов, чтобы ваша команда работала эффективнее. Выберите из списка ниже приложения, которые хотите настроить.",
+    "LEARN_MORE": "Подробнее об интеграциях",
+    "LOADING": "Загрузка интеграций",
+    "SEARCH_PLACEHOLDER": "Поиск интеграций…",
+    "NO_RESULTS": "По вашему запросу интеграции не найдены",
     "CAPTAIN": {
-      "DISABLED": "Капитан не включен на вашем аккаунте.",
-      "CLICK_HERE_TO_CONFIGURE": "Нажмите здесь, чтобы настроить",
-      "LOADING_CONSOLE": "Загрузка консоли Капитана...",
-      "FAILED_TO_LOAD_CONSOLE": "Не удалось загрузить консоль Капитана. Пожалуйста, обновите страницу и повторите попытку."
+      "DISABLED": "Captain не включён в вашем аккаунте.",
+      "CLICK_HERE_TO_CONFIGURE": "Нажмите, чтобы настроить",
+      "LOADING_CONSOLE": "Загрузка консоли Captain…",
+      "FAILED_TO_LOAD_CONSOLE": "Не удалось загрузить консоль Captain. Обновите страницу и попробуйте ещё раз."
     },
     "WEBHOOK": {
-      "SUBSCRIBED_EVENTS": "События с подпиской",
-      "LEARN_MORE": "Узнать больше о вебхуках",
+      "SUBSCRIBED_EVENTS": "События подписки",
+      "LEARN_MORE": "Подробнее о вебхуках",
       "PAYWALL": {
-        "TITLE": "Webhooks are available on paid plans",
-        "AVAILABLE_ON": "Use webhooks to receive real-time events from your Chatwoot account.",
-        "UPGRADE_PROMPT": "Upgrade to the Startups, Business, or Enterprise plan to use webhooks.",
-        "UPGRADE_NOW": "Обновить сейчас",
-        "CANCEL_ANYTIME": "Change or cancel your plan anytime."
+        "TITLE": "Вебхуки доступны на платных тарифах",
+        "AVAILABLE_ON": "Вебхуки позволяют получать события из аккаунта Chatwoot в реальном времени.",
+        "UPGRADE_PROMPT": "Чтобы использовать вебхуки, перейдите на тариф Startups, Business или Enterprise.",
+        "UPGRADE_NOW": "Сменить тариф",
+        "CANCEL_ANYTIME": "Тариф можно сменить или отменить в любой момент."
       },
       "SECRET": {
-        "LABEL": "Secret",
-        "COPY": "Copy secret to clipboard",
-        "COPY_SUCCESS": "Secret copied to clipboard",
-        "TOGGLE": "Toggle secret visibility",
-        "CREATED_DESC": "Your webhook has been created. Use the secret below to verify webhook signatures. Please copy it now — you can also find it later in the webhook edit form.",
-        "DONE": "Done"
+        "LABEL": "Секрет",
+        "COPY": "Скопировать секрет в буфер обмена",
+        "COPY_SUCCESS": "Секрет скопирован в буфер обмена",
+        "TOGGLE": "Показать или скрыть секрет",
+        "CREATED_DESC": "Вебхук создан. Используйте секрет ниже для проверки подписей вебхука. Скопируйте его сейчас — позже его также можно найти в форме редактирования вебхука.",
+        "DONE": "Готово"
       },
-      "COUNT": "{n} webhook | {n} webhooks",
-      "SEARCH_PLACEHOLDER": "Search webhooks...",
-      "NO_RESULTS": "No webhooks found matching your search",
+      "COUNT": "{n} вебхук | {n} вебхука | {n} вебхуков",
+      "SEARCH_PLACEHOLDER": "Поиск вебхуков…",
+      "NO_RESULTS": "По вашему запросу вебхуки не найдены",
       "FORM": {
-        "CANCEL": "Отменить",
-        "DESC": "Вебхуки позволяют получить вам информацию о том, что происходит в вашей учетной записи Chatwoot. Пожалуйста, введите корректный URL.",
+        "CANCEL": "Отмена",
+        "DESC": "События вебхуков в реальном времени сообщают, что происходит в вашем аккаунте Chatwoot. Введите корректный URL, чтобы настроить обратный вызов.",
         "SUBSCRIPTIONS": {
           "LABEL": "События",
           "EVENTS": {
-            "CONVERSATION_CREATED": "Диалог создан",
-            "CONVERSATION_STATUS_CHANGED": "Статус диалога изменён",
-            "CONVERSATION_UPDATED": "Диалог обновлён",
+            "CONVERSATION_CREATED": "Обращение создано",
+            "CONVERSATION_STATUS_CHANGED": "Статус обращения изменён",
+            "CONVERSATION_UPDATED": "Обращение обновлено",
             "MESSAGE_CREATED": "Сообщение создано",
             "MESSAGE_UPDATED": "Сообщение обновлено",
-            "WEBWIDGET_TRIGGERED": "Виджет онлайн чата, открыт пользователем",
+            "WEBWIDGET_TRIGGERED": "Пользователь открыл виджет чата",
             "CONTACT_CREATED": "Контакт создан",
-            "CONTACT_UPDATED": "Контакт обновлен",
-            "CONVERSATION_TYPING_ON": "Печатание во время разговора включено",
-            "CONVERSATION_TYPING_OFF": "Печатание во время разговора выключено",
-            "INBOX_UPDATED": "Inbox updated"
+            "CONTACT_UPDATED": "Контакт обновлён",
+            "CONVERSATION_TYPING_ON": "Начат набор текста в обращении",
+            "CONVERSATION_TYPING_OFF": "Завершён набор текста в обращении",
+            "INBOX_UPDATED": "Канал обновлён"
           }
         },
         "NAME": {
-          "LABEL": "Webhook Name",
-          "PLACEHOLDER": "Enter the name of the webhook"
+          "LABEL": "Название вебхука",
+          "PLACEHOLDER": "Введите название вебхука"
         },
         "END_POINT": {
           "LABEL": "URL вебхука",
-          "PLACEHOLDER": "Пример: {webhookExampleURL}",
-          "ERROR": "Пожалуйста, введите правильный URL"
+          "PLACEHOLDER": "Например: {webhookExampleURL}",
+          "ERROR": "Введите корректный URL"
         },
-        "EDIT_SUBMIT": "Обновить webhook",
+        "EDIT_SUBMIT": "Обновить вебхук",
         "ADD_SUBMIT": "Создать вебхук"
       },
       "TITLE": "Вебхук",
       "CONFIGURE": "Настроить",
       "HEADER": "Настройки вебхуков",
-      "HEADER_BTN_TXT": "Добавить новый вебхук",
-      "LOADING": "Получение подключенных вебхуков",
-      "SEARCH_404": "Нет вебхуков, соответствующих запросу",
-      "SIDEBAR_TXT": "<p><b>Вебхуки</b> </p> <p>Вебхуки – это HTTP запросы, которые можно установить для любого аккаунта. Они вызываются по событиям: например, при создании новых сообщений в Chatwoot. Вы можете создать сколько угодно вебхуков для этой учетной записи. <br /><br /> Для создания <b>вебхука</b>, нажмите на кнопку <b>Добавить новый вебхук</b>. Вы также можете удалить любой существующий вебхук, нажав на кнопку Удалить.</p>",
+      "HEADER_BTN_TXT": "Добавить вебхук",
+      "LOADING": "Загрузка подключённых вебхуков",
+      "SEARCH_404": "Ничего не найдено",
+      "SIDEBAR_TXT": "<p><b>Вебхуки</b> </p> <p>Вебхуки — это HTTP-запросы обратного вызова, которые можно настроить для каждого аккаунта. Они срабатывают при событиях в Chatwoot, например при создании сообщения. Для аккаунта можно создать несколько вебхуков. <br /><br /> Чтобы создать <b>вебхук</b>, нажмите кнопку <b>Добавить вебхук</b>. Существующий вебхук можно удалить кнопкой «Удалить».</p>",
       "LIST": {
-        "404": "У вас нет вебхуков.",
+        "404": "В этом аккаунте нет настроенных вебхуков.",
         "TITLE": "Управление вебхуками",
         "TABLE_HEADER": {
           "WEBHOOK_ENDPOINT": "Адрес вебхука",
@@ -96,32 +101,32 @@
         }
       },
       "EDIT": {
-        "BUTTON_TEXT": "Редактировать",
-        "TITLE": "Редактировать вебхук",
+        "BUTTON_TEXT": "Изменить",
+        "TITLE": "Изменить вебхук",
         "API": {
-          "SUCCESS_MESSAGE": "Конфигурация вебхука успешно обновлена",
-          "ERROR_MESSAGE": "Не удается соединиться с сервером Woot, попробуйте позже"
+          "SUCCESS_MESSAGE": "Настройки вебхука обновлены",
+          "ERROR_MESSAGE": "Не удалось подключиться к серверу. Попробуйте позже"
         }
       },
       "ADD": {
-        "CANCEL": "Отменить",
-        "TITLE": "Добавить новый вебхук",
+        "CANCEL": "Отмена",
+        "TITLE": "Добавить вебхук",
         "API": {
-          "SUCCESS_MESSAGE": "Конфигурация вебхука успешно добавлена",
-          "ERROR_MESSAGE": "Не удается соединиться с сервером Woot, попробуйте позже"
+          "SUCCESS_MESSAGE": "Вебхук добавлен",
+          "ERROR_MESSAGE": "Не удалось подключиться к серверу. Попробуйте позже"
         }
       },
       "DELETE": {
         "BUTTON_TEXT": "Удалить",
         "API": {
-          "SUCCESS_MESSAGE": "Вебхук удален",
-          "ERROR_MESSAGE": "Не удается соединиться с сервером Woot, попробуйте позже"
+          "SUCCESS_MESSAGE": "Вебхук удалён",
+          "ERROR_MESSAGE": "Не удалось подключиться к серверу. Попробуйте позже"
         },
         "CONFIRM": {
           "TITLE": "Подтвердите удаление",
-          "MESSAGE": "Вы уверены, что хотите удалить вебхук? ({webhookURL})",
+          "MESSAGE": "Удалить вебхук? ({webhookURL})",
           "YES": "Да, удалить ",
-          "NO": "Нет, не удалять"
+          "NO": "Нет, оставить"
         }
       }
     },
@@ -130,109 +135,109 @@
       "DELETE": "Удалить",
       "DELETE_CONFIRMATION": {
         "TITLE": "Удалить интеграцию",
-        "MESSAGE": "Вы уверены, что хотите удалить интеграцию? Это приведет к потере доступа к диалогам на вашем рабочем пространстве."
+        "MESSAGE": "Удалить интеграцию? После этого обращения в вашем рабочем пространстве Slack станут недоступны."
       },
       "HELP_TEXT": {
-        "TITLE": "Как использовать интеграцию Slack?",
-        "BODY": "С этой интеграцией, все входящие диалоги будут синхронизированы с **{selectedChannelName}*** каналом в вашей рабочей области Slack. Вы можете управлять переписками клиентов прямо на канале и никогда не пропускать сообщения.\n\nВот основные особенности интеграции:\n\n**Ответить на диалоги из Slack:** Чтобы ответить на разговор в ***{selectedChannelName}*** канале Slack, просто напечатайте ваше сообщение и отправьте его. Это создаст ответ клиенту через Chatwoot. Это так просто!\n\n **Создавайте личные заметки:** Если вы хотите создавать личные заметки вместо ответов, начните свое сообщение с ***`note:`***. Это гарантирует, что ваше сообщение будет приватным и не будет видно клиенту.\n\n**Связать профиль агента:** Если человек, ответивший в Slack имеет профиль агента в Chatwoot с такой же электронной почты, ответы будут автоматически связаны с профилем этого агента. Это означает, что вы легко можете отслеживать кто, когда и что ответил,. С другой стороны, если у отвечающего нет соответствующего профиля агента, ответы отправятся клиенту от имени бота.",
-        "BODY_ALERT": "With this integration, all of your incoming conversations will be synced to the ***{selectedChannelName}*** channel in your Slack workspace, so your team can pick them up as soon as they come in.\n\nThis integration is set to **Alerts only**, which means the Slack thread is a safe space for internal discussion. Anything your team posts there stays in Slack and is never sent to the customer.\n\n**Respond to the customer from Chatwoot:** Open the conversation from the link shared in the thread and reply from the Chatwoot dashboard. Replies and private notes added in Chatwoot keep appearing in the Slack thread, so everyone stays in the loop.",
-        "SELECTED": "выбрано"
+        "TITLE": "Как работает интеграция со Slack?",
+        "BODY": "Благодаря этой интеграции все входящие обращения синхронизируются с каналом ***{selectedChannelName}*** в вашем рабочем пространстве Slack. Вы можете работать со всеми обращениями клиентов прямо в этом канале и не пропустите ни одного сообщения.\n\nОсновные возможности интеграции:\n\n**Отвечать на обращения прямо из Slack:** работая с каналом ***{selectedChannelName}***, просто напишите сообщение в ветке обращения. Ответ будет отправлен клиенту через Chatwoot. Вот и всё!\n\n **Создавать внутренние заметки:** если вместо ответа нужна внутренняя заметка, начните сообщение с ***`note:`***. Такое сообщение останется внутренним и не будет видно клиенту.\n\n**Связывать профиль оператора:** если у человека, ответившего в Slack, есть профиль оператора в Chatwoot с тем же адресом электронной почты, ответы автоматически привязываются к этому профилю. Так легко отследить, кто, что и когда написал. Если же у ответившего нет связанного профиля оператора, клиент увидит ответ от имени бота.",
+        "BODY_ALERT": "Благодаря этой интеграции все входящие обращения синхронизируются с каналом ***{selectedChannelName}*** в вашем рабочем пространстве Slack, и команда может браться за них сразу по мере поступления.\n\nИнтеграция работает в режиме **Только оповещения**: ветка в Slack — безопасное место для внутреннего обсуждения. Всё, что команда пишет в ней, остаётся в Slack и никогда не отправляется клиенту.\n\n**Отвечайте клиенту из Chatwoot:** откройте обращение по ссылке в ветке и ответьте из панели Chatwoot. Ответы и внутренние заметки, добавленные в Chatwoot, продолжат появляться в ветке Slack, так что все будут в курсе.",
+        "SELECTED": "выбранным"
       },
       "MESSAGE_MODE": {
-        "TITLE": "Slack thread behaviour",
-        "DESCRIPTION": "Decide whether replies in the Slack thread reach the customer or stay internal.",
+        "TITLE": "Поведение веток Slack",
+        "DESCRIPTION": "Выберите, будут ли ответы в ветке Slack отправляться клиенту или оставаться внутренними.",
         "OPTIONS": {
           "TWO_WAY": {
-            "LABEL": "Two-way sync",
-            "DESCRIPTION": "Replies in the Slack thread are sent to the customer. Start a message with `note:` to keep it internal."
+            "LABEL": "Двусторонняя синхронизация",
+            "DESCRIPTION": "Ответы в ветке Slack отправляются клиенту. Чтобы сообщение осталось внутренним, начните его с `note:`."
           },
           "ALERT": {
-            "LABEL": "Alerts only",
-            "DESCRIPTION": "Conversations are posted to Slack for internal discussion only. Nothing in the thread reaches the customer."
+            "LABEL": "Только оповещения",
+            "DESCRIPTION": "Обращения публикуются в Slack только для внутреннего обсуждения. Ничего из ветки не попадает к клиенту."
           }
         },
-        "UPDATE_SUCCESS": "The Slack thread behaviour is updated successfully"
+        "UPDATE_SUCCESS": "Поведение веток Slack обновлено"
       },
       "SELECT_CHANNEL": {
-        "OPTION_LABEL": "Выбрать канал",
+        "OPTION_LABEL": "Выберите канал",
         "UPDATE": "Обновить",
         "BUTTON_TEXT": "Подключить канал",
-        "DESCRIPTION": "Рабочая область Slack теперь связана с Chatwoot. Однако интеграция в настоящее время неактивна. Чтобы активировать интеграцию и подключить канал к чату, нажмите на кнопку ниже.\n\n**Примечание:** Если вы пытаетесь подключить частный канал, добавьте приложение Чатвут в канал Slack перед тем как приступить к этому шагу.",
+        "DESCRIPTION": "Ваше рабочее пространство Slack связано с Chatwoot, но интеграция пока неактивна. Чтобы активировать её и подключить канал к Chatwoot, нажмите кнопку ниже.\n\n**Примечание:** если вы подключаете приватный канал, сначала добавьте в него приложение Chatwoot.",
         "ATTENTION_REQUIRED": "Требуется внимание",
-        "EXPIRED": "Ваша интеграция в Slack истекла. Чтобы продолжить получение сообщений в Slack, удалите интеграцию и подключите рабочую область снова."
+        "EXPIRED": "Срок действия интеграции со Slack истёк. Чтобы и дальше получать сообщения в Slack, удалите интеграцию и подключите рабочее пространство заново."
       },
-      "UPDATE_ERROR": "Произошла ошибка при обновлении интеграции, пожалуйста, попробуйте еще раз",
-      "UPDATE_SUCCESS": "Канал успешно подключен",
-      "FAILED_TO_FETCH_CHANNELS": "Произошла ошибка при получении каналов из Slack, попробуйте еще раз"
+      "UPDATE_ERROR": "Не удалось обновить интеграцию, попробуйте ещё раз",
+      "UPDATE_SUCCESS": "Канал подключён",
+      "FAILED_TO_FETCH_CHANNELS": "Не удалось загрузить каналы из Slack, попробуйте ещё раз"
     },
     "DYTE": {
       "CLICK_HERE_TO_JOIN": "Нажмите, чтобы присоединиться",
-      "LEAVE_THE_ROOM": "Выйти из комнаты",
-      "START_VIDEO_CALL_HELP_TEXT": "Начать новый видеозвонок с клиентом",
-      "JOIN_ERROR": "Произошла ошибка при подключении к вызову, попробуйте еще раз",
-      "CREATE_ERROR": "Произошла ошибка при создании ссылки на встречу, попробуйте еще раз"
+      "LEAVE_THE_ROOM": "Покинуть комнату",
+      "START_VIDEO_CALL_HELP_TEXT": "Начать видеозвонок с клиентом",
+      "JOIN_ERROR": "Не удалось присоединиться к звонку, попробуйте ещё раз",
+      "CREATE_ERROR": "Не удалось создать ссылку на встречу, попробуйте ещё раз"
     },
     "OPEN_AI": {
-      "AI_ASSIST": "Помощь ИИ",
-      "WITH_AI": " {option} с ИИ ",
+      "AI_ASSIST": "ИИ-помощник",
+      "WITH_AI": " {option} с помощью ИИ ",
       "OPTIONS": {
         "REPLY_SUGGESTION": "Предложить ответ",
-        "SUMMARIZE": "Подведем итог",
-        "REPHRASE": "Улучшить написание",
-        "FIX_SPELLING_GRAMMAR": "Исправить правописание и грамматику",
+        "SUMMARIZE": "Кратко изложить",
+        "REPHRASE": "Улучшить текст",
+        "FIX_SPELLING_GRAMMAR": "Исправить орфографию и грамматику",
         "SHORTEN": "Сократить",
-        "EXPAND": "Развернуть",
-        "MAKE_FRIENDLY": "Изменить тон сообщения на дружеский",
-        "MAKE_FORMAL": "Использовать официальный тон",
+        "EXPAND": "Расширить",
+        "MAKE_FRIENDLY": "Сделать тон дружелюбным",
+        "MAKE_FORMAL": "Официальный тон",
         "SIMPLIFY": "Упростить",
-        "CONFIDENT": "Use confident tone",
-        "PROFESSIONAL": "Use professional tone",
-        "CASUAL": "Use casual tone",
-        "STRAIGHTFORWARD": "Use straightforward tone"
+        "CONFIDENT": "Уверенный тон",
+        "PROFESSIONAL": "Профессиональный тон",
+        "CASUAL": "Непринуждённый тон",
+        "STRAIGHTFORWARD": "Прямой тон"
       },
       "REPLY_OPTIONS": {
-        "IMPROVE_REPLY": "Improve reply",
-        "IMPROVE_REPLY_SELECTION": "Improve the selection",
+        "IMPROVE_REPLY": "Улучшить ответ",
+        "IMPROVE_REPLY_SELECTION": "Улучшить выделенное",
         "CHANGE_TONE": {
-          "TITLE": "Change tone",
+          "TITLE": "Изменить тон",
           "OPTIONS": {
             "PROFESSIONAL": "Профессиональный",
-            "CASUAL": "Casual",
-            "STRAIGHTFORWARD": "Straightforward",
-            "CONFIDENT": "Confident",
+            "CASUAL": "Непринуждённый",
+            "STRAIGHTFORWARD": "Прямой",
+            "CONFIDENT": "Уверенный",
             "FRIENDLY": "Дружелюбный"
           }
         },
-        "GRAMMAR": "Fix grammar & spelling",
-        "SUGGESTION": "Suggest a reply",
-        "SUMMARIZE": "Summarize the conversation",
-        "ASK_COPILOT": "Ask Copilot"
+        "GRAMMAR": "Исправить грамматику и орфографию",
+        "SUGGESTION": "Предложить ответ",
+        "SUMMARIZE": "Кратко изложить обращение",
+        "ASK_COPILOT": "Спросить Copilot"
       },
       "ASSISTANCE_MODAL": {
-        "DRAFT_TITLE": "Содержание черновика",
-        "GENERATED_TITLE": "Генерированное содержимое",
+        "DRAFT_TITLE": "Черновик",
+        "GENERATED_TITLE": "Сгенерированный текст",
         "AI_WRITING": "ИИ пишет",
         "BUTTONS": {
-          "APPLY": "Использовать этот вариант перевода",
-          "CANCEL": "Отменить"
+          "APPLY": "Использовать этот вариант",
+          "CANCEL": "Отмена"
         }
       },
       "CTA_MODAL": {
         "TITLE": "Интеграция с OpenAI",
-        "DESC": "Принесите дополнительные функции AI на вашу панель управления с помощью моделей GPT OpenAI. Чтобы начать, введите API ключ из вашей учетной записи OpenAI.",
-        "KEY_PLACEHOLDER": "Введите ваш OpenAI API ключ",
+        "DESC": "Добавьте в панель продвинутые возможности ИИ на базе моделей GPT от OpenAI. Для начала введите API-ключ из вашего аккаунта OpenAI.",
+        "KEY_PLACEHOLDER": "Введите API-ключ OpenAI",
         "BUTTONS": {
           "NEED_HELP": "Нужна помощь?",
-          "DISMISS": "Отклонить",
-          "FINISH": "Завершить установку"
+          "DISMISS": "Скрыть",
+          "FINISH": "Завершить настройку"
         },
-        "DISMISS_MESSAGE": "Вы можете настроить интеграцию OpenAI позже, когда хотите.",
-        "SUCCESS_MESSAGE": "Интеграция OpenAI успешно настроена"
+        "DISMISS_MESSAGE": "Интеграцию с OpenAI можно настроить позже в любое время.",
+        "SUCCESS_MESSAGE": "Интеграция с OpenAI настроена"
       },
-      "TITLE": "Улучшить с ИИ",
-      "SUMMARY_TITLE": "Сводка с ИИ",
-      "REPLY_TITLE": "Ответить с помощью ИИ",
-      "SUBTITLE": "Улучшенный ответ будет создан с помощью AI, основанный на текущем проекте.",
+      "TITLE": "Улучшить с помощью ИИ",
+      "SUMMARY_TITLE": "Краткое изложение от ИИ",
+      "REPLY_TITLE": "Вариант ответа от ИИ",
+      "SUBTITLE": "ИИ сгенерирует улучшенный ответ на основе вашего текущего черновика.",
       "TONE": {
         "TITLE": "Тон",
         "OPTIONS": {
@@ -241,11 +246,11 @@
         }
       },
       "BUTTONS": {
-        "GENERATE": "Создать",
-        "GENERATING": "Создание...",
-        "CANCEL": "Отменить"
+        "GENERATE": "Сгенерировать",
+        "GENERATING": "Генерация…",
+        "CANCEL": "Отмена"
       },
-      "GENERATE_ERROR": "При сохранении настроек произошла ошибка, пожалуйста, попробуйте еще раз"
+      "GENERATE_ERROR": "Не удалось обработать текст. Проверьте API-ключ OpenAI и попробуйте ещё раз"
     },
     "DELETE": {
       "BUTTON_TEXT": "Удалить",
@@ -257,81 +262,81 @@
       "BUTTON_TEXT": "Подключить"
     },
     "DASHBOARD_APPS": {
-      "TITLE": "Панель приложений",
-      "HEADER_BTN_TXT": "Добавить новое приложение",
-      "SIDEBAR_TXT": "<p><b>Панель приложений</b></p><p>Панель приложений, позволяют организациям встраивать приложение в панель управления Chatwoot, чтобы предоставлять контекст для агентов службы поддержки клиентов. Эта функция позволяет вам создать приложение независимо и встроить его в панель инструментов для предоставления информации о пользователях, их заказах или их предыдущей истории платежей.</p><p>Когда вы встраиваете свое приложение с помощью панели инструментов в Chatwoot, ваше приложение будет получить контекст разговора и связей событий. Реализуйте связи для события сообщения на своей странице, чтобы получать контекст.</p><p>Чтобы добавить новое приложение панели приложений, нажмите кнопку \"Добавить приложение\".</p>",
-      "DESCRIPTION": "Панель приложений, позволяют организациям встраивать приложение внутри панели управления для обеспечения контекста агентов по поддержке клиентов. Эта функция позволяет создать приложение независимо и встраивать информацию о пользователе, его заказах или их истории платежей.",
-      "LEARN_MORE": "Подробнее об интеграциях",
-      "COUNT": "{n} dashboard app | {n} dashboard apps",
-      "SEARCH_PLACEHOLDER": "Search dashboard apps...",
-      "NO_RESULTS": "No dashboard apps found matching your search",
+      "TITLE": "Приложения панели",
+      "HEADER_BTN_TXT": "Добавить приложение панели",
+      "SIDEBAR_TXT": "<p><b>Приложения панели</b></p><p>Приложения панели позволяют встроить собственное приложение в панель Chatwoot, чтобы операторы поддержки видели нужный контекст. Вы можете разработать приложение отдельно и встроить его в панель, чтобы показывать информацию о пользователе, его заказы или историю платежей.</p><p>Встроенное в панель Chatwoot приложение получает контекст обращения и контакта через событие window. Чтобы получить контекст, добавьте на своей странице обработчик события message.</p><p>Чтобы добавить приложение, нажмите кнопку «Добавить приложение панели».</p>",
+      "DESCRIPTION": "Приложения панели позволяют встроить собственное приложение в панель, чтобы операторы поддержки видели нужный контекст. Вы можете разработать приложение отдельно и встроить его, чтобы показывать информацию о пользователе, его заказы или историю платежей.",
+      "LEARN_MORE": "Подробнее о приложениях панели",
+      "COUNT": "{n} приложение панели | {n} приложения панели | {n} приложений панели",
+      "SEARCH_PLACEHOLDER": "Поиск приложений панели…",
+      "NO_RESULTS": "По вашему запросу приложения панели не найдены",
       "LIST": {
-        "404": "В этой панели приложений не настроено ни одной интеграции",
-        "LOADING": "Загрузка приложений...",
+        "404": "В этом аккаунте пока нет настроенных приложений панели",
+        "LOADING": "Загрузка приложений панели…",
         "TABLE_HEADER": {
-          "NAME": "Имя",
-          "ENDPOINT": "Endpoint",
+          "NAME": "Название",
+          "ENDPOINT": "Адрес",
           "ACTIONS": "Действия"
         },
-        "EDIT_TOOLTIP": "Редактировать приложение",
+        "EDIT_TOOLTIP": "Изменить приложение",
         "DELETE_TOOLTIP": "Удалить приложение"
       },
       "FORM": {
-        "TITLE_LABEL": "Имя",
-        "TITLE_PLACEHOLDER": "Введите имя для вашего приложения",
-        "TITLE_ERROR": "Требуется название для панели приложений",
-        "URL_LABEL": "Endpoint",
-        "URL_PLACEHOLDER": "Введите URL-адрес конечной точки, где размещено приложение",
-        "URL_ERROR": "Требуется действительный URL"
+        "TITLE_LABEL": "Название",
+        "TITLE_PLACEHOLDER": "Введите название приложения панели",
+        "TITLE_ERROR": "Укажите название приложения панели",
+        "URL_LABEL": "Адрес",
+        "URL_PLACEHOLDER": "Введите URL, по которому размещено приложение",
+        "URL_ERROR": "Укажите корректный URL"
       },
       "CREATE": {
-        "HEADER": "Добавить новое приложение",
+        "HEADER": "Добавить приложение панели",
         "FORM_SUBMIT": "Отправить",
-        "FORM_CANCEL": "Отменить",
-        "API_SUCCESS": "Приложение панели инструментов успешно настроено",
-        "API_ERROR": "Не удалось обновить настройки входящих сообщений. Пожалуйста, повторите попытку позже"
+        "FORM_CANCEL": "Отмена",
+        "API_SUCCESS": "Приложение панели настроено",
+        "API_ERROR": "Не удалось создать приложение. Попробуйте позже"
       },
       "UPDATE": {
-        "HEADER": "Редактировать приложение",
+        "HEADER": "Изменить приложение панели",
         "FORM_SUBMIT": "Обновить",
-        "FORM_CANCEL": "Отменить",
-        "API_SUCCESS": "Приложение панели инструментов успешно обновлено",
-        "API_ERROR": "Не удалось обновить приложение. Повторите попытку позже"
+        "FORM_CANCEL": "Отмена",
+        "API_SUCCESS": "Приложение панели обновлено",
+        "API_ERROR": "Не удалось обновить приложение. Попробуйте позже"
       },
       "DELETE": {
         "CONFIRM_YES": "Да, удалить",
-        "CONFIRM_NO": "Нет, не удалять",
+        "CONFIRM_NO": "Нет, оставить",
         "TITLE": "Подтвердите удаление",
-        "MESSAGE": "Вы уверены, что хотите удалить приложение - {appName}?",
-        "API_SUCCESS": "Приложение успешно удалено",
-        "API_ERROR": "Не удалось удалить приложение. Повторите попытку позже"
+        "MESSAGE": "Удалить приложение «{appName}»?",
+        "API_SUCCESS": "Приложение панели удалено",
+        "API_ERROR": "Не удалось удалить приложение. Попробуйте позже"
       }
     },
     "LINEAR": {
       "HEADER": "Linear",
-      "ADD_OR_LINK_BUTTON": "Создать/Связать Задачу",
-      "LOADING": "Загрузка связанных задач...",
-      "LOADING_ERROR": "Ошибка получения данных о связанных задачах, пожалуйста попробуйте еще раз",
+      "ADD_OR_LINK_BUTTON": "Создать или привязать задачу Linear",
+      "LOADING": "Загрузка задач Linear…",
+      "LOADING_ERROR": "Не удалось загрузить задачи Linear, попробуйте ещё раз",
       "CREATE": "Создать",
       "LINK": {
         "SEARCH": "Поиск задач",
-        "SELECT": "Выбрать задачу",
-        "TITLE": "Ссылка",
-        "EMPTY_LIST": "Связанных проблем не найдено",
+        "SELECT": "Выберите задачу",
+        "TITLE": "Привязать",
+        "EMPTY_LIST": "Задачи Linear не найдены",
         "LOADING": "Загрузка",
-        "ERROR": "Ошибка получения данных о связанных задачах, пожалуйста попробуйте еще раз",
-        "LINK_SUCCESS": "Связывание задачи прошло успешно",
-        "LINK_ERROR": "При привязке этой задачи произошла проблема",
-        "LINK_TITLE": "Диалог (#{conversationId}) с {name}"
+        "ERROR": "Не удалось загрузить задачи Linear, попробуйте ещё раз",
+        "LINK_SUCCESS": "Задача привязана",
+        "LINK_ERROR": "Не удалось привязать задачу, попробуйте ещё раз",
+        "LINK_TITLE": "Обращение (#{conversationId}) с {name}"
       },
       "ADD_OR_LINK": {
-        "TITLE": "Создать/Привязать задачу из linear",
-        "DESCRIPTION": "Создать задачу из linear из сообщения или привязать существующую задачу",
+        "TITLE": "Создать или привязать задачу Linear",
+        "DESCRIPTION": "Создавайте задачи Linear из обращений или привязывайте существующие, чтобы удобно их отслеживать.",
         "FORM": {
           "TITLE": {
-            "LABEL": "Название",
-            "PLACEHOLDER": "Введите название",
-            "REQUIRED_ERROR": "Необходимо указать название"
+            "LABEL": "Заголовок",
+            "PLACEHOLDER": "Введите заголовок",
+            "REQUIRED_ERROR": "Укажите заголовок"
           },
           "DESCRIPTION": {
             "LABEL": "Описание",
@@ -340,335 +345,442 @@
           "TEAM": {
             "LABEL": "Команда",
             "PLACEHOLDER": "Выберите команду",
-            "SEARCH": "Найти команду",
-            "REQUIRED_ERROR": "Требуется команда"
+            "SEARCH": "Поиск команды",
+            "REQUIRED_ERROR": "Укажите команду"
           },
           "ASSIGNEE": {
-            "LABEL": "Назначено",
-            "PLACEHOLDER": "Выбрать ответственного",
+            "LABEL": "Ответственный",
+            "PLACEHOLDER": "Выберите ответственного",
             "SEARCH": "Поиск ответственного"
           },
           "PRIORITY": {
             "LABEL": "Приоритет",
             "PLACEHOLDER": "Выберите приоритет",
-            "SEARCH": "Приоритет поиска"
+            "SEARCH": "Поиск приоритета"
           },
           "LABEL": {
             "LABEL": "Метка",
-            "PLACEHOLDER": "Выбрать метку",
-            "SEARCH": "Поиск меток"
+            "PLACEHOLDER": "Выберите метку",
+            "SEARCH": "Поиск метки"
           },
           "STATUS": {
             "LABEL": "Статус",
-            "PLACEHOLDER": "Выбрать статус",
-            "SEARCH": "Статус поиска"
+            "PLACEHOLDER": "Выберите статус",
+            "SEARCH": "Поиск статуса"
           },
           "PROJECT": {
             "LABEL": "Проект",
-            "PLACEHOLDER": "Выбрать проект",
+            "PLACEHOLDER": "Выберите проект",
             "SEARCH": "Поиск проекта"
           }
         },
         "CREATE": "Создать",
-        "CANCEL": "Отменить",
-        "CREATE_SUCCESS": "Проблема успешно создана",
-        "CREATE_ERROR": "Произошла ошибка при создании проблемы, пожалуйста, попробуйте еще раз",
-        "LOADING_TEAM_ERROR": "Ошибка получения данных о связанных задачах, пожалуйста попробуйте еще раз",
-        "LOADING_TEAM_ENTITIES_ERROR": "Произошла ошибка при получении элементов команды, попробуйте еще раз"
+        "CANCEL": "Отмена",
+        "CREATE_SUCCESS": "Задача создана",
+        "CREATE_ERROR": "Не удалось создать задачу, попробуйте ещё раз",
+        "LOADING_TEAM_ERROR": "Не удалось загрузить команды, попробуйте ещё раз",
+        "LOADING_TEAM_ENTITIES_ERROR": "Не удалось загрузить данные команды, попробуйте ещё раз"
       },
       "ISSUE": {
         "STATUS": "Статус",
         "PRIORITY": "Приоритет",
-        "ASSIGNEE": "Назначено",
-        "LABELS": "Категории",
-        "CREATED_AT": "Создано {createdAt}"
+        "ASSIGNEE": "Ответственный",
+        "LABELS": "Метки",
+        "CREATED_AT": "Создана {createdAt}"
       },
       "UNLINK": {
         "TITLE": "Отвязать",
-        "SUCCESS": "Задача успешно отвязана",
-        "ERROR": "Произошла ошибка при отвязке задачи, пожалуйста, попробуйте ещё раз"
+        "SUCCESS": "Задача отвязана",
+        "ERROR": "Не удалось отвязать задачу, попробуйте ещё раз"
       },
-      "NO_LINKED_ISSUES": "Не найдено связанных задач",
+      "NO_LINKED_ISSUES": "Привязанных задач нет",
       "DELETE": {
-        "TITLE": "Вы уверены, что хотите удалить интеграцию?",
+        "TITLE": "Удалить интеграцию?",
         "MESSAGE": "Вы уверены, что хотите удалить интеграцию?",
         "CONFIRM": "Да, удалить",
-        "CANCEL": "Отменить"
+        "CANCEL": "Отмена"
       },
       "CTA": {
         "TITLE": "Подключение к Linear",
-        "AGENT_DESCRIPTION": "Linear workspace не подключено. Попросите администратора подключить рабочую область, чтобы использовать эту интеграцию.",
-        "DESCRIPTION": "Linear workspace не подключено. Нажмите на кнопку ниже, чтобы подключить рабочую область, чтобы использовать эту интеграцию.",
-        "BUTTON_TEXT": "Подключить Linear workspace"
+        "AGENT_DESCRIPTION": "Рабочее пространство Linear не подключено. Попросите администратора подключить его, чтобы использовать эту интеграцию.",
+        "DESCRIPTION": "Рабочее пространство Linear не подключено. Нажмите кнопку ниже, чтобы подключить его и использовать эту интеграцию.",
+        "BUTTON_TEXT": "Подключить рабочее пространство Linear"
       }
     },
     "NOTION": {
       "HEADER": "Notion",
       "DELETE": {
-        "TITLE": "Вы уверены, что хотите удалить интеграцию с Notion?",
-        "MESSAGE": "Удаление этой интеграции приведет к удалению доступа к вашему проекту Notion и остановит все связанные функции.",
+        "TITLE": "Удалить интеграцию с Notion?",
+        "MESSAGE": "После удаления интеграции доступ к рабочему пространству Notion будет закрыт, а все связанные функции перестанут работать.",
         "CONFIRM": "Да, удалить",
-        "CANCEL": "Отменить"
+        "CANCEL": "Отмена"
       }
     }
   },
   "CAPTAIN": {
-    "NAME": "Капитан",
-    "HEADER_KNOW_MORE": "Узнать больше",
+    "NAME": "Captain",
+    "HEADER_KNOW_MORE": "Подробнее",
     "OVERVIEW": {
       "HEADER": "Обзор",
       "WELCOME": {
-        "LABEL": "Captain summary",
-        "LOADING": "Generating summary…"
+        "LABEL": "Сводка Captain",
+        "LOADING": "Готовим сводку…"
       },
       "INBOX_BANNER": {
-        "TEXT": "This assistant isn't connected to any inbox yet, so it won't respond to conversations.",
-        "ACTION": "Connect inbox",
-        "DISMISS": "Отклонить"
+        "TEXT": "Этот ассистент ещё не подключён ни к одному каналу, поэтому не отвечает на обращения.",
+        "ACTION": "Подключить канал",
+        "DISMISS": "Скрыть"
       },
       "COVERAGE_BANNER": {
-        "TEXT": "{count} FAQ suggestions are ready for review, keeping coverage at {coverage}%. Approve them so your assistant can resolve more on its own.",
-        "ACTION": "Review suggestions",
-        "DISMISS": "Отклонить"
+        "TEXT": "Предложенных FAQ, ожидающих проверки: {count}; покрытие — {coverage}%. Одобрите их, чтобы ассистент мог самостоятельно решать больше обращений.",
+        "ACTION": "Проверить предложения",
+        "DISMISS": "Скрыть"
       },
       "RANGES": {
-        "LAST_DAYS": "Last {count} days",
-        "THIS_MONTH": "This month",
-        "LAST_MONTH": "Last month"
+        "INSUFFICIENT_HISTORY": "Пока недостаточно данных для отчёта",
+        "THIS_WEEK": "Эта неделя",
+        "LAST_WEEK": "Прошлая неделя",
+        "LAST_DAYS": "Последние {count} дн.",
+        "THIS_MONTH": "Этот месяц",
+        "LAST_MONTH": "Прошлый месяц"
       },
       "METRICS": {
         "HANDLED": {
-          "LABEL": "Conversations handled",
-          "HINT": "Conversations where Captain replied to the customer or handed the conversation to your team."
+          "LABEL": "Обработано обращений",
+          "HINT": "Обращения, в которых Captain ответил клиенту или передал обращение вашей команде."
         },
         "AUTO_RESOLUTION": {
-          "LABEL": "Auto-resolution rate",
-          "HINT": "The share of handled conversations Captain resolved without help from your team. Higher means Captain resolved more on its own."
+          "LABEL": "Доля автоматически решённых",
+          "HINT": "Доля обработанных обращений, которые Captain решил без помощи команды. Чем выше, тем больше Captain решает самостоятельно."
         },
         "HANDOFF": {
-          "LABEL": "Handoff rate",
-          "HINT": "The share of handled conversations Captain passed to your team. Lower means fewer conversations needed an agent."
+          "LABEL": "Доля переданных",
+          "HINT": "Доля обработанных обращений, которые Captain передал команде. Чем ниже, тем реже требовался оператор."
         },
         "HOURS_SAVED": {
-          "LABEL": "Time saved",
-          "HINT": "An estimate of how much agent reply time Captain saved.",
-          "NOTE": "Based on two minutes saved for each public Captain reply."
+          "LABEL": "Сэкономлено времени",
+          "HINT": "Оценка времени на ответы операторов, которое сэкономил Captain.",
+          "NOTE": "Из расчёта двух минут на каждый публичный ответ Captain."
         },
         "REOPEN": {
-          "LABEL": "Reopen rate",
-          "HINT": "The share of Captain-resolved conversations that customers returned to later.",
-          "NOTE": "Lower means more resolutions stayed resolved."
+          "LABEL": "Доля повторно открытых",
+          "HINT": "Доля решённых Captain обращений, к которым клиенты позже вернулись.",
+          "NOTE": "Чем ниже, тем больше обращений осталось решёнными."
         },
         "DEPTH": {
-          "LABEL": "Messages / conversation",
-          "HINT": "The average number of replies Captain sent in each conversation it handled.",
-          "NOTE": "A lower number can mean quicker answers, but complex questions may need more replies."
+          "LABEL": "Сообщений на обращение",
+          "HINT": "Среднее число ответов Captain в каждом обработанном им обращении.",
+          "NOTE": "Меньшее число может означать более быстрые ответы, но сложные вопросы могут требовать больше ответов."
         }
       },
       "DRILLDOWN": {
-        "EMPTY": "No records found for this metric.",
-        "ERROR": "Could not load records. Please try again.",
+        "EMPTY": "По этой метрике записей нет.",
+        "ERROR": "Не удалось загрузить записи. Попробуйте ещё раз.",
         "LOAD_MORE": "Загрузить ещё",
-        "RESULT_COUNT_CONVERSATION": "{count} conversation | {count} conversations"
+        "RESULT_COUNT_CONVERSATION": "{count} обращение | {count} обращения | {count} обращений"
       },
       "KNOWLEDGE": {
-        "TITLE": "Knowledge coverage",
-        "COVERAGE": "{pct}% approved",
-        "APPROVED": "Approved FAQs",
-        "SUGGESTIONS": "FAQ suggestions",
+        "TITLE": "Покрытие знаний",
+        "COVERAGE": "Одобрено: {pct}%",
+        "APPROVED": "Одобренные FAQ",
+        "SUGGESTIONS": "Предложенные FAQ",
         "DOCUMENTS": "Документы"
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Captain docs",
-          "DESCRIPTION": "Guides and how-tos for Captain"
+          "TITLE": "Документация Captain",
+          "DESCRIPTION": "Руководства и инструкции по Captain"
         },
         "PLAYGROUND": {
-          "TITLE": "Площадка",
-          "DESCRIPTION": "Test this assistant's replies"
+          "TITLE": "Песочница",
+          "DESCRIPTION": "Проверьте ответы этого ассистента"
         },
         "BILLING": {
-          "TITLE": "Платёж",
-          "DESCRIPTION": "Manage credits and plan"
+          "TITLE": "Оплата",
+          "DESCRIPTION": "Управление кредитами и тарифом"
         }
       },
       "V2": {
-        "EMPTY": "No data available for this period.",
+        "DRILLDOWN": {
+          "HANDLED": "Эпизоды, в которых Captain участвовал за выбранный период.",
+          "RESOLVED": "Эпизоды, решённые Captain без передачи команде и без ответа человека до решения.",
+          "HANDED_OFF": "Эпизоды, переданные команде после участия Captain.",
+          "REOPENED": "Решённые Captain эпизоды, которые позже были открыты повторно.",
+          "DURABLE": "Решённые Captain эпизоды, которые оставались закрытыми не менее семи дней.",
+          "CLOSED_WITH_TEAM": "Эпизоды с участием Captain, которые он не решил самостоятельно и не передал команде.",
+          "REOPENED_WITHIN_7_DAYS": "Решённые Captain эпизоды, повторно открытые в течение семи дней.",
+          "STAYED_CLOSED": "Решённые Captain эпизоды, которые не открывались повторно в течение семи дней. Включая недавно решённые.",
+          "HANDOFF_REASON": "Эпизоды, переданные команде по причине: {reason}.",
+          "COUNT": "Нет эпизодов | {count} эпизод | {count} эпизода | {count} эпизодов",
+          "EPISODES_HINT": "Обращение может встречаться несколько раз, если Captain обрабатывал его в разных эпизодах. Эпизоды сгруппированы по времени начала.",
+          "STARTED_AT": "Эпизод начат {time}",
+          "RETRY": "Попробовать ещё раз"
+        },
+        "EMPTY": "Нет данных за этот период.",
         "SUMMARY": {
-          "GREETING": "Hello, {name}!",
-          "DEFAULT_NAME": "there",
-          "EMPTY": "Captain's performance summary will appear here when enough activity is available.",
-          "PREVIOUS": "Previous summary point",
-          "NEXT": "Next summary point"
+          "GREETING": "Здравствуйте, {name}!",
+          "DEFAULT_NAME": "коллега",
+          "EMPTY": "Сводка по работе Captain появится здесь, когда накопится достаточно активности.",
+          "PREVIOUS": "Предыдущий пункт сводки",
+          "NEXT": "Следующий пункт сводки"
         },
         "UNITS": {
-          "DAYS": "{value}d",
-          "HOURS": "{value}h",
-          "MINUTES": "{value} min"
+          "DAYS": "{value} д",
+          "HOURS": "{value} ч",
+          "MINUTES": "{value} мин"
         },
         "METRICS": {
           "TIME_SAVED": {
-            "LABEL": "Saved in agent effort and time"
+            "LABEL": "Сэкономлено сил и времени операторов"
           },
           "DURABLE": {
-            "LABEL": "Captain resolutions remained closed",
-            "HINT": "The share of Captain-resolved conversations that were still closed seven days later.",
-            "NOTE": "Only resolutions old enough to observe for seven days are included."
+            "LABEL": "Решённых Captain обращений остались закрытыми",
+            "NOT_APPLICABLE_HINT": "Ни по одному решению за этот период ещё не прошло семи дней. Устойчивость пока недоступна.",
+            "HINT": "Доля решённых Captain обращений, которые оставались закрытыми спустя семь дней.",
+            "NOTE": "Учитываются только решения, по которым уже прошло семь дней."
           },
           "MEDIAN_RESOLUTION": {
-            "LABEL": "Median resolution time",
-            "HINT": "The typical time from when a conversation reached Captain until it was resolved.",
-            "NOTE": "Lower means customers generally got resolved sooner."
+            "LABEL": "Медианное время решения",
+            "HINT": "Типичное время от момента, когда обращение попало к Captain, до его решения.",
+            "NOTE": "Чем ниже, тем быстрее клиенты в целом получали решение."
           },
           "DEPTH": {
-            "LABEL": "Messages per conversation"
+            "LABEL": "Сообщений на обращение"
           },
-          "OF_TOTAL": "of {total}"
+          "OF_TOTAL": "из {total}"
         },
         "RESOLUTION_FLOW": {
-          "ARIA_LABEL": "Flow of handled conversations through Captain and team outcomes",
+          "ARIA_LABEL": "Путь обработанных обращений через Captain и итоги работы команды",
           "NODES": {
-            "HANDLED": "Handled",
-            "RESOLVED_BY_CAPTAIN": "Resolved by Captain",
-            "HANDED_OFF": "Handed off",
-            "CLOSED_WITH_TEAM": "Closed with team",
-            "REOPENED": "Reopened in 7d",
-            "STAYED_CLOSED": "Stayed closed",
-            "OTHER_REASONS": "Other reasons"
+            "HANDLED": "Обработано",
+            "RESOLVED_BY_CAPTAIN": "Решено Captain",
+            "HANDED_OFF": "Передано команде",
+            "CLOSED_WITH_TEAM": "Закрыто с командой",
+            "REOPENED": "Открыто повторно за 7 дн.",
+            "STAYED_CLOSED": "Осталось закрытым",
+            "OTHER_REASONS": "Другие причины"
           }
         },
         "HANDOFF_REASONS": {
-          "TITLE": "Handoff reasons",
-          "CUSTOMER_REQUEST": "Customer requested",
-          "MISSING_KNOWLEDGE": "Missing knowledge",
-          "UNSUPPORTED_REQUEST": "Unsupported request",
-          "POLICY_RESTRICTION": "Policy restriction",
-          "TOOL_FAILURE": "Tool failure",
-          "PENDING_CLARIFICATION": "Pending customer clarification",
+          "TITLE": "Причины передачи",
+          "CUSTOMER_REQUEST": "Запрос клиента",
+          "MISSING_KNOWLEDGE": "Не хватило знаний",
+          "UNSUPPORTED_REQUEST": "Неподдерживаемый запрос",
+          "POLICY_RESTRICTION": "Ограничение правил",
+          "TOOL_FAILURE": "Сбой инструмента",
+          "PENDING_CLARIFICATION": "Ожидание уточнения от клиента",
           "PERCENTAGE": "({value}%)",
-          "USAGE_LIMIT": "Usage limit",
-          "UNCLASSIFIED": "Unclassified"
+          "USAGE_LIMIT": "Лимит использования",
+          "UNCLASSIFIED": "Без классификации"
         },
         "RESOLUTION_TREND": {
-          "TITLE": "Resolution trend",
-          "CONVERSATION_COUNT": "Conversation count",
-          "RESOLUTION_RATE": "Resolution rate",
-          "CURRENT_PERIOD": "Current period",
-          "PREVIOUS_PERIOD": "Previous period",
-          "HANDLED": "Handled",
-          "RESOLVED": "Resolved by Captain",
-          "ARIA_LABEL": "Handled and Captain-resolved conversations by reporting period",
-          "RATE_ARIA_LABEL": "Current and previous Captain resolution rates"
+          "TITLE": "Динамика решений",
+          "COMPARISON_LABEL": "Сравнение по дням недели",
+          "COMPARISON_HINT": "Сравнение доли решённых по одинаковым дням недели, например понедельник с понедельником.",
+          "COMPARISON_NOTE": "Сегодняшний день сравнивается до того же времени суток.",
+          "CONVERSATION_COUNT": "Число обращений",
+          "RESOLUTION_RATE": "Доля решённых",
+          "CURRENT_PERIOD": "Текущий период",
+          "PREVIOUS_PERIOD": "Предыдущий период",
+          "HANDLED": "Обработано",
+          "RESOLVED": "Решено Captain",
+          "ARIA_LABEL": "Обработанные и решённые Captain обращения по отчётным периодам",
+          "RATE_ARIA_LABEL": "Доля решённых Captain за текущий и предыдущий периоды"
         },
         "CSAT": {
-          "TITLE": "Captain CSAT",
-          "AUTONOMOUS": "Captain-resolved conversations",
-          "AUTONOMOUS_HINT": "The average customer rating for conversations Captain resolved without help from your team.",
-          "ASSISTED": "Captain-assisted conversations",
-          "ASSISTED_HINT": "The average customer rating when Captain helped before your team resolved the conversation.",
-          "VS_HUMANS": "{value} vs humans"
+          "TITLE": "CSAT Captain",
+          "AUTONOMOUS": "Решённые Captain обращения",
+          "AUTONOMOUS_HINT": "Средняя оценка клиентов по обращениям, которые Captain решил без помощи команды.",
+          "ASSISTED": "Обращения с помощью Captain",
+          "ASSISTED_HINT": "Средняя оценка клиентов, когда Captain помогал до того, как команда решила обращение.",
+          "VS_HUMANS": "{value} по сравнению с людьми"
         },
         "USAGE": {
-          "TITLE": "Usage",
-          "CREDITS": "Credits",
+          "TITLE": "Использование",
+          "CREDITS": "Кредиты",
           "DOCUMENTS": "Документы",
-          "USED": "({percentage}% used)",
+          "USED": "(использовано {percentage}%)",
           "VALUE": "{used}/{total}",
-          "REFRESH": "Refresh usage",
-          "BUY_MORE": "Купить дополнительные кредиты"
+          "REFRESH": "Обновить данные об использовании",
+          "BUY_MORE": "Купить кредиты"
         },
         "KNOWLEDGE": {
-          "REVIEW": "Review FAQs"
+          "SUGGESTED": "Предложенные FAQ",
+          "REVIEW": "Проверить FAQ"
         }
       }
     },
     "ASSISTANT_SWITCHER": {
       "ASSISTANTS": "Ассистенты",
-      "SWITCH_ASSISTANT": "Переключиться между помощниками",
-      "NEW_ASSISTANT": "Создать помощника",
-      "EMPTY_LIST": "Список помощников пуст, пожалуйста, создайте помощника, чтобы начать работу"
+      "SWITCH_ASSISTANT": "Переключить ассистента",
+      "NEW_ASSISTANT": "Создать ассистента",
+      "EMPTY_LIST": "Ассистенты не найдены. Создайте первого, чтобы начать"
     },
     "COPILOT": {
       "TITLE": "Copilot",
       "TRY_THESE_PROMPTS": "Попробуйте эти запросы",
-      "PANEL_TITLE": "Начать работу с Copilot",
-      "KICK_OFF_MESSAGE": "Хотите узнать суть или проверить прошлые диалоги или написать лучший ответ? Copilot здесь, чтобы ускорить работу.",
-      "SEND_MESSAGE": "Отправить сообщение...",
-      "EMPTY_MESSAGE": "Произошла ошибка при генерации ответа. Пожалуйста, попробуйте еще раз.",
-      "LOADER": "Капитан думает",
+      "PANEL_TITLE": "Начало работы с Copilot",
+      "KICK_OFF_MESSAGE": "Нужна краткая сводка, хотите заглянуть в прошлые обращения или написать ответ получше? Copilot поможет сделать это быстрее.",
+      "SEND_MESSAGE": "Отправить сообщение…",
+      "EMPTY_MESSAGE": "Не удалось сгенерировать ответ. Попробуйте ещё раз.",
+      "LOADER": "Captain думает",
       "YOU": "Вы",
-      "USE": "Использовать это",
-      "RESET": "Сброс",
+      "USE": "Использовать",
+      "RESET": "Сбросить",
       "SHOW_STEPS": "Показать шаги",
-      "SELECT_ASSISTANT": "Выбрать ассистента",
+      "SELECT_ASSISTANT": "Выберите ассистента",
       "PROMPTS": {
         "SUMMARIZE": {
-          "LABEL": "Подвести итог этого диалога",
-          "CONTENT": "Кратко изложить основные моменты, обсуждавшиеся между клиентом и агентом поддержки, включая пожелания клиента, вопросы и решения или ответы, предоставляемые агентом поддержки"
+          "LABEL": "Кратко изложить это обращение",
+          "CONTENT": "Кратко изложи основные моменты переписки между клиентом и оператором поддержки: проблемы и вопросы клиента, а также решения и ответы, которые дал оператор"
         },
         "SUGGEST": {
           "LABEL": "Предложить ответ",
-          "CONTENT": "Анализируйте запрос клиента и составляйте ответ, который эффективно учитывает его проблемы или вопросы. Убедитесь, что ответ является четким, кратким и содержит полезную информацию."
+          "CONTENT": "Проанализируй запрос клиента и составь ответ, который по существу решает его проблему или отвечает на вопросы. Ответ должен быть ясным, кратким и полезным."
         },
         "RATE": {
-          "LABEL": "Оцените этот диалог",
-          "CONTENT": "Оцените разговор, чтобы узнать, насколько он соответствует потребностям клиента. Поделитесь оценкой из 5 на основе тона, ясности и эффективности."
+          "LABEL": "Оценить это обращение",
+          "CONTENT": "Проанализируй обращение и оцени, насколько хорошо были учтены потребности клиента. Поставь оценку по 5-балльной шкале с учётом тона, ясности и эффективности."
         },
         "HIGH_PRIORITY": {
-          "LABEL": "Диалоги с высоким приоритетом",
-          "CONTENT": "Дайте мне суть всех высокоприоритетных открытых разговоров, включая идентификатор разговора, имя клиента (если есть), содержимое последнего сообщения и назначенный агент. Если нужно, группа по статусу."
+          "LABEL": "Обращения с высоким приоритетом",
+          "CONTENT": "Дай сводку по всем открытым обращениям с высоким приоритетом. Укажи ID обращения, имя клиента (если есть), текст последнего сообщения и назначенного оператора. При необходимости сгруппируй по статусу."
         },
         "LIST_CONTACTS": {
           "LABEL": "Список контактов",
-          "CONTENT": "Покажите мне список 10 топ контактов. Включая имя, email или номер телефона (если доступно), последний просмотренный время, тэги (если есть)."
+          "CONTENT": "Покажи список из 10 главных контактов. Укажи имя, email или номер телефона (если есть), время последней активности и метки (если есть)."
         }
       }
     },
     "PLAYGROUND": {
       "USER": "Вы",
       "ASSISTANT": "Ассистент",
-      "MESSAGE_PLACEHOLDER": "Введите сообщение...",
-      "HEADER": "Площадка",
-      "DESCRIPTION": "Используйте эту площадку, чтобы отправлять сообщения своему ассистенту и проверять правильность ответа, быстро и в том тоне, который вы ожидали.",
-      "CREDIT_NOTE": "Отправленные здесь сообщения будут учитываться в кредитах Captain."
+      "MESSAGE_PLACEHOLDER": "Введите сообщение…",
+      "SEND_MESSAGE": "Отправить сообщение",
+      "HEADER": "Песочница",
+      "DESCRIPTION": "В песочнице можно отправлять сообщения ассистенту и проверять, отвечает ли он точно, быстро и в нужном тоне.",
+      "CREDIT_NOTE": "Сообщения, отправленные здесь, расходуют кредиты Captain.",
+      "CLEAR_CONVERSATION": "Очистить переписку",
+      "RESPONSE_ERROR": "Captain не смог завершить тестовый запуск. Проверьте настройки и попробуйте ещё раз.",
+      "SETUP": {
+        "TITLE": "Настройки теста",
+        "DESCRIPTION": "Изменения здесь действуют только в этом сеансе песочницы, если вы явно не сохраните элемент.",
+        "TOGGLE": "Показать или скрыть настройки теста",
+        "CLOSE": "Закрыть настройки теста",
+        "RESET": "Сбросить настройки теста",
+        "TEMPORARY": "Временно",
+        "SESSION_ONLY": "Только в этом сеансе",
+        "INCLUDE_IN_TEST": "Включить в этот тест",
+        "ADD_TO_TEST": "Добавить в тест (↵)",
+        "LOAD_ERROR": "Не удалось загрузить сохранённые настройки ассистента.",
+        "INVALID_CONFIGURATION": "Прежде чем отправить сообщение, заполните или удалите добавленные временные сценарии.",
+        "SAVE_SCENARIO_SUCCESS": "Сценарий сохранён и остаётся включённым в этот тест.",
+        "SAVE_SCENARIO_ERROR": "Не удалось сохранить сценарий.",
+        "SAVE_RULE_SUCCESS": "Правило сохранено и остаётся включённым в этот тест.",
+        "SAVE_RULE_ERROR": "Не удалось сохранить правило.",
+        "RULE_ALREADY_SAVED": "Точно такое же правило уже сохранено, дубликат не создан.",
+        "SCENARIOS": {
+          "TAB_TITLE": "Сценарии",
+          "CREATE_TITLE": "Добавить временный сценарий",
+          "CREATE_HINT": "Попробуйте новое поведение, не меняя настройки ассистента.",
+          "SAVED_SUMMARY": "Существующие сценарии ({count})",
+          "ADD_PERMANENTLY": "Добавить сценарий насовсем",
+          "DISABLED": "Отключён",
+          "EMPTY": "У этого ассистента нет сохранённых сценариев.",
+          "COMPOSER_PLACEHOLDER": "Введите название временного сценария…",
+          "COLLAPSE": "Свернуть временный сценарий",
+          "EXPAND": "Развернуть временный сценарий",
+          "REMOVE": "Удалить временный сценарий"
+        },
+        "GUIDELINES": {
+          "TAB_TITLE": "Правила ответов",
+          "CREATE_TITLE": "Добавить временное правило ответов",
+          "CREATE_HINT": "Проверьте пожелание к ответам, прежде чем добавить его ассистенту.",
+          "SAVED_SUMMARY": "Существующие правила ответов ({count})",
+          "ADD_PERMANENTLY": "Добавить правило насовсем",
+          "EMPTY": "У этого ассистента нет сохранённых правил ответов.",
+          "COMPOSER_PLACEHOLDER": "Введите временное правило ответов…",
+          "PLACEHOLDER": "Добавьте правило ответов",
+          "REMOVE": "Удалить временное правило ответов"
+        },
+        "GUARDRAILS": {
+          "TAB_TITLE": "Ограничения",
+          "CREATE_TITLE": "Добавить временное ограничение",
+          "CREATE_HINT": "Проверьте ограничение безопасности, прежде чем добавить его ассистенту.",
+          "SAVED_SUMMARY": "Существующие ограничения ({count})",
+          "ADD_PERMANENTLY": "Добавить ограничение насовсем",
+          "EMPTY": "У этого ассистента нет сохранённых ограничений.",
+          "COMPOSER_PLACEHOLDER": "Введите временное ограничение…",
+          "PLACEHOLDER": "Добавьте ограничение",
+          "REMOVE": "Удалить временное ограничение"
+        },
+        "KNOWLEDGE": {
+          "TAB_TITLE": "Знания",
+          "AVAILABLE_TITLE": "Знания, доступные Captain",
+          "AVAILABLE_DESCRIPTION": "Здесь показана сводка по сохранённым источникам; управлять ими можно вне песочницы.",
+          "DOCUMENTS": "Документы",
+          "FAQS": "FAQ",
+          "TEMPORARY_TITLE": "Временные знания",
+          "ADD_PERMANENTLY": "Добавить документ насовсем",
+          "LABEL": "Справочный текст",
+          "PLACEHOLDER": "Вставьте или напишите новые знания для этого теста",
+          "HINT": "Этот текст прикрепляется только к запросам в песочнице, если вы не добавите его как документ."
+        },
+        "SAVE_KNOWLEDGE_SUCCESS": "Знания добавлены как документ.",
+        "SAVE_KNOWLEDGE_ERROR": "Не удалось добавить знания как документ."
+      },
+      "RUN_DETAILS": {
+        "SUMMARY": "Детали запуска · {duration} мс",
+        "HANDLER_VALUE": "Обработчик: {handler}",
+        "SCENARIOS": "Нет сценариев | {count} сценарий | {count} сценария | {count} сценариев",
+        "RULES": "Правил: {count}",
+        "KNOWLEDGE_ATTACHED": "К этому запуску были прикреплены временные знания.",
+        "NO_EVENTS": "Вызовов инструментов и переходов между сценариями не зафиксировано.",
+        "HANDOFF": "{from} → {to}",
+        "STATUS": {
+          "RUNNING": "Выполняется",
+          "COMPLETED": "Завершён",
+          "FAILED": "Ошибка"
+        }
+      }
     },
     "PAYWALL": {
-      "TITLE": "Обновите тарифный план, чтобы использовать Captain AI",
-      "AVAILABLE_ON": "Капитан недоступен на бесплатном тарифном плане.",
-      "UPGRADE_PROMPT": "Обновите тарифный план, чтобы получить доступ к нашим ассистентам, copilot и другим функциям.",
-      "UPGRADE_NOW": "Обновить сейчас",
-      "CANCEL_ANYTIME": "Вы можете изменить или отменить ваш тарифный план в любое время"
+      "TITLE": "Смените тариф, чтобы использовать Captain AI",
+      "AVAILABLE_ON": "Captain недоступен на бесплатном тарифе.",
+      "UPGRADE_PROMPT": "Смените тариф, чтобы получить доступ к ассистентам, Copilot и другим возможностям.",
+      "UPGRADE_NOW": "Сменить тариф",
+      "CANCEL_ANYTIME": "Тариф можно сменить или отменить в любой момент"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Captain AI доступен только в тарифных планах Enterprise.",
-      "UPGRADE_PROMPT": "Обновите тарифный план, чтобы получить доступ к нашим ассистентам, copilot и другим функциям.",
-      "ASK_ADMIN": "Пожалуйста, обратитесь к вашему администратору для обновления."
+      "AVAILABLE_ON": "Captain AI доступен только на тарифах Enterprise.",
+      "UPGRADE_PROMPT": "Смените тариф, чтобы получить доступ к ассистентам, Copilot и другим возможностям.",
+      "ASK_ADMIN": "Чтобы сменить тариф, обратитесь к администратору."
     },
     "BANNER": {
-      "RESPONSES": "Вы использовали более 80% лимита ответов. Чтобы продолжить использование Captain AI, пожалуйста, обновите тариф.",
-      "DOCUMENTS": "Достигнут лимит документов. Обновите тарифный план, чтобы продолжить использование Captain AI."
+      "RESPONSES": "Вы использовали более 80% лимита ответов. Чтобы продолжить пользоваться Captain AI, смените тариф.",
+      "DOCUMENTS": "Достигнут лимит документов. Смените тариф, чтобы продолжить пользоваться Captain AI."
     },
     "FORM": {
-      "CANCEL": "Отменить",
+      "CANCEL": "Отмена",
       "CREATE": "Создать",
       "EDIT": "Обновить"
     },
     "ASSISTANTS": {
       "HEADER": "Ассистенты",
-      "NO_ASSISTANTS_AVAILABLE": "У вас нет ни одного доступного помощника.",
-      "ADD_NEW": "Создать нового ассистента",
+      "NO_ASSISTANTS_AVAILABLE": "В вашем аккаунте нет ассистентов.",
+      "ADD_NEW": "Создать ассистента",
       "DELETE": {
-        "TITLE": "Вы уверены, что хотите удалить ассистента?",
-        "DESCRIPTION": "Это действие необратимо. Удаление этого ассистента удалит его из всех подключенных источников и навсегда удалит все сгенерированные знания.",
+        "TITLE": "Удалить ассистента?",
+        "DESCRIPTION": "Это действие необратимо. Ассистент будет отключён от всех каналов, а его пользовательские инструменты и все сгенерированные знания будут безвозвратно удалены.",
         "CONFIRM": "Да, удалить",
-        "SUCCESS_MESSAGE": "Ассистент успешно удален",
-        "ERROR_MESSAGE": "При удалении ассистента произошла ошибка. Пожалуйста, попробуйте еще раз."
+        "SUCCESS_MESSAGE": "Ассистент удалён",
+        "ERROR_MESSAGE": "Не удалось удалить ассистента, попробуйте ещё раз."
       },
-      "FORM_DESCRIPTION": "Заполните приведенные ниже сведения, чтобы назвать своего ассистента, описать его цель и указать поддерживаемый продукт.",
+      "FORM_DESCRIPTION": "Заполните поля ниже: задайте имя ассистента, опишите его назначение и укажите продукт, который он будет поддерживать.",
       "CREATE": {
         "TITLE": "Создать ассистента",
-        "SUCCESS_MESSAGE": "Ассистент успешно создан",
-        "ERROR_MESSAGE": "При создании ассистента произошла ошибка, пожалуйста, попробуйте еще раз."
+        "SUCCESS_MESSAGE": "Ассистент создан",
+        "ERROR_MESSAGE": "Не удалось создать ассистента, попробуйте ещё раз."
       },
       "FORM": {
         "UPDATE": "Обновить",
@@ -681,278 +793,278 @@
         },
         "NAME": {
           "LABEL": "Имя",
-          "PLACEHOLDER": "Введите имя помощника",
-          "ERROR": "Имя обязательно"
+          "PLACEHOLDER": "Введите имя ассистента",
+          "ERROR": "Укажите имя"
         },
         "DESCRIPTION": {
           "LABEL": "Описание",
-          "PLACEHOLDER": "Введите описание помощника",
-          "ERROR": "Описание обязательно"
+          "PLACEHOLDER": "Введите описание ассистента",
+          "ERROR": "Укажите описание"
         },
         "PRODUCT_NAME": {
           "LABEL": "Название продукта",
           "PLACEHOLDER": "Введите название продукта",
-          "ERROR": "Требуется название продукта"
+          "ERROR": "Укажите название продукта"
         },
         "WELCOME_MESSAGE": {
           "LABEL": "Приветственное сообщение",
           "PLACEHOLDER": "Введите приветственное сообщение"
         },
         "HANDOFF_MESSAGE": {
-          "LABEL": "Сообщение о передачи",
-          "PLACEHOLDER": "Введите сообщение о передачи"
+          "LABEL": "Сообщение при передаче оператору",
+          "PLACEHOLDER": "Введите сообщение при передаче оператору"
         },
         "RESOLUTION_MESSAGE": {
-          "LABEL": "Сообщение разрешения",
-          "PLACEHOLDER": "Введите сообщение разрешения"
+          "LABEL": "Сообщение при решении",
+          "PLACEHOLDER": "Введите сообщение при решении обращения"
         },
         "INACTIVITY_RESOLUTION": {
-          "TITLE": "When customers stop replying",
-          "DESCRIPTION": "Choose how Captain handles the conversation.",
-          "MODE_LABEL": "Action when the customer stops replying",
-          "REVIEW_AFTER": "Review after",
-          "RESOLVE_AFTER": "Resolve after",
-          "ALWAYS_WARNING": "Captain will resolve every conversation after the selected time without reviewing it. Some conversations that still need help may be closed.",
-          "PENDING_INFO": "The conversation remains pending until the customer replies.",
+          "TITLE": "Если клиент перестал отвечать",
+          "DESCRIPTION": "Выберите, что Captain делает с обращением.",
+          "MODE_LABEL": "Действие, если клиент перестал отвечать",
+          "REVIEW_AFTER": "Проверить через",
+          "RESOLVE_AFTER": "Решить через",
+          "ALWAYS_WARNING": "По истечении выбранного времени Captain будет отмечать решёнными все обращения без проверки. Некоторые обращения, которым ещё нужна помощь, могут быть закрыты.",
+          "PENDING_INFO": "Обращение остаётся в ожидании, пока клиент не ответит.",
           "RESOLUTION_MESSAGE": {
-            "TITLE": "Send a message when resolving",
-            "DESCRIPTION": "Captain sends this closing message before it resolves the conversation."
+            "TITLE": "Отправлять сообщение при решении",
+            "DESCRIPTION": "Captain отправляет это завершающее сообщение, прежде чем отметить обращение решённым."
           },
           "MODES": {
             "DISABLED": {
-              "LABEL": "Wait for the customer",
-              "DESCRIPTION": "Captain does not resolve the conversation. Captain can still hand it off if the customer asks."
+              "LABEL": "Ждать ответа клиента",
+              "DESCRIPTION": "Captain не отмечает обращение решённым, но может передать его оператору, если клиент попросит."
             },
             "LEGACY": {
-              "LABEL": "Always resolve",
-              "DESCRIPTION": "Captain resolves every conversation after the selected time."
+              "LABEL": "Всегда решать",
+              "DESCRIPTION": "По истечении выбранного времени Captain отмечает решёнными все обращения."
             },
             "EVALUATED": {
-              "LABEL": "Let Captain review it (recommended)",
-              "DESCRIPTION": "Captain decides whether to resolve the conversation or hand it off."
+              "LABEL": "Пусть Captain проверит (рекомендуется)",
+              "DESCRIPTION": "Captain сам решает, отметить обращение решённым или передать оператору."
             }
           },
-          "DURATION_HOURS_ARIA_LABEL": "Hours before action",
-          "DURATION_MINUTES_ARIA_LABEL": "Minutes before action",
-          "DURATION_HOURS_SHORT": "{count} h",
-          "DURATION_MINUTES_SHORT": "{count} min"
+          "DURATION_HOURS_ARIA_LABEL": "Часов до действия",
+          "DURATION_MINUTES_ARIA_LABEL": "Минут до действия",
+          "DURATION_HOURS_SHORT": "{count} ч",
+          "DURATION_MINUTES_SHORT": "{count} мин"
         },
         "INSTRUCTIONS": {
           "LABEL": "Инструкции",
-          "PLACEHOLDER": "Введите инструкции для помощника"
+          "PLACEHOLDER": "Введите инструкции для ассистента"
         },
         "FEATURES": {
           "TITLE": "Возможности",
-          "ALLOW_CONVERSATION_FAQS": "Создать FAQ из решённых диалогов",
-          "ALLOW_MEMORIES": "Сохраняйте ключевые детали в виде воспоминаний о взаимодействии с клиентами.",
-          "ALLOW_CITATIONS": "Включить цитаты источника в ответы",
-          "ALLOW_CONTACT_ATTRIBUTES": "Allow access to contact information"
+          "ALLOW_CONVERSATION_FAQS": "Создавать FAQ из решённых обращений",
+          "ALLOW_MEMORIES": "Запоминать ключевые детали из общения с клиентами.",
+          "ALLOW_CITATIONS": "Указывать источники в ответах",
+          "ALLOW_CONTACT_ATTRIBUTES": "Разрешить доступ к данным контакта"
         },
         "AUDIENCE": {
           "EVERYONE": {
-            "LABEL": "Everyone",
-            "DESC": "Captain responds to every conversation in connected inboxes."
+            "LABEL": "Все",
+            "DESC": "Captain отвечает на все обращения в подключённых каналах."
           },
           "SPECIFIC": {
-            "LABEL": "Specific audience",
-            "DESC": "Captain responds only to customers who match the conditions below."
+            "LABEL": "Определённая аудитория",
+            "DESC": "Captain отвечает только клиентам, которые соответствуют условиям ниже."
           },
-          "ADD_CONDITION": "Add condition",
-          "ADD_GROUP": "Add condition group",
-          "EMPTY_TITLE": "No conditions yet",
-          "EMPTY_BODY": "Add a condition to target specific customers, or a condition group to combine conditions with different and/or logic.",
-          "EMPTY_ERROR": "Add at least one condition for a specific audience.",
-          "MATCH_PREFIX": "Match",
-          "MATCH_SUFFIX": "of the following",
-          "MATCH_ALL": "все",
-          "MATCH_ANY": "any",
-          "GROUP_CONTACT": "Contact attributes",
-          "GROUP_CONVERSATION": "Диалог",
+          "ADD_CONDITION": "Добавить условие",
+          "ADD_GROUP": "Добавить группу условий",
+          "EMPTY_TITLE": "Условий пока нет",
+          "EMPTY_BODY": "Добавьте условие, чтобы выбрать определённых клиентов, или группу условий, чтобы комбинировать условия через «и»/«или».",
+          "EMPTY_ERROR": "Для определённой аудитории добавьте хотя бы одно условие.",
+          "MATCH_PREFIX": "Соответствие",
+          "MATCH_SUFFIX": "из следующих условий",
+          "MATCH_ALL": "всем",
+          "MATCH_ANY": "любому",
+          "GROUP_CONTACT": "Атрибуты контакта",
+          "GROUP_CONVERSATION": "Обращение",
           "GROUP_CUSTOM": "Пользовательские атрибуты",
           "BROWSER_LANGUAGE": "Язык браузера",
-          "CONVERSATION_LANGUAGE": "First message language",
-          "LOGGED_IN": "Logged-in user",
+          "CONVERSATION_LANGUAGE": "Язык первого сообщения",
+          "LOGGED_IN": "Авторизованный пользователь",
           "LOGGED_IN_TRUE": "Да",
           "LOGGED_IN_FALSE": "Нет"
         },
         "SCHEDULE": {
           "ALWAYS": {
-            "LABEL": "Anytime",
-            "DESC": "Captain responds to every conversation, regardless of time."
+            "LABEL": "В любое время",
+            "DESC": "Captain отвечает на все обращения независимо от времени."
           },
           "BUSINESS_HOURS": {
-            "LABEL": "During business hours",
-            "DESC": "Captain responds only within each inbox's business hours."
+            "LABEL": "В рабочие часы",
+            "DESC": "Captain отвечает только в рабочие часы каждого канала."
           },
           "OUTSIDE_BUSINESS_HOURS": {
-            "LABEL": "Outside business hours",
-            "DESC": "Captain responds only when each inbox is closed."
+            "LABEL": "Вне рабочих часов",
+            "DESC": "Captain отвечает только тогда, когда канал не работает."
           },
-          "HINT": "Inboxes without business hours configured are always covered."
+          "HINT": "Каналы без настроенных рабочих часов обслуживаются всегда."
         }
       },
       "EDIT": {
-        "TITLE": "Обновить ассистента",
-        "SUCCESS_MESSAGE": "Ассистент успешно обновлен",
-        "ERROR_MESSAGE": "При обновлении ассистента произошла ошибка, пожалуйста, попробуйте еще раз.",
-        "NOT_FOUND": "Не удалось найти помощника. Пожалуйста, попробуйте еще раз."
+        "TITLE": "Изменить ассистента",
+        "SUCCESS_MESSAGE": "Ассистент обновлён",
+        "ERROR_MESSAGE": "Не удалось обновить ассистента, попробуйте ещё раз.",
+        "NOT_FOUND": "Ассистент не найден. Попробуйте ещё раз."
       },
       "SETTINGS": {
         "HEADER": "Настройки",
         "BASIC_SETTINGS": {
           "TITLE": "Основные настройки",
-          "DESCRIPTION": "Настройте то, что говорит ассистент, завершая диалог или передавая человеку."
+          "DESCRIPTION": "Настройте, что ассистент говорит при завершении обращения или передаче человеку."
         },
         "SYSTEM_SETTINGS": {
           "TITLE": "Системные настройки",
-          "DESCRIPTION": "Настройте то, что говорит ассистент, завершая диалог или передавая человеку.",
-          "DESCRIPTION_V2": "Manage what Captain does when customers stop replying and set the handoff message."
+          "DESCRIPTION": "Настройте, что ассистент говорит при завершении обращения или передаче человеку.",
+          "DESCRIPTION_V2": "Настройте, что делает Captain, когда клиент перестаёт отвечать, и задайте сообщение при передаче оператору."
         },
         "AUDIENCE": {
           "TITLE": "Аудитория",
-          "DESCRIPTION": "Choose whether this assistant responds to everyone or only to a specific audience."
+          "DESCRIPTION": "Выберите, отвечает ли ассистент всем или только определённой аудитории."
         },
         "SCHEDULE": {
-          "TITLE": "Schedule",
-          "DESCRIPTION": "Choose when Captain replies. Outside this window, conversations are handed to your team."
+          "TITLE": "Расписание",
+          "DESCRIPTION": "Выберите, когда Captain отвечает. Вне этого времени обращения передаются вашей команде."
         },
         "CONTROL_ITEMS": {
-          "TITLE": "Веселые вещи",
-          "DESCRIPTION": "Добавить больше контроля к ассистенту. (немного визуально, как история : Query guardrail → Сценарии → Выход) пользователь Nudges на самом деле их использует.",
+          "TITLE": "Самое интересное",
+          "DESCRIPTION": "Больше контроля над ассистентом: ограничения запросов → сценарии → ответ.",
           "OPTIONS": {
             "GUARDRAILS": {
-              "TITLE": "Ограждения",
-              "DESCRIPTION": "Сохраняет вещи в нужном контексте — только те вопросы, которые вы хотите, чтобы ваш ассистент отвечал, ничего запрещённого или не по теме."
+              "TITLE": "Ограничения",
+              "DESCRIPTION": "Держат ассистента в рамках: он отвечает только на нужные вам вопросы — ничего запретного и не по теме."
             },
             "RESPONSE_GUIDELINES": {
-              "TITLE": "Рекомендации по ответу",
-              "DESCRIPTION": "Вайб и структура ответов помощника – ясные и дружелюбные? Коротко и непросто? Детально и формально?"
+              "TITLE": "Правила ответов",
+              "DESCRIPTION": "Тон и структура ответов ассистента: ясно и дружелюбно? Коротко и ёмко? Подробно и официально?"
             }
           }
         },
         "DELETE": {
           "TITLE": "Удалить ассистента",
-          "DESCRIPTION": "Это действие необратимо. Удаление этого ассистента удалит его из всех подключенных источников и навсегда удалит все сгенерированные знания.",
+          "DESCRIPTION": "Это действие необратимо. Ассистент будет отключён от всех каналов, а его пользовательские инструменты и все сгенерированные знания будут безвозвратно удалены.",
           "BUTTON_TEXT": "Удалить {assistantName}"
         }
       },
       "OPTIONS": {
-        "EDIT_ASSISTANT": "Редактировать ассистента",
+        "EDIT_ASSISTANT": "Изменить ассистента",
         "DELETE_ASSISTANT": "Удалить ассистента",
-        "VIEW_CONNECTED_INBOXES": "Просмотр подключенных источников"
+        "VIEW_CONNECTED_INBOXES": "Подключённые каналы"
       },
       "EMPTY_STATE": {
-        "TITLE": "Нет доступных ассистентов",
-        "SUBTITLE": "Создайте ассистента, чтобы дать быстрые и точные ответы пользователям. Он может учиться на ваших статьях из центра поддержки и прошлых диалогах.",
+        "TITLE": "Нет ассистентов",
+        "SUBTITLE": "Создайте ассистента, чтобы быстро и точно отвечать пользователям. Он может учиться на статьях базы знаний и прошлых обращениях.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Assistant",
-          "NOTE": "Captain Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "Ассистент Captain",
+          "NOTE": "Ассистент Captain общается напрямую с клиентами, учится на ваших справочных материалах и прошлых обращениях и мгновенно даёт точные ответы. Он берёт на себя первичные запросы и быстро решает их, а при необходимости передаёт обращение оператору."
         }
       },
       "GUARDRAILS": {
-        "TITLE": "Ограждения",
-        "DESCRIPTION": "Сохраняет вещи в нужном контексте — только те вопросы, которые вы хотите, чтобы ваш ассистент отвечал, ничего запрещённого или не по теме.",
+        "TITLE": "Ограничения",
+        "DESCRIPTION": "Держат ассистента в рамках: он отвечает только на нужные вам вопросы — ничего запретного и не по теме.",
         "BULK_ACTION": {
-          "SELECTED": "{count} элемент выбран | {count} элементов выбрано",
+          "SELECTED": "Выбран {count} элемент | Выбрано {count} элемента | Выбрано {count} элементов",
           "SELECT_ALL": "Выбрать все ({count})",
-          "UNSELECT_ALL": "Сбросить все ({count})",
+          "UNSELECT_ALL": "Снять выбор со всех ({count})",
           "BULK_DELETE_BUTTON": "Удалить"
         },
         "ADD": {
           "SUGGESTED": {
-            "TITLE": "Примеры ограждений",
+            "TITLE": "Примеры ограничений",
             "ADD": "Добавить все",
-            "ADD_SINGLE": "Добавить это",
+            "ADD_SINGLE": "Добавить",
             "SAVE": "Добавить и сохранить (↵)",
-            "PLACEHOLDER": "Введите другое ограждение..."
+            "PLACEHOLDER": "Введите ещё одно ограничение…"
           },
           "NEW": {
-            "TITLE": "Добавить гарант",
+            "TITLE": "Добавить ограничение",
             "CREATE": "Создать",
-            "CANCEL": "Отменить",
-            "PLACEHOLDER": "Введите другое ограждение...",
+            "CANCEL": "Отмена",
+            "PLACEHOLDER": "Введите ещё одно ограничение…",
             "TEST_ALL": "Проверить все"
           }
         },
         "LIST": {
-          "SEARCH_PLACEHOLDER": "Поиск..."
+          "SEARCH_PLACEHOLDER": "Поиск…"
         },
-        "EMPTY_MESSAGE": "Ограждений не найдено. Создайте или добавьте примеры, чтобы начать.",
-        "SEARCH_EMPTY_MESSAGE": "Не найдено ограждений для этого поиска.",
+        "EMPTY_MESSAGE": "Ограничений нет. Создайте их или добавьте примеры, чтобы начать.",
+        "SEARCH_EMPTY_MESSAGE": "По этому запросу ограничения не найдены.",
         "API": {
           "ADD": {
-            "SUCCESS": "Ограждение успешно добавлен",
-            "ERROR": "Произошла ошибка при добавлении ограждения, пожалуйста, попробуйте еще раз."
+            "SUCCESS": "Ограничения добавлены",
+            "ERROR": "Не удалось добавить ограничения, попробуйте ещё раз."
           },
           "UPDATE": {
-            "SUCCESS": "Ограждение успешно обновлено",
-            "ERROR": "Произошла ошибка при обновлении ограждения, попробуйте еще раз."
+            "SUCCESS": "Ограничения обновлены",
+            "ERROR": "Не удалось обновить ограничения, попробуйте ещё раз."
           },
           "DELETE": {
-            "SUCCESS": "Ограждение успешно удалено",
-            "ERROR": "Произошла ошибка при удалении ограждения, пожалуйста, попробуйте еще раз."
+            "SUCCESS": "Ограничения удалены",
+            "ERROR": "Не удалось удалить ограничения, попробуйте ещё раз."
           }
         }
       },
       "RESPONSE_GUIDELINES": {
-        "TITLE": "Руководство по ограждению",
-        "DESCRIPTION": "Вайб и структура ответов помощника – ясные и дружелюбные? Коротко и непросто? Детально и формально?",
+        "TITLE": "Правила ответов",
+        "DESCRIPTION": "Тон и структура ответов ассистента: ясно и дружелюбно? Коротко и ёмко? Подробно и официально?",
         "BULK_ACTION": {
-          "SELECTED": "{count} элемент выбран | {count} элементов выбрано",
+          "SELECTED": "Выбран {count} элемент | Выбрано {count} элемента | Выбрано {count} элементов",
           "SELECT_ALL": "Выбрать все ({count})",
-          "UNSELECT_ALL": "Сбросить все ({count})",
+          "UNSELECT_ALL": "Снять выбор со всех ({count})",
           "BULK_DELETE_BUTTON": "Удалить"
         },
         "ADD": {
           "SUGGESTED": {
-            "TITLE": "Пример рекомендации по ответам",
+            "TITLE": "Примеры правил ответов",
             "ADD": "Добавить все",
-            "ADD_SINGLE": "Добавить это",
+            "ADD_SINGLE": "Добавить",
             "SAVE": "Добавить и сохранить (↵)",
-            "PLACEHOLDER": "Введите рекомендации по ответам..."
+            "PLACEHOLDER": "Введите ещё одно правило ответов…"
           },
           "NEW": {
-            "TITLE": "Добавить руководство по ответу",
+            "TITLE": "Добавить правило ответов",
             "CREATE": "Создать",
-            "CANCEL": "Отменить",
-            "PLACEHOLDER": "Введите рекомендации по ответам...",
+            "CANCEL": "Отмена",
+            "PLACEHOLDER": "Введите ещё одно правило ответов…",
             "TEST_ALL": "Проверить все"
           }
         },
         "LIST": {
-          "SEARCH_PLACEHOLDER": "Поиск..."
+          "SEARCH_PLACEHOLDER": "Поиск…"
         },
-        "EMPTY_MESSAGE": "Руководство по ответу не найдено. Создайте или добавьте примеры, чтобы начать.",
-        "SEARCH_EMPTY_MESSAGE": "По данному поиску не найдено ни одного руководства.",
+        "EMPTY_MESSAGE": "Правил ответов нет. Создайте их или добавьте примеры, чтобы начать.",
+        "SEARCH_EMPTY_MESSAGE": "По этому запросу правила ответов не найдены.",
         "API": {
           "ADD": {
-            "SUCCESS": "Руководство по ответу успешно добавлено",
-            "ERROR": "Произошла ошибка при добавлении правил ответа, пожалуйста, попробуйте еще раз."
+            "SUCCESS": "Правила ответов добавлены",
+            "ERROR": "Не удалось добавить правила ответов, попробуйте ещё раз."
           },
           "UPDATE": {
-            "SUCCESS": "Руководства по ответу успешно обновлены",
-            "ERROR": "Произошла ошибка при обновлении руководства для ответа, пожалуйста, попробуйте еще раз."
+            "SUCCESS": "Правила ответов обновлены",
+            "ERROR": "Не удалось обновить правила ответов, попробуйте ещё раз."
           },
           "DELETE": {
-            "SUCCESS": "Руководства для ответа успешно удалены",
-            "ERROR": "Произошла ошибка при удалении руководства для ответа, пожалуйста, попробуйте еще раз."
+            "SUCCESS": "Правила ответов удалены",
+            "ERROR": "Не удалось удалить правила ответов, попробуйте ещё раз."
           }
         }
       },
       "SCENARIOS": {
         "TITLE": "Сценарии",
-        "DESCRIPTION": "Дайте своему ассистенту определенный контекст, например «что делать, когда пользователь застрял» или «как действовать во время запроса на возмещение».",
+        "DESCRIPTION": "Дайте ассистенту контекст — например, «что делать, если пользователь застрял» или «как действовать при запросе возврата».",
         "BULK_ACTION": {
-          "SELECTED": "{count} элемент выбран | {count} элементов выбрано",
+          "SELECTED": "Выбран {count} элемент | Выбрано {count} элемента | Выбрано {count} элементов",
           "SELECT_ALL": "Выбрать все ({count})",
-          "UNSELECT_ALL": "Сбросить все ({count})",
+          "UNSELECT_ALL": "Снять выбор со всех ({count})",
           "BULK_DELETE_BUTTON": "Удалить"
         },
         "ADD": {
           "SUGGESTED": {
             "TITLE": "Примеры сценариев",
             "ADD": "Добавить все",
-            "ADD_SINGLE": "Добавить это",
+            "ADD_SINGLE": "Добавить",
             "TOOLS_USED": "Используемые инструменты:"
           },
           "NEW": {
@@ -962,171 +1074,171 @@
               "TITLE": {
                 "LABEL": "Название",
                 "PLACEHOLDER": "Введите название сценария",
-                "ERROR": "Название сценария обязательно"
+                "ERROR": "Укажите название сценария"
               },
               "DESCRIPTION": {
                 "LABEL": "Описание",
-                "PLACEHOLDER": "Опишите как и где будет использоваться этот сценарий",
-                "ERROR": "Описание сценария обязательно"
+                "PLACEHOLDER": "Опишите, как и где будет применяться этот сценарий",
+                "ERROR": "Укажите описание сценария"
               },
               "INSTRUCTION": {
-                "LABEL": "Как обрабатывать",
-                "PLACEHOLDER": "Опишите, как и где будет обрабатываться этот сценарий",
-                "ERROR": "Содержимое сценария обязательно"
+                "LABEL": "Как действовать",
+                "PLACEHOLDER": "Опишите, как и где будет отрабатываться этот сценарий",
+                "ERROR": "Укажите содержание сценария"
               },
               "CREATE": "Создать",
-              "CANCEL": "Отменить"
+              "CANCEL": "Отмена"
             }
           }
         },
         "UPDATE": {
-          "CANCEL": "Отменить",
-          "UPDATE": "Обновить изменения"
+          "CANCEL": "Отмена",
+          "UPDATE": "Сохранить изменения"
         },
         "STATUS": {
-          "ENABLED": "Включено",
-          "DISABLED": "Выключено",
-          "TOGGLE": "Toggle {title}"
+          "ENABLED": "Включён",
+          "DISABLED": "Отключён",
+          "TOGGLE": "Включить или отключить {title}"
         },
         "LIST": {
-          "SEARCH_PLACEHOLDER": "Поиск..."
+          "SEARCH_PLACEHOLDER": "Поиск…"
         },
-        "EMPTY_MESSAGE": "Сценарии не найдены. Создайте или добавьте примеры для начала.",
-        "SEARCH_EMPTY_MESSAGE": "Не найдено сценариев для этого поиска.",
+        "EMPTY_MESSAGE": "Сценариев нет. Создайте их или добавьте примеры, чтобы начать.",
+        "SEARCH_EMPTY_MESSAGE": "По этому запросу сценарии не найдены.",
         "API": {
           "ADD": {
-            "SUCCESS": "Сценарии успешно добавлены",
-            "ERROR": "Произошла ошибка при добавлении сценариев, пожалуйста, попробуйте еще раз."
+            "SUCCESS": "Сценарии добавлены",
+            "ERROR": "Не удалось добавить сценарии, попробуйте ещё раз."
           },
           "UPDATE": {
-            "SUCCESS": "Сценарий успешно обновлены",
-            "ERROR": "Произошла ошибка при обновлении сценария, пожалуйста, попробуйте еще раз."
+            "SUCCESS": "Сценарии обновлены",
+            "ERROR": "Не удалось обновить сценарии, попробуйте ещё раз."
           },
           "TOGGLE": {
-            "ENABLED": "Scenario enabled successfully",
-            "DISABLED": "Scenario disabled successfully",
-            "ERROR": "There was an error updating the scenario status, please try again."
+            "ENABLED": "Сценарий включён",
+            "DISABLED": "Сценарий отключён",
+            "ERROR": "Не удалось изменить статус сценария, попробуйте ещё раз."
           },
           "DELETE": {
-            "SUCCESS": "Сценарий успешно удалены",
-            "ERROR": "При удалении сценария произошла ошибка. Пожалуйста, попробуйте еще раз."
+            "SUCCESS": "Сценарии удалены",
+            "ERROR": "Не удалось удалить сценарии, попробуйте ещё раз."
           }
         }
       }
     },
     "DOCUMENTS": {
       "HEADER": "Документы",
-      "ADD_NEW": "Создать новый документ",
-      "FAQ_COUNT": "{n} FAQ | {n} FAQs",
-      "USED_IN_CONVERSATIONS": "Used in {n} conversation | Used in {n} conversations",
-      "NO_USED_CONVERSATIONS": "No conversations found for this document.",
-      "SELECTED": "Выбрано {count}",
+      "ADD_NEW": "Создать документ",
+      "FAQ_COUNT": "{n} FAQ | {n} FAQ | {n} FAQ",
+      "USED_IN_CONVERSATIONS": "Использован в {n} обращении | Использован в {n} обращениях | Использован в {n} обращениях",
+      "NO_USED_CONVERSATIONS": "Для этого документа обращения не найдены.",
+      "SELECTED": "Выбрано: {count}",
       "SELECT_ALL": "Выбрать все ({count})",
-      "UNSELECT_ALL": "Сбросить все ({count})",
+      "UNSELECT_ALL": "Снять выбор со всех ({count})",
       "BULK_DELETE_BUTTON": "Удалить",
       "BULK_SYNC_BUTTON": "Обновить",
       "BULK_DELETE": {
-        "TITLE": "Delete documents?",
-        "DESCRIPTION": "Are you sure you want to delete the selected documents? This action cannot be undone.",
-        "CONFIRM": "Да, удалить всё",
-        "SUCCESS_MESSAGE": "Documents deleted successfully",
-        "ERROR_MESSAGE": "There was an error deleting the documents, please try again."
+        "TITLE": "Удалить документы?",
+        "DESCRIPTION": "Удалить выбранные документы? Это действие нельзя отменить.",
+        "CONFIRM": "Да, удалить все",
+        "SUCCESS_MESSAGE": "Документы удалены",
+        "ERROR_MESSAGE": "Не удалось удалить документы, попробуйте ещё раз."
       },
       "BULK_SYNC": {
-        "SUCCESS_MESSAGE_ONE": "Обновления поставлены в очередь для 1 документа",
-        "SUCCESS_MESSAGE": "Обновления в очереди для документов {count}",
-        "ZERO_MESSAGE": "Нет документов, помеченных для обновления.",
-        "ERROR_MESSAGE": "При обновлении произошла ошибка, пожалуйста, попробуйте еще раз."
+        "SUCCESS_MESSAGE_ONE": "Обновление 1 документа поставлено в очередь",
+        "SUCCESS_MESSAGE": "Обновление поставлено в очередь, документов: {count}",
+        "ZERO_MESSAGE": "Нет документов, отмеченных для обновления.",
+        "ERROR_MESSAGE": "Не удалось поставить обновление в очередь, попробуйте ещё раз."
       },
       "SYNC": {
-        "QUEUED_MESSAGE": "Обновляется очередь. Мы скоро обновим документ.",
-        "ERROR_MESSAGE": "Не удалось обновить, попробуйте еще раз."
+        "QUEUED_MESSAGE": "Обновление поставлено в очередь. Документ скоро обновится.",
+        "ERROR_MESSAGE": "Не удалось поставить обновление в очередь, попробуйте ещё раз."
       },
       "FILTERS": {
         "SOURCE": {
           "ALL": "Все источники",
-          "WEB": "Веб страницы",
+          "WEB": "Веб-страницы",
           "PDF": "PDF-файлы"
         },
         "STATUS": {
           "ANY": "Любой статус",
-          "UPDATED": "Обновлено",
-          "NEEDS_UPDATE": "Необходимо обновить",
+          "UPDATED": "Обновлён",
+          "NEEDS_UPDATE": "Требует обновления",
           "UPDATING": "Обновляется",
-          "FAILED": "Не удалось"
+          "FAILED": "Ошибка"
         },
         "SORT": {
-          "RECENTLY_UPDATED": "Недавно обновленные",
+          "RECENTLY_UPDATED": "Недавно обновлённые",
           "RECENTLY_CREATED": "Недавно созданные",
-          "MOST_USED": "Most used in conversations"
+          "MOST_USED": "Чаще всего используемые в обращениях"
         },
-        "SEARCH_PLACEHOLDER": "Поиск..."
+        "SEARCH_PLACEHOLDER": "Поиск…"
       },
       "SYNC_STATUS": {
-        "SYNCED": "последнее обновление {time}",
-        "SYNCING": "обновление...",
-        "STALE_SYNC": "обновление приостановлено",
+        "SYNCED": "обновлён {time}",
+        "SYNCING": "обновляется…",
+        "STALE_SYNC": "обновление зависло",
         "FAILED": "Ошибка синхронизации",
-        "NEVER_SYNCED": "еще не обновлено"
+        "NEVER_SYNCED": "ещё не обновлялся"
       },
       "SYNC_ERRORS": {
         "NOT_FOUND": "Страница не найдена",
         "ACCESS_DENIED": "Доступ запрещён",
-        "TIMEOUT": "Страница заняла слишком много времени, чтобы ответить",
+        "TIMEOUT": "Страница слишком долго не отвечала",
         "CONTENT_EMPTY": "Страница вернула пустое содержимое",
         "FETCH_FAILED": "Не удалось загрузить страницу",
-        "SYNC_ERROR": "Неизвестная ошибка",
+        "SYNC_ERROR": "Непредвиденная ошибка",
         "DEFAULT": "Ошибка синхронизации"
       },
       "RELATED_RESPONSES": {
         "TITLE": "Связанные FAQ",
-        "EMPTY": "No FAQs have been generated from this document yet."
+        "EMPTY": "Из этого документа ещё не создано ни одного FAQ."
       },
       "DETAILS": {
-        "DESCRIPTION": "Review the crawled content and the FAQs generated from this source.",
-        "SOURCE": "Source",
-        "GENERATED_FAQS": "Generated FAQs",
-        "USED_IN_CONVERSATIONS": "Used in conversations",
-        "LAST_UPDATED": "Last updated",
-        "NOT_AVAILABLE": "Недоступен",
-        "CONTENT_TAB": "Crawled content",
-        "PDF_TAB": "PDF details",
-        "CONTENT_TITLE": "Crawled content",
-        "PDF_TITLE": "PDF file",
-        "PDF_DESCRIPTION": "Review the original PDF source.",
-        "CHARACTER_COUNT": "{count} characters extracted",
+        "DESCRIPTION": "Просмотрите собранное содержимое и FAQ, созданные из этого источника.",
+        "SOURCE": "Источник",
+        "GENERATED_FAQS": "Созданные FAQ",
+        "USED_IN_CONVERSATIONS": "Использован в обращениях",
+        "LAST_UPDATED": "Последнее обновление",
+        "NOT_AVAILABLE": "Недоступно",
+        "CONTENT_TAB": "Собранное содержимое",
+        "PDF_TAB": "Сведения о PDF",
+        "CONTENT_TITLE": "Собранное содержимое",
+        "PDF_TITLE": "PDF-файл",
+        "PDF_DESCRIPTION": "Просмотрите исходный PDF-файл.",
+        "CHARACTER_COUNT": "Извлечено символов: {count}",
         "COPY_CONTENT": "Копировать",
-        "COPY_SUCCESS": "Crawled content copied to clipboard",
-        "COPY_ERROR": "Could not copy crawled content",
-        "VIEW_RAW": "View raw",
-        "VIEW_PREVIEW": "View preview",
-        "UNREADABLE_CONTENT": "Readable content could not be extracted from this document. You can view the raw extracted content.",
-        "EMPTY_CONTENT": "No crawled content is available for this document yet."
+        "COPY_SUCCESS": "Собранное содержимое скопировано в буфер обмена",
+        "COPY_ERROR": "Не удалось скопировать собранное содержимое",
+        "VIEW_RAW": "Исходный текст",
+        "VIEW_PREVIEW": "Предпросмотр",
+        "UNREADABLE_CONTENT": "Не удалось извлечь из документа читаемое содержимое. Можно посмотреть извлечённый исходный текст.",
+        "EMPTY_CONTENT": "Для этого документа пока нет собранного содержимого."
       },
-      "FORM_DESCRIPTION": "Введите URL документа, чтобы добавить его в качестве источника знаний и выберите ассистента, с которым он свяжется.",
+      "FORM_DESCRIPTION": "Введите URL документа, чтобы добавить его как источник знаний, и выберите ассистента, к которому его привязать.",
       "CREATE": {
         "TITLE": "Добавить документ",
-        "SUCCESS_MESSAGE": "Документ успешно создан",
-        "ERROR_MESSAGE": "Произошла ошибка при создании документа, пожалуйста, попробуйте еще раз."
+        "SUCCESS_MESSAGE": "Документ создан",
+        "ERROR_MESSAGE": "Не удалось создать документ, попробуйте ещё раз."
       },
       "FORM": {
         "TYPE": {
           "LABEL": "Тип документа",
           "URL": "URL",
-          "PDF": "PDF файл"
+          "PDF": "PDF-файл"
         },
         "URL": {
           "LABEL": "URL",
           "PLACEHOLDER": "Введите URL документа",
-          "ERROR": "Пожалуйста, укажите корректный URL для документа"
+          "ERROR": "Укажите корректный URL документа"
         },
         "PDF_FILE": {
-          "LABEL": "PDF файл",
-          "CHOOSE_FILE": "Выберите PDF файл",
-          "ERROR": "Пожалуйста, выберите PDF файл",
-          "HELP_TEXT": "Максимальный размер файла: 10MB",
-          "INVALID_TYPE": "Пожалуйста, выберите корректный файл PDF",
-          "TOO_LARGE": "Размер файла превышает 10MB"
+          "LABEL": "PDF-файл",
+          "CHOOSE_FILE": "Выбрать PDF-файл",
+          "ERROR": "Выберите PDF-файл",
+          "HELP_TEXT": "Максимальный размер файла: 10 МБ",
+          "INVALID_TYPE": "Выберите корректный PDF-файл",
+          "TOO_LARGE": "Размер файла превышает 10 МБ"
         },
         "NAME": {
           "LABEL": "Название документа (необязательно)",
@@ -1134,128 +1246,162 @@
         }
       },
       "DELETE": {
-        "TITLE": "Вы уверены, что хотите удалить этот документ?",
-        "DESCRIPTION": "Это действие необратимо. Удаление этого документа навсегда удалит все сгенерированные знания.",
+        "TITLE": "Удалить документ?",
+        "DESCRIPTION": "Это действие необратимо. Вместе с документом будут безвозвратно удалены все созданные на его основе знания.",
         "CONFIRM": "Да, удалить",
-        "SUCCESS_MESSAGE": "Документ успешно удалён",
-        "ERROR_MESSAGE": "При удалении документа произошла ошибка, пожалуйста, попробуйте еще раз."
+        "SUCCESS_MESSAGE": "Документ удалён",
+        "ERROR_MESSAGE": "Не удалось удалить документ, попробуйте ещё раз."
       },
       "OPTIONS": {
-        "VIEW_DETAILS": "Просмотреть подробности",
-        "SYNC_NOW": "Обновите сейчас",
-        "RETRY_SYNC": "Повторите обновление",
+        "VIEW_DETAILS": "Подробнее",
+        "SYNC_NOW": "Обновить сейчас",
+        "RETRY_SYNC": "Повторить обновление",
         "DELETE_DOCUMENT": "Удалить документ"
       },
       "EMPTY_STATE": {
-        "TITLE": "Нет доступных документов",
-        "SUBTITLE": "Документы используются Вашим ассистентом для создания FAQ. Вы можете импортировать документы для предоставления контекста для Вашего ассистента.",
-        "FILTERED_TITLE": "Нет подходящих документов",
-        "FILTERED_SUBTITLE": "Попробуйте изменить источник, статус или слово поиска.",
+        "TITLE": "Нет документов",
+        "SUBTITLE": "На основе документов ассистент создаёт FAQ. Импортируйте документы, чтобы дать ассистенту контекст.",
+        "FILTERED_TITLE": "Подходящих документов нет",
+        "FILTERED_SUBTITLE": "Попробуйте изменить источник, статус или поисковый запрос.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain Document",
-          "NOTE": "A document in Captain serves as a knowledge resource for the assistant. By connecting your help center or guides, Captain can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "Документы Captain",
+          "NOTE": "Документ в Captain — это источник знаний для ассистента. Подключите базу знаний или руководства, и Captain проанализирует их содержимое, чтобы точно отвечать на вопросы клиентов."
         }
       }
     },
     "CUSTOM_TOOLS": {
       "HEADER": "Инструменты",
-      "ADD_NEW": "Создать новый инструмент",
-      "SOFT_LIMIT_WARNING": "Having more than 10 tools may reduce the assistant's reliability in selecting the right tool. Consider removing unused tools for better results.",
+      "ADD_NEW": "Создать инструмент",
+      "INSTALL_MANIFEST": {
+        "TITLE": "Установить набор инструментов",
+        "DESCRIPTION": "Установите набор инструментов из каталога Captain.",
+        "SOURCE_LABEL": "Набор инструментов",
+        "SOURCE_PLACEHOLDER": "chatwoot/tools/folder",
+        "SOURCE_HELP": "Устанавливается последняя версия из каталога.",
+        "VERSION_LABEL": "v{version} · {revision}",
+        "UPDATE_NOTE": "Установлена другая версия. При обновлении её инструменты будут заменены, а их состояние (включён или отключён) сохранится. Введите секреты заново.",
+        "TOOLS_LABEL": "Инструменты",
+        "CONFIGURATION_LABEL": "Конфигурация",
+        "CONTINUE": "Продолжить",
+        "BACK": "Назад",
+        "INSTALL": "Установить",
+        "UPDATE": "Обновить",
+        "REINSTALL": "Переустановить",
+        "REINSTALL_NOTE": "Некоторые инструменты из этого набора были удалены. Переустановка вернёт их, сохранив состояние каждого (включён или отключён). Введите секреты заново.",
+        "ALREADY_INSTALLED": "Уже установлен",
+        "SUCCESS_MESSAGE": "Набор инструментов установлен",
+        "ERROR_MESSAGE": "Не удалось установить набор инструментов",
+        "PREVIEW_ERROR": "Не удалось загрузить набор инструментов"
+      },
+      "ASSISTANT_TOOLS_BANNER": {
+        "MESSAGE": "Пользовательские инструменты теперь настраиваются для каждого ассистента отдельно. Переключите ассистента, чтобы настроить его инструменты.",
+        "LEARN_MORE": "Подробнее",
+        "DISMISS": "Скрыть объявление",
+        "MODAL_TITLE": "Теперь у каждого ассистента свои инструменты",
+        "MODAL_DESCRIPTION": "У каждого ассистента теперь отдельный список пользовательских инструментов. Мы скопировали существующие инструменты всем ассистентам, так что ничего не потерялось.",
+        "MODAL_INSTRUCTIONS": "Когда вы добавляете, изменяете, отключаете или удаляете инструмент, изменение касается только ассистента, которого вы сейчас просматриваете. Переключайте ассистентов вверху страницы, чтобы просмотреть или настроить их инструменты.",
+        "ACKNOWLEDGE": "Понятно"
+      },
+      "SOFT_LIMIT_WARNING": "Если инструментов больше 10, ассистент может хуже выбирать подходящий. Для лучших результатов удалите неиспользуемые инструменты.",
       "EMPTY_STATE": {
-        "TITLE": "Нет доступных пользовательских инструментов",
-        "SUBTITLE": "Создавайте пользовательские инструменты, чтобы подключить ассистента к внешним API и сервисам, позволяя получать данные и выполнять действия от вашего имени.",
+        "TITLE": "Нет пользовательских инструментов",
+        "SUBTITLE": "Создайте пользовательские инструменты, чтобы подключить ассистента к внешним API и сервисам: он сможет получать данные и выполнять действия от вашего имени.",
         "FEATURE_SPOTLIGHT": {
           "TITLE": "Пользовательские инструменты",
-          "NOTE": "Пользовательские инструменты позволяют ассистенту взаимодействовать с внешними API и сервисами. Создавайте инструменты для получения данных, выполнения действий или интеграции с существующими системами для расширения возможностей вашего помощника."
+          "NOTE": "Пользовательские инструменты позволяют ассистенту взаимодействовать с внешними API и сервисами. Создавайте инструменты, чтобы получать данные, выполнять действия или интегрироваться с существующими системами и расширить возможности ассистента."
         }
       },
-      "FORM_DESCRIPTION": "Настройте пользовательский инструмент для соединения с внешними API",
+      "FORM_DESCRIPTION": "Настройте пользовательский инструмент для подключения к внешним API",
       "OPTIONS": {
-        "EDIT_TOOL": "Редактировать инструмент",
+        "EDIT_TOOL": "Изменить инструмент",
+        "VIEW_TOOL": "Просмотреть инструмент",
         "DELETE_TOOL": "Удалить инструмент"
       },
       "STATUS": {
-        "ENABLED": "Включено",
-        "DISABLED": "Выключено",
-        "TOGGLE": "Toggle {title}"
+        "ENABLED": "Включён",
+        "DISABLED": "Отключён",
+        "TOGGLE": "Включить или отключить {title}"
       },
       "TOGGLE": {
-        "ENABLED": "Tool enabled successfully",
-        "DISABLED": "Tool disabled successfully",
-        "ERROR": "Failed to update tool status"
+        "ENABLED": "Инструмент включён",
+        "DISABLED": "Инструмент отключён",
+        "ERROR": "Не удалось изменить статус инструмента"
       },
       "DISABLE_CONFIRMATION": {
-        "TITLE": "Disable {title}?",
-        "DESCRIPTION_ONE": "This tool is used by {count} enabled scenario. Disabling it may cause that scenario to stop working as expected.",
-        "DESCRIPTION_OTHER": "This tool is used by {count} enabled scenarios. Disabling it may cause those scenarios to stop working as expected.",
-        "CONFIRM": "Disable tool"
+        "TITLE": "Отключить {title}?",
+        "DESCRIPTION_ONE": "Этот инструмент используется во включённом сценарии ({count}). Если отключить его, сценарий может перестать работать как ожидается.",
+        "DESCRIPTION_OTHER": "Этот инструмент используется во включённых сценариях ({count}). Если отключить его, эти сценарии могут перестать работать как ожидается.",
+        "CONFIRM": "Отключить инструмент"
       },
       "CREATE": {
         "TITLE": "Создать пользовательский инструмент",
-        "SUCCESS_MESSAGE": "Пользовательский инструмент успешно создан",
+        "SUCCESS_MESSAGE": "Пользовательский инструмент создан",
         "ERROR_MESSAGE": "Не удалось создать пользовательский инструмент"
       },
+      "VIEW": {
+        "TITLE": "Сведения о пользовательском инструменте"
+      },
       "EDIT": {
-        "TITLE": "Редактировать пользовательский инструмент",
-        "SUCCESS_MESSAGE": "Пользовательский инструмент успешно обновлен",
+        "TITLE": "Изменить пользовательский инструмент",
+        "SUCCESS_MESSAGE": "Пользовательский инструмент обновлён",
         "ERROR_MESSAGE": "Не удалось обновить пользовательский инструмент"
       },
       "DELETE": {
-        "TITLE": "Удаление пользовательского инструмента",
-        "DESCRIPTION": "Вы уверены, что хотите удалить этот пользовательский инструмент? Это действие нельзя отменить.",
+        "TITLE": "Удалить пользовательский инструмент",
+        "DESCRIPTION": "Удалить этот пользовательский инструмент? Это действие нельзя отменить.",
         "CONFIRM": "Да, удалить",
-        "SUCCESS_MESSAGE": "Пользовательский инструмент успешно удален",
+        "SUCCESS_MESSAGE": "Пользовательский инструмент удалён",
         "ERROR_MESSAGE": "Не удалось удалить пользовательский инструмент"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Captain",
-        "AVAILABLE_ON": "Captain Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Смените тариф, чтобы использовать инструменты Captain",
+        "AVAILABLE_ON": "Инструменты Captain доступны только на тарифах Business и Enterprise. Перейдите на тариф Business, чтобы пользоваться этой функцией.",
         "UPGRADE_PROMPT": "",
-        "UPGRADE_NOW": "Открыть платеж",
+        "UPGRADE_NOW": "Открыть оплату",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Captain Tools are only available in the paid plans.",
-        "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
-        "ASK_ADMIN": "Пожалуйста, обратитесь к вашему администратору для обновления."
+        "AVAILABLE_ON": "Инструменты Captain доступны только на платных тарифах.",
+        "UPGRADE_PROMPT": "Перейдите на платный тариф, чтобы пользоваться этой функцией.",
+        "ASK_ADMIN": "Чтобы сменить тариф, обратитесь к администратору."
       },
       "TEST": {
-        "BUTTON": "Test connection",
-        "SUCCESS": "Endpoint returned HTTP {status}",
-        "ERROR": "Connection failed",
-        "DISABLED_HINT": "Testing is only available for endpoints without templates or request bodies."
+        "BUTTON": "Проверить подключение",
+        "SUCCESS": "Адрес вернул HTTP {status}",
+        "ERROR": "Не удалось подключиться",
+        "DISABLED_HINT": "Проверка доступна только для адресов без шаблонов и тела запроса."
       },
       "FORM": {
         "TITLE": {
           "LABEL": "Название инструмента",
           "PLACEHOLDER": "Поиск заказа",
-          "ERROR": "Название инструмента обязательно",
-          "MAX_LENGTH_ERROR": "Tool name must be {max} characters or fewer"
+          "ERROR": "Укажите название инструмента",
+          "MAX_LENGTH_ERROR": "Название инструмента должно быть не длиннее {max} символов"
         },
         "DESCRIPTION": {
           "LABEL": "Описание",
-          "PLACEHOLDER": "Поиск деталей заказа по ID"
+          "PLACEHOLDER": "Находит сведения о заказе по его ID"
         },
         "HTTP_METHOD": {
           "LABEL": "Метод"
         },
         "ENDPOINT_URL": {
-          "LABEL": "Endpoint URL",
+          "LABEL": "URL адреса API",
           "PLACEHOLDER": "https://api.example.com/orders/{'{{'} order_id {'}}'}",
-          "ERROR": "Требуется корректный URL"
+          "ERROR": "Укажите корректный URL"
         },
         "AUTH_TYPE": {
           "LABEL": "Тип аутентификации"
         },
         "AUTH_TYPES": {
-          "NONE": "Ничего",
-          "BEARER": "Bearer Token",
+          "NONE": "Нет",
+          "BEARER": "Bearer-токен",
           "BASIC": "Basic Auth",
-          "API_KEY": "Ключ API"
+          "API_KEY": "API-ключ"
         },
         "AUTH_CONFIG": {
-          "BEARER_TOKEN": "Bearer Token",
-          "BEARER_TOKEN_PLACEHOLDER": "Введите ваш bearer token",
+          "BEARER_TOKEN": "Bearer-токен",
+          "BEARER_TOKEN_PLACEHOLDER": "Введите bearer-токен",
           "USERNAME": "Имя пользователя",
           "USERNAME_PLACEHOLDER": "Введите имя пользователя",
           "PASSWORD": "Пароль",
@@ -1263,11 +1409,24 @@
           "API_KEY": "Имя заголовка",
           "API_KEY_PLACEHOLDER": "X-API-Key",
           "API_VALUE": "Значение заголовка",
-          "API_VALUE_PLACEHOLDER": "Введите значения API key"
+          "API_VALUE_PLACEHOLDER": "Введите значение API-ключа"
+        },
+        "SECTIONS": {
+          "TEMPLATES": "Шаблоны",
+          "TEMPLATES_HELP_TEXT": "Поддерживается синтаксис Liquid, например {'{{'} order_id {'}}'} или {'{{'} response.status {'}}'}."
+        },
+        "HEADERS": {
+          "LABEL": "Заголовки",
+          "HELP_TEXT": "Статические заголовки, которые отправляются с каждым запросом. Значения передаются точно в том виде, в каком введены; для учётных данных используйте раздел «Аутентификация».",
+          "NAME_PLACEHOLDER": "Имя заголовка (например, cal-api-version)",
+          "VALUE_PLACEHOLDER": "Значение заголовка",
+          "NAME_REQUIRED": "Укажите имя заголовка",
+          "NAME_DUPLICATE": "Имена заголовков должны быть уникальными",
+          "ADD": "Добавить заголовок"
         },
         "PARAMETERS": {
           "LABEL": "Параметры",
-          "HELP_TEXT": "Определите параметры, которые будут извлечены из запросов пользователей"
+          "HELP_TEXT": "Задайте параметры, которые будут извлекаться из запросов пользователей"
         },
         "ADD_PARAMETER": "Добавить параметр",
         "PARAM_NAME": {
@@ -1279,7 +1438,7 @@
         "PARAM_TYPES": {
           "STRING": "Строка",
           "NUMBER": "Число",
-          "BOOLEAN": "Boolean",
+          "BOOLEAN": "Логическое значение",
           "ARRAY": "Массив",
           "OBJECT": "Объект"
         },
@@ -1287,7 +1446,7 @@
           "PLACEHOLDER": "Описание параметра"
         },
         "PARAM_REQUIRED": {
-          "LABEL": "Обязательно"
+          "LABEL": "Обязательный"
         },
         "REQUEST_TEMPLATE": {
           "LABEL": "Шаблон тела запроса (необязательно)",
@@ -1295,151 +1454,151 @@
         },
         "RESPONSE_TEMPLATE": {
           "LABEL": "Шаблон ответа (необязательно)",
-          "PLACEHOLDER": "Заказ {'{{'} order_id {'}}'} status: {'{{'} status {'}}'}"
+          "PLACEHOLDER": "Статус заказа {'{{'} order_id {'}}'}: {'{{'} status {'}}'}"
         },
         "ERRORS": {
-          "PARAM_NAME_REQUIRED": "Имя параметра обязательно"
+          "PARAM_NAME_REQUIRED": "Укажите имя параметра"
         }
       }
     },
     "RESPONSES": {
       "HEADER": "FAQ",
-      "ADD_NEW": "Создать новый FAQ",
-      "NO_USED_CONVERSATIONS": "No conversations found for this FAQ.",
+      "ADD_NEW": "Создать FAQ",
+      "NO_USED_CONVERSATIONS": "Для этого FAQ обращения не найдены.",
       "DOCUMENTABLE": {
-        "CONVERSATION": "Диалог #{id}"
+        "CONVERSATION": "Обращение #{id}"
       },
-      "SELECTED": "Выбрано {count}",
+      "SELECTED": "Выбрано: {count}",
       "SELECT_ALL": "Выбрать все ({count})",
-      "UNSELECT_ALL": "Сбросить все ({count})",
-      "SEARCH_PLACEHOLDER": "Поиск по FAQ...",
+      "UNSELECT_ALL": "Снять выбор со всех ({count})",
+      "SEARCH_PLACEHOLDER": "Поиск FAQ…",
       "ERRORS": {
-        "LOAD": "There was an error loading FAQs. Please try again."
+        "LOAD": "Не удалось загрузить FAQ. Попробуйте ещё раз."
       },
       "BULK_DELETE_BUTTON": "Удалить",
       "BULK_DELETE": {
         "TITLE": "Удалить FAQ?",
-        "DESCRIPTION": "Вы уверены, что хотите удалить выбранные FAQ? Это действие невозможно отменить.",
-        "CONFIRM": "Да, удалить всё",
-        "SUCCESS_MESSAGE": "FAQ успешно удалены",
-        "ERROR_MESSAGE": "Произошла ошибка при удалении FAQ, пожалуйста, попробуйте ещё раз."
+        "DESCRIPTION": "Удалить выбранные FAQ? Это действие нельзя отменить.",
+        "CONFIRM": "Да, удалить все",
+        "SUCCESS_MESSAGE": "FAQ удалены",
+        "ERROR_MESSAGE": "Не удалось удалить FAQ, попробуйте ещё раз."
       },
       "DELETE": {
-        "TITLE": "Вы действительно хотите удалить FAQ?",
+        "TITLE": "Удалить FAQ?",
         "DESCRIPTION": "",
         "CONFIRM": "Да, удалить",
-        "SUCCESS_MESSAGE": "FAQ успешно удален",
-        "ERROR_MESSAGE": "Произошла ошибка при удалении FAQ, попробуйте еще раз."
+        "SUCCESS_MESSAGE": "FAQ удалён",
+        "ERROR_MESSAGE": "Не удалось удалить FAQ, попробуйте ещё раз."
       },
       "SUGGESTIONS_BANNER": {
-        "TITLE": "Captain grouped recurring customer questions into FAQ suggestions.",
-        "ACTION": "Review suggestions"
+        "TITLE": "Captain сгруппировал повторяющиеся вопросы клиентов в предложения FAQ.",
+        "ACTION": "Проверить предложения"
       },
-      "FORM_DESCRIPTION": "Добавьте вопрос и соответствующий ему ответ в базу знаний и выберите ассистента, с которым он должен связаться.",
+      "FORM_DESCRIPTION": "Добавьте вопрос и ответ на него в базу знаний и выберите ассистента, к которому их привязать.",
       "CREATE": {
         "TITLE": "Добавить FAQ",
-        "SUCCESS_MESSAGE": "Ответ успешно добавлен.",
-        "ERROR_MESSAGE": "При добавлении ответа произошла ошибка. Пожалуйста, попробуйте еще раз."
+        "SUCCESS_MESSAGE": "FAQ добавлен.",
+        "ERROR_MESSAGE": "Не удалось добавить FAQ. Попробуйте ещё раз."
       },
       "FORM": {
         "QUESTION": {
           "LABEL": "Вопрос",
           "PLACEHOLDER": "Введите вопрос",
-          "ERROR": "Пожалуйста, введите корректный вопрос."
+          "ERROR": "Введите корректный вопрос."
         },
         "ANSWER": {
           "LABEL": "Ответ",
           "PLACEHOLDER": "Введите ответ",
-          "ERROR": "Пожалуйста, введите корректный ответ."
+          "ERROR": "Введите корректный ответ."
         }
       },
       "EDIT": {
-        "TITLE": "Обновить FAQ",
-        "SUCCESS_MESSAGE": "FAQ успешно обновлён",
-        "ERROR_MESSAGE": "Произошла ошибка при обновлении FAQ, пожалуйста, попробуйте ещё раз",
-        "APPROVE_SUCCESS_MESSAGE": "FAQ был отмечен как одобренный"
+        "TITLE": "Изменить FAQ",
+        "SUCCESS_MESSAGE": "FAQ обновлён",
+        "ERROR_MESSAGE": "Не удалось обновить FAQ, попробуйте ещё раз",
+        "APPROVE_SUCCESS_MESSAGE": "FAQ одобрен"
       },
       "OPTIONS": {
         "APPROVE": "Одобрить",
-        "EDIT_RESPONSE": "Редактировать",
+        "EDIT_RESPONSE": "Изменить",
         "DELETE_RESPONSE": "Удалить"
       },
       "EMPTY_STATE": {
         "TITLE": "FAQ не найдены",
-        "SUBTITLE": "FAQ помогают вашему ассистенту быстро и точно отвечать на вопросы клиентов. Их можно генерировать автоматически из вашего контента или добавлять вручную.",
-        "CLEAR_SEARCH": "Clear active filters",
+        "SUBTITLE": "FAQ помогают ассистенту быстро и точно отвечать на вопросы клиентов. Их можно создавать автоматически на основе ваших материалов или добавлять вручную.",
+        "CLEAR_SEARCH": "Сбросить фильтры",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Captain FAQ",
-          "NOTE": "Captain FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "FAQ Captain",
+          "NOTE": "Captain выявляет частые вопросы клиентов — как отсутствующие в базе знаний, так и просто популярные — и создаёт по ним FAQ, чтобы улучшить поддержку. Вы можете просмотреть каждое предложение и одобрить или отклонить его."
         }
       }
     },
     "FAQ_SUGGESTIONS": {
-      "HEADER": "FAQ suggestions",
-      "SEARCH_PLACEHOLDER": "Search suggestions...",
-      "QUEUE_COUNT": "{count} suggestion to review | {count} suggestions to review",
-      "QUEUE_HINT": "Ranked by customer demand",
-      "SOURCE_COUNT": "{count} conversation | {count} conversations",
-      "REVIEW": "Review sources",
+      "HEADER": "Предложения FAQ",
+      "SEARCH_PLACEHOLDER": "Поиск предложений…",
+      "QUEUE_COUNT": "{count} предложение на проверку | {count} предложения на проверку | {count} предложений на проверку",
+      "QUEUE_HINT": "Отсортировано по спросу клиентов",
+      "SOURCE_COUNT": "{count} обращение | {count} обращения | {count} обращений",
+      "REVIEW": "Проверить источники",
       "APPROVE": "Одобрить",
-      "APPROVE_FAQ": "Approve FAQ",
+      "APPROVE_FAQ": "Одобрить FAQ",
       "DISMISS": "Отклонить",
       "SAVE": "Сохранить изменения",
       "DETAILS": {
-        "TITLE": "Review FAQ suggestion",
-        "DESCRIPTION": "Captain grouped {count} conversation into this suggestion. Review the evidence and refine the FAQ before approval. | Captain grouped {count} conversations into this suggestion. Review the evidence and refine the FAQ before approval.",
-        "SOURCES": "Source conversations",
-        "SOURCE_PROGRESS": "{visible} of {total}",
-        "NO_SOURCES": "No accessible source conversations were found.",
+        "TITLE": "Проверка предложения FAQ",
+        "DESCRIPTION": "Captain объединил в это предложение {count} обращение. Проверьте источники и доработайте FAQ перед одобрением. | Captain объединил в это предложение {count} обращения. Проверьте источники и доработайте FAQ перед одобрением. | Captain объединил в это предложение {count} обращений. Проверьте источники и доработайте FAQ перед одобрением.",
+        "SOURCES": "Исходные обращения",
+        "SOURCE_PROGRESS": "{visible} из {total}",
+        "NO_SOURCES": "Доступных исходных обращений не найдено.",
         "RETRY": "Повторить"
       },
       "EMPTY_STATE": {
-        "TITLE": "The review queue is clear",
-        "SUBTITLE": "New FAQ suggestions will appear here when they are ready to review.",
-        "CLEAR_SEARCH": "Clear search"
+        "TITLE": "Очередь проверки пуста",
+        "SUBTITLE": "Новые предложения FAQ появятся здесь, когда будут готовы к проверке.",
+        "CLEAR_SEARCH": "Очистить поиск"
       },
       "SUCCESS": {
-        "APPROVED": "FAQ approved and added to Captain's knowledge.",
-        "DISMISSED": "Suggestion dismissed.",
-        "SAVED": "Suggestion updated."
+        "APPROVED": "FAQ одобрен и добавлен в знания Captain.",
+        "DISMISSED": "Предложение отклонено.",
+        "SAVED": "Предложение обновлено."
       },
       "ERRORS": {
-        "LOAD": "There was an error loading FAQ suggestions. Please try again.",
-        "LOAD_DETAILS": "There was an error loading the source conversations.",
-        "APPROVE": "There was an error approving the FAQ. Please try again.",
-        "DISMISS": "There was an error dismissing the suggestion. Please try again.",
-        "SAVE": "There was an error saving the suggestion. Please try again."
+        "LOAD": "Не удалось загрузить предложения FAQ. Попробуйте ещё раз.",
+        "LOAD_DETAILS": "Не удалось загрузить исходные обращения.",
+        "APPROVE": "Не удалось одобрить FAQ. Попробуйте ещё раз.",
+        "DISMISS": "Не удалось отклонить предложение. Попробуйте ещё раз.",
+        "SAVE": "Не удалось сохранить предложение. Попробуйте ещё раз."
       }
     },
     "INBOXES": {
-      "HEADER": "Подключённые источники входящих",
-      "ADD_NEW": "Подключить новый источник входящих",
+      "HEADER": "Подключённые каналы",
+      "ADD_NEW": "Подключить канал",
       "OPTIONS": {
-        "DISCONNECT": "Отключиться"
+        "DISCONNECT": "Отключить"
       },
       "DELETE": {
-        "TITLE": "Вы уверены, что хотите отключить этот источник входящих?",
+        "TITLE": "Отключить канал?",
         "DESCRIPTION": "",
-        "CONFIRM": "Да, удалить",
-        "SUCCESS_MESSAGE": "Источник входящих успешно отключён.",
-        "ERROR_MESSAGE": "Произошла ошибка при отключении источника входящих, пожалуйста, попробуйте ещё раз."
+        "CONFIRM": "Да, отключить",
+        "SUCCESS_MESSAGE": "Канал отключён.",
+        "ERROR_MESSAGE": "Не удалось отключить канал, попробуйте ещё раз."
       },
-      "FORM_DESCRIPTION": "Выберите источник входящих для подключения к ассистенту.",
+      "FORM_DESCRIPTION": "Выберите канал, который нужно подключить к ассистенту.",
       "CREATE": {
-        "TITLE": "Подключить источник входящих",
-        "SUCCESS_MESSAGE": "Источник входящих успешно подключён.",
-        "ERROR_MESSAGE": "Произошла ошибка при подключении источника входящих. Пожалуйста, попробуйте ещё раз."
+        "TITLE": "Подключить канал",
+        "SUCCESS_MESSAGE": "Канал подключён.",
+        "ERROR_MESSAGE": "Не удалось подключить канал. Попробуйте ещё раз."
       },
       "FORM": {
         "INBOX": {
-          "LABEL": "Электронная почта",
-          "PLACEHOLDER": "Выберите источник входящих для развертывания ассистента.",
-          "ERROR": "Необходимо выбрать источник входящих."
+          "LABEL": "Канал",
+          "PLACEHOLDER": "Выберите канал, в котором будет работать ассистент.",
+          "ERROR": "Выберите канал."
         }
       },
       "EMPTY_STATE": {
-        "TITLE": "Нет подключённых источников входящих",
-        "SUBTITLE": "Подключение источника входящих позволяет ассистенту обрабатывать первые вопросы ваших клиентов до их передачи вам."
+        "TITLE": "Нет подключённых каналов",
+        "SUBTITLE": "Подключите канал, и ассистент будет отвечать на первые вопросы клиентов, прежде чем передать их вам."
       }
     }
   }

@@ -1,68 +1,68 @@
 {
   "SEARCH": {
     "TABS": {
-      "ALL": "All results",
+      "ALL": "Все результаты",
       "CONTACTS": "Контакты",
-      "CONVERSATIONS": "Диалоги",
+      "CONVERSATIONS": "Обращения",
       "MESSAGES": "Сообщения",
       "ARTICLES": "Статьи"
     },
     "SECTION": {
       "CONTACTS": "Контакты",
-      "CONVERSATIONS": "Диалоги",
+      "CONVERSATIONS": "Обращения",
       "MESSAGES": "Сообщения",
       "ARTICLES": "Статьи"
     },
-    "VIEW_MORE": "Посмотреть больше",
+    "VIEW_MORE": "Показать ещё",
     "LOAD_MORE": "Загрузить ещё",
-    "SEARCHING_DATA": "Идёт поиск",
+    "SEARCHING_DATA": "Поиск",
     "LOADING_DATA": "Загрузка",
-    "EMPTY_STATE": "Не найдено {item} для запроса '{query}'",
-    "EMPTY_STATE_FULL": "Ничего не найдено по запросу '{query}'",
-    "PLACEHOLDER_KEYBINDING": "/фокусироваться",
-    "INPUT_PLACEHOLDER": "Введите 3 или более символов для поиска",
-    "RECENT_SEARCHES": "Recent searches",
+    "EMPTY_STATE": "{item}: ничего не найдено по запросу «{query}»",
+    "EMPTY_STATE_FULL": "По запросу «{query}» ничего не найдено",
+    "PLACEHOLDER_KEYBINDING": "/ — к поиску",
+    "INPUT_PLACEHOLDER": "Введите не менее 3 символов для поиска",
+    "RECENT_SEARCHES": "Недавние запросы",
     "CLEAR_ALL": "Очистить всё",
-    "MOST_RECENT": "Most recent",
-    "EMPTY_STATE_DEFAULT": "Поиск по идентификатору разговора, электронной почте, номеру телефона, сообщениям для улучшения результатов поиска. ",
+    "MOST_RECENT": "Сначала новые",
+    "EMPTY_STATE_DEFAULT": "Для более точных результатов ищите по ID обращения, эл. почте, номеру телефона или тексту сообщений. ",
     "BOT_LABEL": "Бот",
     "READ_MORE": "Читать далее",
-    "READ_LESS": "Read less",
-    "WROTE": "написал:",
+    "READ_LESS": "Свернуть",
+    "WROTE": "написал(а):",
     "FROM": "От",
-    "EMAIL": "Email",
+    "EMAIL": "Эл. почта",
     "EMAIL_SUBJECT": "Тема",
-    "PRIVATE": "Private note",
-    "TRANSCRIPT": "Transcript",
+    "PRIVATE": "Внутренняя заметка",
+    "TRANSCRIPT": "Расшифровка",
     "CREATED_AT": "создано {time}",
-    "UPDATED_AT": "updated {time}",
+    "UPDATED_AT": "обновлено {time}",
     "SORT_BY": {
-      "RELEVANCE": "Relevance"
+      "RELEVANCE": "По релевантности"
     },
     "DATE_RANGE": {
       "LAST_7_DAYS": "Последние 7 дней",
       "LAST_30_DAYS": "Последние 30 дней",
       "LAST_60_DAYS": "Последние 60 дней",
       "LAST_90_DAYS": "Последние 90 дней",
-      "CUSTOM_RANGE": "Custom range:",
-      "CREATED_BETWEEN": "Created between",
+      "CUSTOM_RANGE": "Свой период:",
+      "CREATED_BETWEEN": "Создано между",
       "AND": "и",
       "APPLY": "Применить",
-      "BEFORE_DATE": "Before {date}",
-      "AFTER_DATE": "After {date}",
-      "TIME_RANGE": "Filter by time",
-      "CLEAR_FILTER": "Очистить фильтр"
+      "BEFORE_DATE": "До {date}",
+      "AFTER_DATE": "После {date}",
+      "TIME_RANGE": "Фильтр по времени",
+      "CLEAR_FILTER": "Сбросить фильтр"
     },
     "FILTERS": {
-      "FILTER_MESSAGE": "Filter messages by:",
+      "FILTER_MESSAGE": "Фильтровать сообщения по:",
       "FROM": "Отправитель",
-      "IN": "Электронная почта",
+      "IN": "Канал",
       "AGENTS": "Операторы",
       "CONTACTS": "Контакты",
-      "INBOXES": "Источники",
+      "INBOXES": "Каналы",
       "NO_AGENTS": "Операторы не найдены",
-      "NO_CONTACTS": "Start by searching to see results",
-      "NO_INBOXES": "No inboxes found"
+      "NO_CONTACTS": "Начните поиск, чтобы увидеть результаты",
+      "NO_INBOXES": "Каналы не найдены"
     }
   }
 }

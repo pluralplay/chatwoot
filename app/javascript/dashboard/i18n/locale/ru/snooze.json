@@ -1,72 +1,72 @@
 {
   "SNOOZE_PARSER": {
     "UNITS": {
-      "MINUTE": "minute",
+      "MINUTE": "минуту",
       "MINUTES": "минут",
-      "HOUR": "hour",
-      "HOURS": "часы",
+      "HOUR": "час",
+      "HOURS": "часа",
       "DAY": "день",
-      "DAYS": "дней",
-      "WEEK": "день",
-      "WEEKS": "weeks",
-      "MONTH": "неделя",
-      "MONTHS": "months",
-      "YEAR": "месяц",
-      "YEARS": "years"
+      "DAYS": "дня",
+      "WEEK": "неделю",
+      "WEEKS": "недели",
+      "MONTH": "месяц",
+      "MONTHS": "месяца",
+      "YEAR": "год",
+      "YEARS": "года"
     },
-    "HALF": "half",
-    "NEXT": "next",
-    "THIS": "this",
-    "AT": "at",
-    "IN": "in",
-    "FROM_NOW": "from now",
-    "NEXT_YEAR": "next year",
+    "HALF": "половина",
+    "NEXT": "следующий",
+    "THIS": "этот",
+    "AT": "в",
+    "IN": "через",
+    "FROM_NOW": "с этого момента",
+    "NEXT_YEAR": "в следующем году",
     "MERIDIEM": {
-      "AM": "am",
-      "PM": "pm"
+      "AM": "утра",
+      "PM": "вечера"
     },
     "RELATIVE": {
       "TOMORROW": "завтра",
-      "DAY_AFTER_TOMORROW": "day after tomorrow",
+      "DAY_AFTER_TOMORROW": "послезавтра",
       "NEXT_WEEK": "на следующей неделе",
-      "NEXT_MONTH": "next month",
-      "THIS_WEEKEND": "this weekend",
-      "NEXT_WEEKEND": "next weekend"
+      "NEXT_MONTH": "в следующем месяце",
+      "THIS_WEEKEND": "в эти выходные",
+      "NEXT_WEEKEND": "в следующие выходные"
     },
     "TIME_OF_DAY": {
-      "MORNING": "morning",
-      "AFTERNOON": "afternoon",
-      "EVENING": "evening",
-      "NIGHT": "night",
-      "NOON": "noon",
-      "MIDNIGHT": "midnight"
+      "MORNING": "утром",
+      "AFTERNOON": "днём",
+      "EVENING": "вечером",
+      "NIGHT": "ночью",
+      "NOON": "полдень",
+      "MIDNIGHT": "полночь"
     },
     "WORD_NUMBERS": {
-      "ONE": "one",
-      "TWO": "two",
-      "THREE": "three",
-      "FOUR": "four",
-      "FIVE": "five",
-      "SIX": "six",
-      "SEVEN": "seven",
-      "EIGHT": "eight",
-      "NINE": "nine",
-      "TEN": "ten",
-      "TWELVE": "twelve",
-      "FIFTEEN": "fifteen",
-      "TWENTY": "twenty",
-      "THIRTY": "thirty"
+      "ONE": "один",
+      "TWO": "два",
+      "THREE": "три",
+      "FOUR": "четыре",
+      "FIVE": "пять",
+      "SIX": "шесть",
+      "SEVEN": "семь",
+      "EIGHT": "восемь",
+      "NINE": "девять",
+      "TEN": "десять",
+      "TWELVE": "двенадцать",
+      "FIFTEEN": "пятнадцать",
+      "TWENTY": "двадцать",
+      "THIRTY": "тридцать"
     },
     "ORDINALS": {
-      "FIRST": "first",
-      "SECOND": "second",
-      "THIRD": "third",
-      "FOURTH": "fourth",
-      "FIFTH": "fifth"
+      "FIRST": "первый",
+      "SECOND": "второй",
+      "THIRD": "третий",
+      "FOURTH": "четвёртый",
+      "FIFTH": "пятый"
     },
     "OF": "из",
-    "AFTER": "after",
-    "WEEK": "день",
+    "AFTER": "после",
+    "WEEK": "неделю",
     "DAY": "день"
   }
 }

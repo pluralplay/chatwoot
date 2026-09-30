@@ -1,69 +1,69 @@
 {
   "AUTOMATION": {
     "HEADER": "Автоматизация",
-    "DESCRIPTION": "Автоматизация позволяет заменить и упростить процессы, требующие ручной работы, такие как добавление меток и назначение диалогов наиболее подходящим агентам. Это помогает команде сосредоточиться на ключевых задачах и сократить время на рутину.",
-    "LEARN_MORE": "Узнать больше об автоматизации",
-    "COUNT": "{n} автоматизация | {n} автоматизаций",
-    "HEADER_BTN_TXT": "Создать автоматизацию",
-    "LOADING": "Получение правил автоматизации",
-    "SEARCH_PLACEHOLDER": "Поиск правил автоматизации...",
-    "NO_RESULTS": "Не найдено правил автоматизации, соответствующих вашему запросу",
+    "DESCRIPTION": "Автоматизация заменяет и упрощает процессы, требующие ручной работы: например, добавление меток и назначение обращений наиболее подходящему оператору. Так команда может сосредоточиться на главном и тратить меньше времени на рутину.",
+    "LEARN_MORE": "Подробнее об автоматизации",
+    "COUNT": "{n} правило автоматизации | {n} правила автоматизации | {n} правил автоматизации",
+    "HEADER_BTN_TXT": "Создать правило",
+    "LOADING": "Загрузка правил автоматизации",
+    "SEARCH_PLACEHOLDER": "Поиск правил автоматизации…",
+    "NO_RESULTS": "По вашему запросу правила автоматизации не найдены",
     "ADD": {
       "TITLE": "Добавить правило автоматизации",
       "SUBMIT": "Создать",
-      "CANCEL_BUTTON_TEXT": "Отменить",
+      "CANCEL_BUTTON_TEXT": "Отмена",
       "FORM": {
         "NAME": {
           "LABEL": "Название правила",
           "PLACEHOLDER": "Введите название правила",
-          "ERROR": "Необходимо указать название"
+          "ERROR": "Укажите название"
         },
         "DESC": {
           "LABEL": "Описание",
           "PLACEHOLDER": "Введите описание правила",
-          "ERROR": "Необходимо указать описание"
+          "ERROR": "Укажите описание"
         },
         "EVENT": {
           "LABEL": "Событие",
-          "PLACEHOLDER": "Пожалуйста, выберите одно",
-          "ERROR": "Необходимо указать событие"
+          "PLACEHOLDER": "Выберите событие",
+          "ERROR": "Выберите событие"
         },
         "RUN_TYPE": {
-          "LABEL": "When should this rule run?",
+          "LABEL": "Когда запускать правило?",
           "OPTIONS": {
             "INSTANT": {
-              "LABEL": "Run instantly",
-              "DESCRIPTION": "Runs the moment an event happens, as long as the conditions match."
+              "LABEL": "Сразу",
+              "DESCRIPTION": "Запускается в момент события, если выполнены условия."
             },
             "WAIT": {
-              "LABEL": "Run after a wait",
-              "DESCRIPTION": "Waits for a set time and runs only if things are still the same. If they change, the rule is skipped."
+              "LABEL": "После ожидания",
+              "DESCRIPTION": "Ждёт заданное время и запускается, только если за это время ничего не изменилось. Если что-то изменилось, правило пропускается."
             }
           }
         },
         "WAIT": {
-          "LABEL": "Wait condition",
-          "WHEN_LABEL": "When",
-          "STATUS_LABEL": "Status is",
-          "FOR_LABEL": "For",
-          "INBOX_LABEL": "Электронная почта",
-          "ERROR": "The wait must be between 10 minutes and 30 days",
+          "LABEL": "Условие ожидания",
+          "WHEN_LABEL": "Когда",
+          "STATUS_LABEL": "Статус",
+          "FOR_LABEL": "В течение",
+          "INBOX_LABEL": "Канал",
+          "ERROR": "Время ожидания должно быть от 10 минут до 30 дней",
           "OPTIONS": {
-            "CONVERSATION_STATUS": "Conversation stays in a status",
-            "CUSTOMER_UNRESPONSIVE": "Customer hasn't replied",
-            "AGENT_UNRESPONSIVE": "No teammate has replied"
+            "CONVERSATION_STATUS": "Обращение остаётся в статусе",
+            "CUSTOMER_UNRESPONSIVE": "Клиент не ответил",
+            "AGENT_UNRESPONSIVE": "Ни один оператор не ответил"
           },
           "DURATION": {
-            "MINUTES": "{count} minute | {count} minutes",
-            "HOURS": "{count} hour | {count} hours",
-            "DAYS": "{count} day | {count} days"
+            "MINUTES": "{count} минута | {count} минуты | {count} минут",
+            "HOURS": "{count} час | {count} часа | {count} часов",
+            "DAYS": "{count} день | {count} дня | {count} дней"
           },
           "EXPLANATION": {
-            "CONVERSATION_STATUS": "The clock starts when a conversation moves into this status. If it is still there {duration} later, the actions below run. If the status changes before then, nothing happens.",
-            "CUSTOMER_UNRESPONSIVE": "The clock starts when a teammate replies. If the customer hasn't written back {duration} later, the actions below run. If they do reply, nothing happens, and the next teammate reply starts the clock again.",
-            "AGENT_UNRESPONSIVE": "The clock starts when a customer sends a message. If no teammate has replied {duration} later, the actions below run. If someone replies before then, nothing happens."
+            "CONVERSATION_STATUS": "Отсчёт начинается, когда обращение переходит в этот статус. Если через {duration} статус не изменится, выполнятся действия ниже. Если статус изменится раньше, ничего не произойдёт.",
+            "CUSTOMER_UNRESPONSIVE": "Отсчёт начинается, когда отвечает оператор. Если клиент не ответит в течение {duration}, выполнятся действия ниже. Если клиент ответит, ничего не произойдёт, а следующий ответ оператора снова запустит отсчёт.",
+            "AGENT_UNRESPONSIVE": "Отсчёт начинается, когда клиент отправляет сообщение. Если ни один оператор не ответит в течение {duration}, выполнятся действия ниже. Если кто-то ответит раньше, ничего не произойдёт."
           },
-          "FOOTNOTE": "Only new activity starts a clock. Conversations already sitting in this state are picked up the next time something happens on them."
+          "FOOTNOTE": "Отсчёт запускается только при новой активности. Обращения, которые уже находятся в этом состоянии, будут учтены при следующем событии в них."
         },
         "CONDITIONS": {
           "LABEL": "Условия"
@@ -75,8 +75,8 @@
       "CONDITION_BUTTON_LABEL": "Добавить условие",
       "ACTION_BUTTON_LABEL": "Добавить действие",
       "API": {
-        "SUCCESS_MESSAGE": "Правило автоматизации успешно добавлено",
-        "ERROR_MESSAGE": "Не удалось создать правило автоматизации. Пожалуйста, попробуйте позже"
+        "SUCCESS_MESSAGE": "Правило автоматизации добавлено",
+        "ERROR_MESSAGE": "Не удалось создать правило автоматизации. Попробуйте позже"
       }
     },
     "LIST": {
@@ -87,122 +87,125 @@
         "ACTIONS": "Действия"
       },
       "404": "Правила автоматизации не найдены",
-      "404_DELAYED": "No rules run after a wait yet",
+      "404_DELAYED": "Правил с ожиданием пока нет",
       "TABS": {
-        "INSTANT": "Runs instantly",
-        "DELAYED": "Runs after a wait"
+        "INSTANT": "Сразу",
+        "DELAYED": "После ожидания"
       },
-      "DELAY_BADGE": "Runs after {delay}",
-      "DELAY_DISABLED_BANNER": "Delayed execution is turned off for this account, so the rules below that run after a wait are paused until it is turned back on."
+      "DELAY_BADGE": "Через {delay}",
+      "DELAY_DISABLED_BANNER": "Отложенный запуск отключён для этого аккаунта, поэтому правила с ожиданием ниже приостановлены, пока его снова не включат."
     },
     "DELETE": {
       "TITLE": "Удалить правило автоматизации",
       "SUBMIT": "Удалить",
-      "CANCEL_BUTTON_TEXT": "Отменить",
+      "CANCEL_BUTTON_TEXT": "Отмена",
       "CONFIRM": {
         "TITLE": "Подтвердите удаление",
-        "MESSAGE": "Вы уверены, что хотите удалить ",
+        "MESSAGE": "Вы действительно хотите удалить ",
         "YES": "Да, удалить ",
         "NO": "Нет, оставить "
       },
       "API": {
-        "SUCCESS_MESSAGE": "Правило автоматизации успешно удалено",
-        "ERROR_MESSAGE": "Не удалось удалить правило автоматизации. Пожалуйста, попробуйте позже"
+        "SUCCESS_MESSAGE": "Правило автоматизации удалено",
+        "ERROR_MESSAGE": "Не удалось удалить правило автоматизации. Попробуйте позже"
       }
     },
     "EDIT": {
-      "TITLE": "Редактировать правило автоматизации",
+      "TITLE": "Изменить правило автоматизации",
       "SUBMIT": "Обновить",
-      "CANCEL_BUTTON_TEXT": "Отменить",
+      "CANCEL_BUTTON_TEXT": "Отмена",
       "API": {
-        "SUCCESS_MESSAGE": "Правило автоматизации успешно обновлено",
-        "ERROR_MESSAGE": "Не удалось обновить правило автоматизации. Пожалуйста, попробуйте позже"
+        "SUCCESS_MESSAGE": "Правило автоматизации обновлено",
+        "ERROR_MESSAGE": "Не удалось обновить правило автоматизации. Попробуйте позже"
       }
     },
     "CLONE": {
       "TOOLTIP": "Дублировать",
       "API": {
-        "SUCCESS_MESSAGE": "Правило автоматизации успешно дублировано",
-        "ERROR_MESSAGE": "Не удалось дублировать правило автоматизации. Пожалуйста, попробуйте позже"
+        "SUCCESS_MESSAGE": "Правило автоматизации продублировано",
+        "ERROR_MESSAGE": "Не удалось продублировать правило автоматизации. Попробуйте позже"
       }
     },
     "FORM": {
-      "EDIT": "Редактировать",
+      "EDIT": "Изменить",
       "CREATE": "Создать",
       "DELETE": "Удалить",
-      "CANCEL": "Отменить",
-      "RESET_MESSAGE": "Изменение типа события сбросит условия и события, добавленные вами ниже"
+      "CANCEL": "Отмена",
+      "RESET_MESSAGE": "При смене типа события добавленные ниже условия и действия будут сброшены"
     },
     "CONDITION": {
-      "DELETE_MESSAGE": "Для сохранения необходимо указать хотя бы одно условие",
+      "DELETE_MESSAGE": "Для сохранения нужно хотя бы одно условие",
       "CONTACT_CUSTOM_ATTR_LABEL": "Пользовательские атрибуты контакта",
-      "CONVERSATION_CUSTOM_ATTR_LABEL": "Пользовательские атрибуты диалога"
+      "CONVERSATION_CUSTOM_ATTR_LABEL": "Пользовательские атрибуты обращения",
+      "PLACEHOLDERS": {
+        "CAPTAIN": "Опишите, что искать, например: клиент хочет отменить подписку"
+      }
     },
     "ACTION": {
-      "DELETE_MESSAGE": "Для сохранения необходимо указать хотя бы одно действие",
+      "DELETE_MESSAGE": "Для сохранения нужно хотя бы одно действие",
       "TEAM_MESSAGE_INPUT_PLACEHOLDER": "Введите сообщение",
       "TEAM_DROPDOWN_PLACEHOLDER": "Выберите команды",
-      "EMAIL_INPUT_PLACEHOLDER": "Введите адрес электронной почты",
-      "URL_INPUT_PLACEHOLDER": "Введите URL-адрес",
-      "INSERT_CONTACT_EMAIL": "Use contact's email"
+      "EMAIL_INPUT_PLACEHOLDER": "Введите email",
+      "URL_INPUT_PLACEHOLDER": "Введите URL",
+      "INSERT_CONTACT_EMAIL": "Использовать email контакта"
     },
     "TOGGLE": {
       "ACTIVATION_TITLE": "Включить правило автоматизации",
       "DEACTIVATION_TITLE": "Отключить правило автоматизации",
-      "ACTIVATION_DESCRIPTION": "Это действие включит правило автоматизации «{automationName}». Продолжить?",
-      "DEACTIVATION_DESCRIPTION": "Это действие отключит правило автоматизации «{automationName}». Продолжить?",
-      "ACTIVATION_SUCCESFUL": "Правило автоматизации успешно включено",
-      "DEACTIVATION_SUCCESFUL": "Правило автоматизации успешно отключено",
-      "ACTIVATION_ERROR": "Не удалось включить правило автоматизации. Пожалуйста, попробуйте позже",
-      "DEACTIVATION_ERROR": "Не удалось отключить правило автоматизации. Пожалуйста, попробуйте позже",
+      "ACTIVATION_DESCRIPTION": "Правило автоматизации «{automationName}» будет включено. Продолжить?",
+      "DEACTIVATION_DESCRIPTION": "Правило автоматизации «{automationName}» будет отключено. Продолжить?",
+      "ACTIVATION_SUCCESFUL": "Правило автоматизации включено",
+      "DEACTIVATION_SUCCESFUL": "Правило автоматизации отключено",
+      "ACTIVATION_ERROR": "Не удалось включить правило автоматизации. Попробуйте позже",
+      "DEACTIVATION_ERROR": "Не удалось отключить правило автоматизации. Попробуйте позже",
       "CONFIRMATION_LABEL": "Да",
       "CANCEL_LABEL": "Нет"
     },
     "ATTACHMENT": {
-      "UPLOAD_ERROR": "Не удалось загрузить вложение. Пожалуйста, попробуйте ещё раз",
+      "UPLOAD_ERROR": "Не удалось загрузить вложение. Попробуйте ещё раз",
       "LABEL_IDLE": "Загрузить вложение",
-      "LABEL_UPLOADING": "Загрузка...",
-      "LABEL_UPLOADED": "Успешно загружено",
+      "LABEL_UPLOADING": "Загрузка…",
+      "LABEL_UPLOADED": "Загружено",
       "LABEL_UPLOAD_FAILED": "Ошибка загрузки"
     },
     "ERRORS": {
-      "ATTRIBUTE_KEY_REQUIRED": "Необходимо указать ключ атрибута",
-      "FILTER_OPERATOR_REQUIRED": "Необходимо указать оператор фильтра",
-      "VALUE_REQUIRED": "Необходимо указать значение",
-      "VALUE_MUST_BE_BETWEEN_1_AND_998": "Значение должно быть в диапазоне от 1 до 998",
-      "ACTION_PARAMETERS_REQUIRED": "Необходимо указать параметры действия",
-      "ATLEAST_ONE_CONDITION_REQUIRED": "Необходимо указать хотя бы одно условие",
-      "ATLEAST_ONE_ACTION_REQUIRED": "Необходимо указать хотя бы одно действие"
+      "ATTRIBUTE_KEY_REQUIRED": "Укажите ключ атрибута",
+      "FILTER_OPERATOR_REQUIRED": "Укажите оператор фильтра",
+      "VALUE_REQUIRED": "Укажите значение",
+      "VALUE_MUST_BE_BETWEEN_1_AND_998": "Значение должно быть от 1 до 998",
+      "ACTION_PARAMETERS_REQUIRED": "Укажите параметры действия",
+      "ATLEAST_ONE_CONDITION_REQUIRED": "Нужно хотя бы одно условие",
+      "ATLEAST_ONE_ACTION_REQUIRED": "Нужно хотя бы одно действие"
     },
     "NONE_OPTION": "Нет",
-    "LAST_RESPONDING_AGENT": "Последний ответ агента",
+    "LAST_RESPONDING_AGENT": "Последний ответивший оператор",
     "EVENTS": {
-      "CONVERSATION_CREATED": "Диалог создан",
-      "CONVERSATION_UPDATED": "Диалог обновлён",
+      "CONVERSATION_CREATED": "Обращение создано",
+      "CONVERSATION_UPDATED": "Обращение обновлено",
       "MESSAGE_CREATED": "Сообщение создано",
-      "CONVERSATION_RESOLVED": "Диалог завершён",
-      "CONVERSATION_OPENED": "Диалог открыт"
+      "CONVERSATION_RESOLVED": "Обращение решено",
+      "CONVERSATION_OPENED": "Обращение открыто"
     },
     "ACTIONS": {
-      "ASSIGN_AGENT": "Назначить агента",
+      "ASSIGN_AGENT": "Назначить оператора",
       "ASSIGN_TEAM": "Назначить команду",
-      "REMOVE_ASSIGNED_AGENT": "Remove Assigned Agent",
-      "REMOVE_ASSIGNED_TEAM": "Удалить назначенную команду",
+      "REMOVE_ASSIGNED_AGENT": "Снять назначенного оператора",
+      "REMOVE_ASSIGNED_TEAM": "Снять назначенную команду",
       "ADD_LABEL": "Добавить метку",
       "REMOVE_LABEL": "Удалить метку",
-      "SEND_EMAIL_TO_TEAM": "Отправить Email команде",
-      "SEND_EMAIL_TRANSCRIPT": "Отправить историю переписки по Email",
-      "MUTE_CONVERSATION": "Отключить уведомления",
-      "SNOOZE_CONVERSATION": "Отложить диалог",
-      "RESOLVE_CONVERSATION": "Завершить диалог",
-      "SEND_WEBHOOK_EVENT": "Отправить Webhook-событие",
+      "SEND_EMAIL_TO_TEAM": "Отправить email команде",
+      "SEND_EMAIL_TRANSCRIPT": "Отправить историю переписки по email",
+      "MUTE_CONVERSATION": "Отключить уведомления обращения",
+      "SNOOZE_CONVERSATION": "Отложить обращение",
+      "RESOLVE_CONVERSATION": "Решить обращение",
+      "SEND_WEBHOOK_EVENT": "Отправить событие вебхука",
       "SEND_ATTACHMENT": "Отправить вложение",
       "SEND_MESSAGE": "Отправить сообщение",
-      "ADD_PRIVATE_NOTE": "Добавить приватную заметку",
+      "ADD_PRIVATE_NOTE": "Добавить внутреннюю заметку",
       "CHANGE_PRIORITY": "Изменить приоритет",
       "ADD_SLA": "Добавить SLA",
-      "OPEN_CONVERSATION": "Открыть диалог",
-      "PENDING_CONVERSATION": "Пометить разговор как ожидающий"
+      "OPEN_CONVERSATION": "Открыть обращение",
+      "PENDING_CONVERSATION": "Перевести обращение в ожидание"
     },
     "MESSAGE_TYPES": {
       "INCOMING": "Входящее сообщение",
@@ -217,22 +220,23 @@
     },
     "ATTRIBUTES": {
       "MESSAGE_TYPE": "Тип сообщения",
-      "PRIVATE_NOTE": "Личная заметка",
-      "MESSAGE_CONTAINS": "Message Content",
+      "PRIVATE_NOTE": "Внутренняя заметка",
+      "MESSAGE_CONTAINS": "Текст сообщения",
       "EMAIL": "Email",
-      "INBOX": "Источник",
-      "CONVERSATION_LANGUAGE": "Язык диалога",
+      "INBOX": "Канал",
+      "CONVERSATION_LANGUAGE": "Язык обращения",
       "PHONE_NUMBER": "Номер телефона",
       "STATUS": "Статус",
       "BROWSER_LANGUAGE": "Язык браузера",
       "MAIL_SUBJECT": "Тема письма",
       "COUNTRY_NAME": "Страна",
       "COMPANY_NAME": "Компания",
-      "REFERER_LINK": "Источник перехода",
-      "ASSIGNEE_NAME": "Назначенный агент",
+      "REFERER_LINK": "Ссылка-источник",
+      "ASSIGNEE_NAME": "Ответственный",
       "TEAM_NAME": "Команда",
       "PRIORITY": "Приоритет",
-      "LABELS": "Метки"
+      "LABELS": "Метки",
+      "CAPTAIN": "Captain"
     }
   }
 }

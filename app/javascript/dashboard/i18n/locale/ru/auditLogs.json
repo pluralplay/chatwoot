@@ -3,109 +3,110 @@
     "HEADER": "Журнал аудита",
     "HEADER_BTN_TXT": "Добавить журнал аудита",
     "LOADING": "Загрузка журнала аудита",
-    "DESCRIPTION": "Журнал аудита фиксирует действия в вашей учетной записи, позволяя отслеживать и проверять действия пользователей, команд и сервисов.",
-    "LEARN_MORE": "Узнать больше о журнале аудита",
-    "SEARCH_404": "По вашему запросу ничего не найдено",
-    "SIDEBAR_TXT": "<p><b>Журнал аудита</b> </p><p>Журнал аудита фиксирует события и действия в системе Chatwoot.</p>",
-    "COUNT": "{n} event | {n} events",
+    "DESCRIPTION": "Журнал аудита хранит записи о действиях в вашем аккаунте и позволяет отслеживать и проверять работу аккаунта, команд и сервисов.",
+    "LEARN_MORE": "Подробнее о журнале аудита",
+    "SEARCH_404": "По этому запросу ничего не найдено",
+    "SIDEBAR_TXT": "<p><b>Журнал аудита</b> </p><p> Журнал аудита фиксирует события и действия в системе Chatwoot. </p>",
+    "COUNT": "{n} событие | {n} события | {n} событий",
     "FILTERS": {
-      "SEARCH_PLACEHOLDER": "Search by name or email",
-      "ALL_EVENTS": "All events",
-      "DATE_RANGE": "Date range",
-      "CLEAR_ALL": "Очистить фильтры",
+      "SEARCH_PLACEHOLDER": "Поиск по имени или эл. почте",
+      "ALL_EVENTS": "Все события",
+      "DATE_RANGE": "Период",
+      "CLEAR_ALL": "Сбросить фильтры",
       "EVENT_TYPE_GROUPS": {
-        "ACCESS": "Access",
-        "AGENTS_TEAMS": "Agents & teams",
+        "ACCESS": "Доступ",
+        "AGENTS_TEAMS": "Операторы и команды",
         "CONFIGURATION": "Настройки",
-        "CONVERSATIONS": "Диалоги"
+        "CONVERSATIONS": "Обращения"
       },
       "EVENT_TYPES": {
-        "SIGN_IN_OUT": "Sign in / sign out",
+        "SIGN_IN_OUT": "Вход и выход",
         "AGENTS": "Операторы",
         "TEAMS": "Команды",
-        "TEAM_MEMBERS": "Team members",
-        "INBOX_MEMBERS": "Inbox collaborators",
+        "TEAM_MEMBERS": "Участники команд",
+        "INBOX_MEMBERS": "Операторы каналов",
         "ACCOUNT": "Настройки аккаунта",
-        "INBOXES": "Источники",
-        "WEBHOOKS": "Webhooks",
-        "AUTOMATION_RULES": "Automation rules",
-        "MACROS": "Макрос",
-        "CONVERSATION_DELETIONS": "Conversation deletions",
-        "MESSAGE_DELETIONS": "Message deletions"
+        "INBOXES": "Каналы",
+        "WEBHOOKS": "Вебхуки",
+        "AUTOMATION_RULES": "Правила автоматизации",
+        "MACROS": "Макросы",
+        "CONVERSATION_DELETIONS": "Удаление обращений",
+        "MESSAGE_DELETIONS": "Удаление сообщений"
       },
       "SORT": {
-        "NEWEST": "Newest first",
-        "OLDEST": "Oldest first"
+        "NEWEST": "Сначала новые",
+        "OLDEST": "Сначала старые"
       }
     },
     "LIST": {
-      "404": "В этой учетной записи нет записей журнала аудита.",
-      "TITLE": "Управление журналом аудита",
+      "404": "В этом аккаунте пока нет записей журнала аудита.",
+      "TITLE": "Журнал аудита",
       "DESC": "Журнал аудита фиксирует события и действия в системе Chatwoot.",
       "TABLE_HEADER": {
         "ACTIVITY": "Действие",
         "TIME": "Время",
+        "LOCATION": "Местоположение",
         "IP_ADDRESS": "IP-адрес"
       }
     },
     "API": {
-      "SUCCESS_MESSAGE": "Журнал аудита успешно загружен",
-      "ERROR_MESSAGE": "Не удалось подключиться к серверу Woot. Пожалуйста, попробуйте позже"
+      "SUCCESS_MESSAGE": "Журнал аудита загружен",
+      "ERROR_MESSAGE": "Не удалось подключиться к серверу. Попробуйте позже"
     },
     "DEFAULT_USER": "Система",
     "AUTOMATION_RULE": {
-      "ADD": "{agentName} создал новое правило автоматизации (#{id})",
-      "EDIT": "{agentName} обновил правило автоматизации (#{id})",
-      "DELETE": "{agentName} удалил правило автоматизации (#{id})"
+      "ADD": "{agentName} создал(а) правило автоматизации (#{id})",
+      "EDIT": "{agentName} изменил(а) правило автоматизации (#{id})",
+      "DELETE": "{agentName} удалил(а) правило автоматизации (#{id})"
     },
     "ACCOUNT_USER": {
-      "ADD": "{agentName} пригласил {invitee} с ролью {role}",
+      "ADD": "{agentName} пригласил(а) {invitee} в аккаунт с ролью «{role}»",
       "EDIT": {
-        "SELF": "{agentName} изменил {attributes} на {values}",
-        "OTHER": "{agentName} изменил {attributes} пользователя {user} на {values}",
-        "DELETED": "{agentName} изменил {attributes} удаленного пользователя на {values}"
+        "SELF": "{agentName} изменил(а) у себя {attributes} на {values}",
+        "OTHER": "{agentName} изменил(а) {attributes} пользователя {user} на {values}",
+        "DELETED": "{agentName} изменил(а) {attributes} удалённого пользователя на {values}"
       }
     },
     "INBOX": {
-      "ADD": "{agentName} создал новый почтовый ящик (#{id})",
-      "EDIT": "{agentName} обновил почтовый ящик (#{id})",
-      "DELETE": "{agentName} удалил почтовый ящик (#{id})"
+      "ADD": "{agentName} создал(а) канал (#{id})",
+      "EDIT": "{agentName} изменил(а) канал (#{id})",
+      "DELETE": "{agentName} удалил(а) канал (#{id})"
     },
     "WEBHOOK": {
-      "ADD": "{agentName} создал новый вебхук (#{id})",
-      "EDIT": "{agentName} обновил вебхук (#{id})",
-      "DELETE": "{agentName} удалил вебхук (#{id})"
+      "ADD": "{agentName} создал(а) вебхук (#{id})",
+      "EDIT": "{agentName} изменил(а) вебхук (#{id})",
+      "DELETE": "{agentName} удалил(а) вебхук (#{id})"
     },
     "USER_ACTION": {
-      "SIGN_IN": "{agentName} вошел в систему",
-      "SIGN_OUT": "{agentName} вышел из системы"
+      "SIGN_IN": "{agentName} вошёл(ла) в систему",
+      "SIGN_OUT": "{agentName} вышел(ла) из системы"
     },
     "TEAM": {
-      "ADD": "{agentName} создал новую команду (#{id})",
-      "EDIT": "{agentName} обновил команду (#{id})",
-      "DELETE": "{agentName} удалил команду (#{id})"
+      "ADD": "{agentName} создал(а) команду (#{id})",
+      "EDIT": "{agentName} изменил(а) команду (#{id})",
+      "DELETE": "{agentName} удалил(а) команду (#{id})"
     },
     "MACRO": {
-      "ADD": "{agentName} создал новый макрос (#{id})",
-      "EDIT": "{agentName} обновил макрос (#{id})",
-      "DELETE": "{agentName} удалил макрос (#{id})"
+      "ADD": "{agentName} создал(а) макрос (#{id})",
+      "EDIT": "{agentName} изменил(а) макрос (#{id})",
+      "DELETE": "{agentName} удалил(а) макрос (#{id})"
     },
     "INBOX_MEMBER": {
-      "ADD": "{agentName} добавил {user} в почтовый ящик (#{inbox_id})",
-      "REMOVE": "{agentName} удалил {user} из почтового ящика (#{inbox_id})"
+      "ADD": "{agentName} добавил(а) {user} в канал (#{inbox_id})",
+      "REMOVE": "{agentName} убрал(а) {user} из канала (#{inbox_id})"
     },
     "TEAM_MEMBER": {
-      "ADD": "{agentName} добавил {user} в команду (#{team_id})",
-      "REMOVE": "{agentName} удалил {user} из команды (#{team_id})"
+      "ADD": "{agentName} добавил(а) {user} в команду (#{team_id})",
+      "REMOVE": "{agentName} убрал(а) {user} из команды (#{team_id})"
     },
     "ACCOUNT": {
-      "EDIT": "{agentName} обновил настройки учетной записи (#{id})"
+      "EDIT": "{agentName} изменил(а) настройки аккаунта (#{id})"
     },
     "CONVERSATION": {
-      "DELETE": "{agentName} удалил диалог #{id}"
+      "DELETE": "{agentName} удалил(а) обращение #{id}"
     },
     "MESSAGE": {
-      "DELETE": "{agentName} deleted a message in conversation #{conversationId}"
+      "DELETE": "{agentName} удалил(а) сообщение в обращении #{conversationId}"
     }
   }
 }

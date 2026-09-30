@@ -1,39 +1,39 @@
 {
   "INTEGRATION_APPS": {
     "FETCHING": "Загрузка интеграций",
-    "NO_HOOK_CONFIGURED": "В этой учетной записи не настроено ни одной {integrationId} интеграции.",
+    "NO_HOOK_CONFIGURED": "В этом аккаунте не настроено ни одной интеграции {integrationId}.",
     "HEADER": "Приложения",
-    "COUNT": "{n} integration | {n} integrations",
-    "SEARCH_PLACEHOLDER": "Поиск...",
-    "NO_RESULTS": "No results found matching your search",
+    "COUNT": "{n} интеграция | {n} интеграции | {n} интеграций",
+    "SEARCH_PLACEHOLDER": "Поиск…",
+    "NO_RESULTS": "По вашему запросу ничего не найдено",
     "STATUS": {
       "ENABLED": "Включено",
       "DISABLED": "Выключено"
     },
     "CONFIGURE": "Настроить",
-    "ADD_BUTTON": "Добавить новый хук",
+    "ADD_BUTTON": "Добавить подключение",
     "DELETE": {
       "TITLE": {
         "INBOX": "Подтвердите удаление",
-        "ACCOUNT": "Отключиться"
+        "ACCOUNT": "Отключить"
       },
       "MESSAGE": {
-        "INBOX": "Вы точно хотите удалить?",
-        "ACCOUNT": "Вы уверены, что хотите отключиться?"
+        "INBOX": "Удалить подключение?",
+        "ACCOUNT": "Отключить интеграцию?"
       },
       "CONFIRM_BUTTON_TEXT": {
         "INBOX": "Да, удалить",
         "ACCOUNT": "Да, отключить"
       },
-      "CANCEL_BUTTON_TEXT": "Отменить",
+      "CANCEL_BUTTON_TEXT": "Отмена",
       "API": {
-        "SUCCESS_MESSAGE": "Вебхук удален",
-        "ERROR_MESSAGE": "Не удается соединиться с сервером Woot, попробуйте позже"
+        "SUCCESS_MESSAGE": "Подключение удалено",
+        "ERROR_MESSAGE": "Не удалось подключиться к серверу. Попробуйте позже"
       }
     },
     "LIST": {
-      "FETCHING": "Получение хуков",
-      "INBOX": "Электронная почта",
+      "FETCHING": "Загрузка подключений интеграции",
+      "INBOX": "Канал",
       "ACTIONS": "Действия",
       "DELETE": {
         "BUTTON_TEXT": "Удалить"
@@ -42,26 +42,26 @@
     "ADD": {
       "FORM": {
         "INBOX": {
-          "LABEL": "Выбрать \"Входящий\" канал",
-          "PLACEHOLDER": "Выбрать \"Входящий\" канал"
+          "LABEL": "Выберите канал",
+          "PLACEHOLDER": "Выберите канал"
         },
         "SUBMIT": "Создать",
-        "VALIDATING_OPENAI": "Validating with OpenAI...",
-        "CANCEL": "Отменить"
+        "VALIDATING_OPENAI": "Проверка через OpenAI…",
+        "CANCEL": "Отмена"
       },
       "API": {
-        "SUCCESS_MESSAGE": "Вебхук для интеграции успешно добавлен",
-        "ERROR_MESSAGE": "Не удается соединиться с сервером Woot, попробуйте позже"
+        "SUCCESS_MESSAGE": "Подключение интеграции добавлено",
+        "ERROR_MESSAGE": "Не удалось подключиться к серверу. Попробуйте позже"
       }
     },
     "CONNECT": {
       "BUTTON_TEXT": "Подключить"
     },
     "DISCONNECT": {
-      "BUTTON_TEXT": "Отключиться"
+      "BUTTON_TEXT": "Отключить"
     },
     "SIDEBAR_DESCRIPTION": {
-      "DIALOGFLOW": "Dialogflow is a natural language processing platform for building conversational interfaces. Integrating it with {installationName} lets bots handle queries first and transfer them to agents when needed. It helps qualify leads and reduce agent workload by answering FAQs. To add Dialogflow, create a Service Account in Google Console and share the credentials. Refer to the docs for details"
+      "DIALOGFLOW": "Dialogflow — платформа обработки естественного языка для создания диалоговых интерфейсов. Интеграция с {installationName} позволяет ботам первыми обрабатывать запросы и при необходимости передавать их операторам. Это помогает квалифицировать лидов и снижает нагрузку на операторов за счёт ответов на частые вопросы. Чтобы подключить Dialogflow, создайте сервисный аккаунт в Google Console и укажите его учётные данные. Подробнее — в документации"
     }
   }
 }

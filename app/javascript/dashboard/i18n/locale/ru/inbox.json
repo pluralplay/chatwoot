@@ -1,14 +1,14 @@
 {
   "INBOX": {
     "LIST": {
-      "TITLE": "Мои Входящие",
-      "DISPLAY_DROPDOWN": "Отображать",
+      "TITLE": "Мои входящие",
+      "DISPLAY_DROPDOWN": "Вид",
       "LOADING": "Загрузка уведомлений",
       "404": "В этой группе нет активных уведомлений.",
-      "NO_NOTIFICATIONS": "Уведомления отсутствуют",
-      "NOTE": "Уведомления от всех подписанных источников",
-      "NO_MESSAGES_AVAILABLE": "Ой! Не удалось получить сообщения",
-      "SNOOZED_UNTIL": "Отложить до",
+      "NO_NOTIFICATIONS": "Нет уведомлений",
+      "NOTE": "Уведомления из всех каналов, на которые вы подписаны",
+      "NO_MESSAGES_AVAILABLE": "Не удалось загрузить сообщения",
+      "SNOOZED_UNTIL": "Отложено до",
       "SNOOZED_UNTIL_TOMORROW": "Отложено до завтра",
       "SNOOZED_UNTIL_NEXT_WEEK": "Отложено до следующей недели"
     },
@@ -18,77 +18,77 @@
       "BACK": "Назад"
     },
     "TYPES": {
-      "CONVERSATION_MENTION": "Вас упомянули в диалоге",
-      "CONVERSATION_CREATION": "Диалог создан",
-      "CONVERSATION_ASSIGNMENT": "Вам назначен диалог",
-      "ASSIGNED_CONVERSATION_NEW_MESSAGE": "Новое сообщение в назначенном диалоге",
-      "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "Новое сообщение в диалоге, в котором вы участвуете",
-      "SLA_MISSED_FIRST_RESPONSE": "Не выполнен целевой срок разрешения по SLA для разговора",
-      "SLA_MISSED_NEXT_RESPONSE": "Не выполнен целевой срок следующего ответа по SLA для разговора",
-      "SLA_MISSED_RESOLUTION": "Не выполнен целевой срок первого ответа по SLA для разговора"
+      "CONVERSATION_MENTION": "Вас упомянули в обращении",
+      "CONVERSATION_CREATION": "Создано новое обращение",
+      "CONVERSATION_ASSIGNMENT": "Вам назначено обращение",
+      "ASSIGNED_CONVERSATION_NEW_MESSAGE": "Новое сообщение в назначенном вам обращении",
+      "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "Новое сообщение в обращении, в котором вы участвуете",
+      "SLA_MISSED_FIRST_RESPONSE": "Нарушен срок первого ответа по SLA в обращении",
+      "SLA_MISSED_NEXT_RESPONSE": "Нарушен срок следующего ответа по SLA в обращении",
+      "SLA_MISSED_RESOLUTION": "Нарушен срок решения по SLA в обращении"
     },
     "TYPES_NEXT": {
-      "CONVERSATION_MENTION": "Упоминания",
+      "CONVERSATION_MENTION": "Упоминание",
       "CONVERSATION_ASSIGNMENT": "Назначено вам",
-      "CONVERSATION_CREATION": "Новый диалог",
+      "CONVERSATION_CREATION": "Новое обращение",
       "SLA_MISSED_FIRST_RESPONSE": "Нарушение SLA",
       "SLA_MISSED_NEXT_RESPONSE": "Нарушение SLA",
       "SLA_MISSED_RESOLUTION": "Нарушение SLA",
       "PARTICIPATING_CONVERSATION_NEW_MESSAGE": "Новое сообщение",
       "ASSIGNED_CONVERSATION_NEW_MESSAGE": "Новое сообщение",
-      "SNOOZED_UNTIL": "Отложено до {time}",
-      "SNOOZED_ENDS": "Отсрочка закончилась"
+      "SNOOZED_UNTIL": "Отложено на {time}",
+      "SNOOZED_ENDS": "Откладывание завершено"
     },
-    "NO_CONTENT": "Содержимое отсутствует",
+    "NO_CONTENT": "Нет содержимого",
     "MENU_ITEM": {
-      "MARK_AS_READ": "Отметить как прочитанное",
-      "MARK_AS_UNREAD": "Отметить как непрочитанное",
-      "SNOOZE": "Отложено",
+      "MARK_AS_READ": "Отметить прочитанным",
+      "MARK_AS_UNREAD": "Отметить непрочитанным",
+      "SNOOZE": "Отложить",
       "DELETE": "Удалить",
-      "MARK_ALL_READ": "Отметить все как прочитанные",
-      "DELETE_ALL": "Удалить всё",
-      "DELETE_ALL_READ": "Удалить всё прочитанное"
+      "MARK_ALL_READ": "Отметить все прочитанными",
+      "DELETE_ALL": "Удалить все",
+      "DELETE_ALL_READ": "Удалить все прочитанные"
     },
     "DISPLAY_MENU": {
       "SORT": "Сортировка",
-      "DISPLAY": "Отображать :",
+      "DISPLAY": "Показывать:",
       "SORT_OPTIONS": {
-        "NEWEST": "Самые новые",
-        "OLDEST": "Самые старые",
-        "PRIORITY": "Приоритет"
+        "NEWEST": "Сначала новые",
+        "OLDEST": "Сначала старые",
+        "PRIORITY": "По приоритету"
       },
       "DISPLAY_OPTIONS": {
-        "SNOOZED": "Отложено",
-        "READ": "Прочитано",
-        "LABELS": "Категории",
-        "CONVERSATION_ID": "ID диалога"
+        "SNOOZED": "Отложенные",
+        "READ": "Прочитанные",
+        "LABELS": "Метки",
+        "CONVERSATION_ID": "ID обращения"
       }
     },
     "ALERTS": {
-      "MARK_AS_READ": "Уведомление отмечено как прочитанное",
-      "MARK_AS_UNREAD": "Уведомление отмечено как непрочитанное",
+      "MARK_AS_READ": "Уведомление отмечено прочитанным",
+      "MARK_AS_UNREAD": "Уведомление отмечено непрочитанным",
       "SNOOZE": "Уведомление отложено",
       "DELETE": "Уведомление удалено",
-      "MARK_ALL_READ": "Все уведомления отмечены как прочитанные",
+      "MARK_ALL_READ": "Все уведомления отмечены прочитанными",
       "DELETE_ALL": "Все уведомления удалены",
       "DELETE_ALL_READ": "Все прочитанные уведомления удалены"
     },
     "REAUTHORIZE": {
-      "TITLE": "Требуется авторизация",
-      "DESCRIPTION": "Время вашего соединения с WhatsApp истекло. Пожалуйста, подключитесь заново, чтобы продолжать получать и отправлять сообщения.",
+      "TITLE": "Требуется повторная авторизация",
+      "DESCRIPTION": "Срок подключения к WhatsApp истёк. Переподключите его, чтобы продолжить получать и отправлять сообщения.",
       "BUTTON_TEXT": "Переподключить WhatsApp",
-      "LOADING_FACEBOOK": "Загрузка Facebook SDK...",
-      "SUCCESS": "WhatsApp успешно подключен заново",
-      "ERROR": "Не удалось перенастроить WhatsApp Business. Пожалуйста, попробуйте еще раз.",
-      "WHATSAPP_APP_ID_MISSING": "WhatsApp App ID не настроен. Пожалуйста, обратитесь к администратору.",
-      "WHATSAPP_CONFIG_ID_MISSING": "WhatsApp Configuration ID не настроен. Пожалуйста, обратитесь к администратору.",
-      "CONFIGURATION_ERROR": "Произошла ошибка конфигурации при повторной авторизации.",
-      "FACEBOOK_LOAD_ERROR": "Не удалось загрузить Facebook SDK. Пожалуйста, попробуйте еще раз.",
+      "LOADING_FACEBOOK": "Загрузка Facebook SDK…",
+      "SUCCESS": "WhatsApp переподключён",
+      "ERROR": "Не удалось переподключить WhatsApp. Попробуйте ещё раз.",
+      "WHATSAPP_APP_ID_MISSING": "Не настроен App ID WhatsApp. Обратитесь к администратору.",
+      "WHATSAPP_CONFIG_ID_MISSING": "Не настроен Configuration ID WhatsApp. Обратитесь к администратору.",
+      "CONFIGURATION_ERROR": "При повторной авторизации произошла ошибка конфигурации.",
+      "FACEBOOK_LOAD_ERROR": "Не удалось загрузить Facebook SDK. Попробуйте ещё раз.",
       "TROUBLESHOOTING": {
-        "TITLE": "Устранение проблем",
-        "POPUP_BLOCKED": "Убедитесь, что всплывающие окна разрешены для этого сайта",
-        "COOKIES": "Сторонние cookies должны быть включены",
-        "ADMIN_ACCESS": "Вам нужен доступ администратора к учетной записи WhatsApp Business"
+        "TITLE": "Устранение неполадок",
+        "POPUP_BLOCKED": "Разрешите всплывающие окна для этого сайта",
+        "COOKIES": "Включите сторонние cookie",
+        "ADMIN_ACCESS": "Нужны права администратора в аккаунте WhatsApp Business"
       }
     }
   }

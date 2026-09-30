@@ -2,14 +2,14 @@
   "COMPONENTS": {
     "FILE_BUBBLE": {
       "DOWNLOAD": "Скачать",
-      "UPLOADING": "Загружаем..."
+      "UPLOADING": "Загрузка…"
     },
     "FORM_BUBBLE": {
       "SUBMIT": "Отправить"
     },
     "MESSAGE_BUBBLE": {
-      "RETRY": "Отправить сообщение еще раз",
-      "ERROR_MESSAGE": "Не удалось отправить! Попробуйте еще раз"
+      "RETRY": "Отправить сообщение ещё раз",
+      "ERROR_MESSAGE": "Не удалось отправить, попробуйте ещё раз"
     }
   },
   "THUMBNAIL": {
@@ -19,19 +19,19 @@
   },
   "TEAM_AVAILABILITY": {
     "ONLINE": "Мы в сети",
-    "OFFLINE": "В данный момент мы отсутствуем",
-    "BACK_AS_SOON_AS_POSSIBLE": "Мы вернемся как можно скорее"
+    "OFFLINE": "Сейчас нас нет на месте",
+    "BACK_AS_SOON_AS_POSSIBLE": "Мы вернёмся как можно скорее"
   },
   "REPLY_TIME": {
     "IN_A_FEW_MINUTES": "Обычно отвечаем в течение нескольких минут",
     "IN_A_FEW_HOURS": "Обычно отвечаем в течение нескольких часов",
     "IN_A_DAY": "Обычно отвечаем в течение дня",
-    "BACK_IN_HOURS": "Мы будем доступны через {n} час | Мы вернемся к вам через {n} часов",
-    "BACK_IN_MINUTES": "Мы будем доступны {time} минут",
-    "BACK_AT_TIME": "Мы будем доступны {time}",
-    "BACK_ON_DAY": "Мы будем доступны в {day}",
-    "BACK_TOMORROW": "Мы будем доступны завтра",
-    "BACK_IN_SOME_TIME": "Мы будем доступны через некоторое время"
+    "BACK_IN_HOURS": "Мы вернёмся в сеть через {n} час | Мы вернёмся в сеть через {n} часа | Мы вернёмся в сеть через {n} часов",
+    "BACK_IN_MINUTES": "Мы вернёмся в сеть через {time} мин.",
+    "BACK_AT_TIME": "Мы вернёмся в сеть в {time}",
+    "BACK_ON_DAY": "Мы вернёмся в сеть: {day}",
+    "BACK_TOMORROW": "Мы вернёмся в сеть завтра",
+    "BACK_IN_SOME_TIME": "Мы скоро вернёмся в сеть"
   },
   "DAY_NAMES": {
     "SUNDAY": "Воскресенье",
@@ -42,11 +42,11 @@
     "FRIDAY": "Пятница",
     "SATURDAY": "Суббота"
   },
-  "START_CONVERSATION": "Начать диалог",
-  "END_CONVERSATION": "Завершить диалог",
-  "CONTINUE_CONVERSATION": "Продолжить беседу",
+  "START_CONVERSATION": "Начать чат",
+  "END_CONVERSATION": "Завершить чат",
+  "CONTINUE_CONVERSATION": "Продолжить чат",
   "YOU": "Вы",
-  "START_NEW_CONVERSATION": "Начать диалог",
+  "START_NEW_CONVERSATION": "Начать новый чат",
   "VIEW_UNREAD_MESSAGES": "У вас есть непрочитанные сообщения",
   "UNREAD_VIEW": {
     "VIEW_MESSAGES_BUTTON": "Посмотреть новые сообщения",
@@ -55,82 +55,82 @@
     "BOT": "Бот"
   },
   "BUBBLE": {
-    "LABEL": "Пообщайтесь с нами"
+    "LABEL": "Напишите нам"
   },
   "POWERED_BY": "Работает на Chatwoot",
-  "EMAIL_PLACEHOLDER": "Пожалуйста, введите ваш email",
+  "EMAIL_PLACEHOLDER": "Введите ваш email",
   "CHAT_PLACEHOLDER": "Введите сообщение",
   "TODAY": "Сегодня",
   "YESTERDAY": "Вчера",
   "PRE_CHAT_FORM": {
     "FIELDS": {
       "FULL_NAME": {
-        "LABEL": "Полное имя",
-        "PLACEHOLDER": "Пожалуйста, введите ваше ФИО",
-        "REQUIRED_ERROR": "Необходимо указать имя"
+        "LABEL": "Имя и фамилия",
+        "PLACEHOLDER": "Введите имя и фамилию",
+        "REQUIRED_ERROR": "Укажите имя и фамилию"
       },
       "EMAIL_ADDRESS": {
-        "LABEL": "Email",
-        "PLACEHOLDER": "Пожалуйста, введите ваш адрес электронной почты",
-        "REQUIRED_ERROR": "Требуется адрес электронной почты",
-        "VALID_ERROR": "Пожалуйста, введите действительный адрес электронной почты"
+        "LABEL": "Адрес электронной почты",
+        "PLACEHOLDER": "Введите адрес электронной почты",
+        "REQUIRED_ERROR": "Укажите адрес электронной почты",
+        "VALID_ERROR": "Введите корректный адрес электронной почты"
       },
       "PHONE_NUMBER": {
         "LABEL": "Номер телефона",
-        "PLACEHOLDER": "Пожалуйста, введите ваш номер телефона",
-        "REQUIRED_ERROR": "Требуется указать номер телефона",
-        "DIAL_CODE_VALID_ERROR": "Пожалуйста, выберите код страны",
-        "VALID_ERROR": "Пожалуйста, введите действительный номер телефона",
-        "DROPDOWN_EMPTY": "Результаты не найдены",
-        "DROPDOWN_SEARCH": "Поиск по стране"
+        "PLACEHOLDER": "Введите номер телефона",
+        "REQUIRED_ERROR": "Укажите номер телефона",
+        "DIAL_CODE_VALID_ERROR": "Выберите код страны",
+        "VALID_ERROR": "Введите корректный номер телефона",
+        "DROPDOWN_EMPTY": "Ничего не найдено",
+        "DROPDOWN_SEARCH": "Поиск страны"
       },
       "MESSAGE": {
         "LABEL": "Сообщение",
-        "PLACEHOLDER": "Пожалуйста, введите ваше сообщение здесь",
+        "PLACEHOLDER": "Введите сообщение",
         "ERROR": "Сообщение слишком короткое"
       }
     },
-    "CAMPAIGN_HEADER": "Пожалуйста, укажите Ваше имя и адрес электронной почты перед началом диалога",
-    "IS_REQUIRED": "обязательно",
+    "CAMPAIGN_HEADER": "Прежде чем начать чат, укажите ваше имя и адрес электронной почты",
+    "IS_REQUIRED": "обязательно для заполнения",
     "REQUIRED": "Обязательно",
-    "REGEX_ERROR": "Пожалуйста, предоставьте корректные данные"
+    "REGEX_ERROR": "Введите корректное значение"
   },
-  "FILE_SIZE_LIMIT": "Превышен размер загружаемого файла - {MAXIMUM_FILE_UPLOAD_SIZE}",
+  "FILE_SIZE_LIMIT": "Файл превышает допустимый размер вложения ({MAXIMUM_FILE_UPLOAD_SIZE})",
   "CHAT_FORM": {
     "INVALID": {
-      "FIELD": "Неверное поле"
+      "FIELD": "Некорректное поле"
     }
   },
   "EMOJI": {
-    "PLACEHOLDER": "Искать эмодзи",
-    "NOT_FOUND": "По Вашему запросу не было найдено эмодзи",
+    "PLACEHOLDER": "Поиск эмодзи",
+    "NOT_FOUND": "Эмодзи не найдены",
     "ARIA_LABEL": "Выбор эмодзи"
   },
   "EMOJI_ICON_PICKER": {
-    "SEARCH_EMOJI": "Search emoji…",
+    "SEARCH_EMOJI": "Поиск эмодзи…",
     "FREQUENTLY_USED": "Часто используемые",
-    "NO_EMOJI": "Эмодзи не соответствуют вашему запросу"
+    "NO_EMOJI": "Эмодзи не найдены"
   },
   "CSAT": {
-    "TITLE": "Оцените разговор",
+    "TITLE": "Оцените обращение",
     "SUBMITTED_TITLE": "Спасибо за оценку",
-    "PLACEHOLDER": "Расскажите подробнее..."
+    "PLACEHOLDER": "Расскажите подробнее…"
   },
   "EMAIL_TRANSCRIPT": {
-    "BUTTON_TEXT": "Запросить историю разговора",
-    "SEND_EMAIL_SUCCESS": "Субтитры чата успешно отправлены",
-    "SEND_EMAIL_ERROR": "Произошла ошибка, попробуйте еще раз"
+    "BUTTON_TEXT": "Запросить копию переписки",
+    "SEND_EMAIL_SUCCESS": "Копия переписки отправлена",
+    "SEND_EMAIL_ERROR": "Произошла ошибка, попробуйте ещё раз"
   },
   "INTEGRATIONS": {
     "DYTE": {
       "CLICK_HERE_TO_JOIN": "Нажмите, чтобы присоединиться",
-      "LEAVE_THE_ROOM": "Закончить разговор"
+      "LEAVE_THE_ROOM": "Покинуть звонок"
     }
   },
   "PORTAL": {
     "POPULAR_ARTICLES": "Популярные статьи",
-    "VIEW_ALL_ARTICLES": "Показать все статьи",
-    "IFRAME_LOAD_ERROR": "Произошла ошибка при загрузке статьи, пожалуйста, обновите страницу и повторите попытку."
+    "VIEW_ALL_ARTICLES": "Все статьи",
+    "IFRAME_LOAD_ERROR": "Не удалось загрузить статью. Обновите страницу и попробуйте ещё раз."
   },
   "ATTACHMENTS": {
     "image": {
@@ -140,10 +140,10 @@
       "CONTENT": "Аудиосообщение"
     },
     "video": {
-      "CONTENT": "Видео"
+      "CONTENT": "Видеосообщение"
     },
     "file": {
-      "CONTENT": "Прикрепленный файл"
+      "CONTENT": "Вложенный файл"
     },
     "location": {
       "CONTENT": "Местоположение"
@@ -153,6 +153,6 @@
     }
   },
   "FOOTER_REPLY_TO": {
-    "REPLY_TO": "Ответить:"
+    "REPLY_TO": "В ответ на:"
   }
 }

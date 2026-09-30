@@ -1,16 +1,16 @@
 {
   "GENERAL": {
-    "SHOWING_RESULTS": "Показаны {firstIndex}-{lastIndex} из {totalCount} элементов",
+    "SHOWING_RESULTS": "Показано {firstIndex}–{lastIndex} из {totalCount}",
     "PHONE_INPUT": {
       "PLACEHOLDER": "Поиск",
-      "EMPTY_STATE": "Результаты не найдены"
+      "EMPTY_STATE": "Ничего не найдено"
     },
     "CLOSE": "Закрыть",
     "BETA": "Бета",
-    "BETA_DESCRIPTION": "Эта функция находится в бета-версии и может измениться по мере её улучшения.",
-    "ACCEPT": "Accept",
-    "DISCARD": "Сбросить",
-    "PREFERRED": "Preferred"
+    "BETA_DESCRIPTION": "Эта функция в бета-версии и может меняться по мере доработки.",
+    "ACCEPT": "Принять",
+    "DISCARD": "Отклонить",
+    "PREFERRED": "Рекомендуется"
   },
   "CHOICE_TOGGLE": {
     "YES": "Да",

@@ -1,35 +1,35 @@
 {
   "EMOJI": {
     "PLACEHOLDER": "Поиск эмодзи",
-    "NOT_FOUND": "Эмодзи не соответствуют вашему запросу",
+    "NOT_FOUND": "Эмодзи не найдены",
     "REMOVE": "Удалить"
   },
   "EMOJI_ICON_PICKER": {
     "TABS": {
-      "ICONS": "Icons",
-      "EMOJIS": "Emojis"
+      "ICONS": "Иконки",
+      "EMOJIS": "Эмодзи"
     },
-    "SEARCH_EMOJI": "Search emoji…",
-    "SEARCH_ICON": "Search icons…",
-    "FREQUENTLY_USED": "Frequently used",
-    "NO_EMOJI": "Эмодзи не соответствуют вашему запросу",
-    "NO_ICON": "No icons match your search",
+    "SEARCH_EMOJI": "Поиск эмодзи…",
+    "SEARCH_ICON": "Поиск иконок…",
+    "FREQUENTLY_USED": "Часто используемые",
+    "NO_EMOJI": "Эмодзи не найдены",
+    "NO_ICON": "Иконки не найдены",
     "REMOVE": "Удалить",
     "STYLE": {
-      "OUTLINE": "Outline icons",
-      "FILLED": "Filled icons"
+      "OUTLINE": "Контурные иконки",
+      "FILLED": "Заполненные иконки"
     },
     "COLORS": {
-      "SLATE": "Темно-серый",
-      "RED": "Red",
-      "ORANGE": "Orange",
-      "AMBER": "Amber",
-      "GREEN": "Green",
-      "TEAL": "Teal",
-      "BLUE": "Blue",
-      "INDIGO": "Indigo",
-      "VIOLET": "Violet",
-      "PINK": "Pink"
+      "SLATE": "Серый",
+      "RED": "Красный",
+      "ORANGE": "Оранжевый",
+      "AMBER": "Янтарный",
+      "GREEN": "Зелёный",
+      "TEAL": "Бирюзовый",
+      "BLUE": "Синий",
+      "INDIGO": "Индиго",
+      "VIOLET": "Фиолетовый",
+      "PINK": "Розовый"
     }
   }
 }

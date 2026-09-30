@@ -1,54 +1,54 @@
 {
   "CHAT_LIST": {
-    "LOADING": "Загружаем диалоги",
-    "LOAD_MORE_CONVERSATIONS": "Загрузить больше диалогов",
-    "EOF": "Все диалоги загружены 🎉",
+    "LOADING": "Загрузка обращений",
+    "LOAD_MORE_CONVERSATIONS": "Загрузить ещё обращения",
+    "EOF": "Все обращения загружены 🎉",
     "LIST": {
-      "404": "В этой группе нет активных диалогов."
+      "404": "В этой группе нет активных обращений."
     },
     "FAILED_TO_SEND": "Не удалось отправить",
-    "FETCH_ERROR": "Couldn't load conversations. Please try again.",
-    "TAB_HEADING": "Диалоги",
+    "FETCH_ERROR": "Не удалось загрузить обращения. Попробуйте ещё раз.",
+    "TAB_HEADING": "Обращения",
     "MENTION_HEADING": "Упоминания",
-    "UNATTENDED_HEADING": "Неотвеченные",
+    "UNATTENDED_HEADING": "Без ответа",
     "SEARCH": {
-      "INPUT": "Искать людей, чаты, сохраненные ответы .."
+      "INPUT": "Поиск по контактам, чатам, шаблонам ответов…"
     },
     "FILTER_ALL": "Все",
     "ASSIGNEE_TYPE_TABS": {
       "me": "Мои",
-      "unassigned": "Неназначен",
+      "unassigned": "Без оператора",
       "all": "Все"
     },
     "CHAT_STATUS_FILTER_ITEMS": {
       "open": {
-        "TEXT": "Открыт"
+        "TEXT": "Открытые"
       },
       "resolved": {
-        "TEXT": "Закрыт"
+        "TEXT": "Решённые"
       },
       "pending": {
         "TEXT": "В ожидании"
       },
       "snoozed": {
-        "TEXT": "Отложено"
+        "TEXT": "Отложенные"
       },
       "all": {
         "TEXT": "Все"
       }
     },
-    "VIEW_FILTER": "Просмотр",
-    "SORT_TOOLTIP_LABEL": "Сортировать сообщения",
+    "VIEW_FILTER": "Вид",
+    "SORT_TOOLTIP_LABEL": "Сортировка обращений",
     "CHAT_SORT": {
       "STATUS": "Статус",
-      "ORDER_BY": "Сортировать по"
+      "ORDER_BY": "Сортировка"
     },
     "CHAT_TIME_STAMP": {
       "CREATED": {
-        "OLDEST": "Дата создания:"
+        "OLDEST": "Создано:"
       },
       "LAST_ACTIVITY": {
-        "NOT_ACTIVE": "Последние действия:"
+        "NOT_ACTIVE": "Последняя активность:"
       }
     },
     "SORT_ORDER_ITEMS": {
@@ -59,28 +59,28 @@
         "TEXT": "Последняя активность: сначала новые"
       },
       "created_at_desc": {
-        "TEXT": "Создано: сначала новые"
+        "TEXT": "Дата создания: сначала новые"
       },
       "created_at_asc": {
-        "TEXT": "Создано: сначала старые"
+        "TEXT": "Дата создания: сначала старые"
       },
       "priority_desc": {
-        "TEXT": "Приоритет: сначала высокие"
+        "TEXT": "Приоритет: сначала высокий"
       },
       "priority_asc": {
-        "TEXT": "Приоритет: сначала низкие"
+        "TEXT": "Приоритет: сначала низкий"
       },
       "waiting_since_asc": {
-        "TEXT": "Ожидающие ответа: сначала старые"
+        "TEXT": "Ожидание ответа: сначала самые долгие"
       },
       "waiting_since_desc": {
-        "TEXT": "Ожидающие ответа: сначала новые"
+        "TEXT": "Ожидание ответа: сначала самые короткие"
       },
       "priority_desc_created_at_asc": {
-        "TEXT": "Приоритет: Сначала высокие, Создано: Сначала старые"
+        "TEXT": "Приоритет: сначала высокий, дата создания: сначала старые"
       },
       "unread": {
-        "TEXT": "Unread Count: Highest first"
+        "TEXT": "Непрочитанные: сначала больше"
       }
     },
     "ATTACHMENTS": {
@@ -91,56 +91,56 @@
         "CONTENT": "Аудиосообщение"
       },
       "video": {
-        "CONTENT": "Видео"
+        "CONTENT": "Видеосообщение"
       },
       "file": {
-        "CONTENT": "Прикрепленный файл"
+        "CONTENT": "Вложенный файл"
       },
       "location": {
         "CONTENT": "Местоположение"
       },
       "ig_reel": {
-        "CONTENT": "Instagram Reel"
+        "CONTENT": "Instagram Reels"
       },
       "fallback": {
         "CONTENT": "поделился ссылкой"
       },
       "contact": {
-        "CONTENT": "Общий контакт"
+        "CONTENT": "Контакт"
       },
       "embed": {
         "CONTENT": "Встроенный контент"
       }
     },
     "CHAT_SORT_BY_FILTER": {
-      "TITLE": "Сортировать диалог",
+      "TITLE": "Сортировка обращений",
       "DROPDOWN_TITLE": "Сортировать по",
       "ITEMS": {
         "LATEST": {
           "NAME": "Последняя активность",
-          "LABEL": "Последние действия"
+          "LABEL": "Последняя активность"
         },
         "CREATED_AT": {
           "NAME": "Дата создания",
           "LABEL": "Дата создания"
         },
         "LAST_USER_MESSAGE_AT": {
-          "NAME": "Последнее сообщение пользователя",
+          "NAME": "Последнее сообщение клиента",
           "LABEL": "Последнее сообщение"
         }
       }
     },
     "RECEIVED_VIA_EMAIL": "Получено по email",
-    "VIEW_TWEET_IN_TWITTER": "Просмотреть твит в Twitter",
+    "VIEW_TWEET_IN_TWITTER": "Открыть твит в Twitter",
     "REPLY_TO_TWEET": "Ответить на этот твит",
-    "LINK_TO_STORY": "Перейти к истории Instagram",
-    "SENT": "Успешно отправлено",
-    "READ": "Успешно прочитано",
-    "DELIVERED": "Доставлено успешно",
+    "LINK_TO_STORY": "Открыть историю Instagram",
+    "SENT": "Отправлено",
+    "READ": "Прочитано",
+    "DELIVERED": "Доставлено",
     "NO_MESSAGES": "Нет сообщений",
-    "NO_CONTENT": "Содержимое отсутствует",
-    "HIDE_QUOTED_TEXT": "Скрыть цитируемый текст",
-    "SHOW_QUOTED_TEXT": "Показать цитируемый текст",
+    "NO_CONTENT": "Нет содержимого",
+    "HIDE_QUOTED_TEXT": "Скрыть цитату",
+    "SHOW_QUOTED_TEXT": "Показать цитату",
     "MESSAGE_READ": "Прочитано",
     "SENDING": "Отправка",
     "UNREAD_COUNT_OVERFLOW": "9+"

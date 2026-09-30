@@ -1,57 +1,57 @@
 {
   "REGISTER": {
-    "TRY_WOOT": "Создать новый аккаунт",
-    "GET_STARTED": "Get started with Chatwoot",
+    "TRY_WOOT": "Создать аккаунт",
+    "GET_STARTED": "Начните работу с Chatwoot",
     "TITLE": "Регистрация",
-    "TESTIMONIAL_HEADER": "Все, что нужно сделать, это один шаг для продвижения вперед",
-    "TESTIMONIAL_CONTENT": "Вы находитесь на расстоянии всего одного шага от привлечения своих клиентов, удержав их и находя новые.",
-    "TERMS_ACCEPT": "Создавая учетную запись, вы соглашаетесь с нашими <a href=\"https://www.chatwoot.com/terms\">Т и С</a> и <a href=\"https://www.chatwoot.com/privacy-policy\">политикой конфиденциальности</a>",
+    "TESTIMONIAL_HEADER": "Всего один шаг — и вы в деле",
+    "TESTIMONIAL_CONTENT": "Всего один шаг — и вы сможете общаться с клиентами, удерживать их и находить новых.",
+    "TERMS_ACCEPT": "Создавая аккаунт, вы соглашаетесь с <a href=\"https://www.chatwoot.com/terms\">условиями использования</a> и <a href=\"https://www.chatwoot.com/privacy-policy\">политикой конфиденциальности</a>",
     "OAUTH": {
-      "GOOGLE_SIGNUP": "Регистрация через Google"
+      "GOOGLE_SIGNUP": "Зарегистрироваться через Google"
     },
     "COMPANY_NAME": {
       "LABEL": "Название компании",
-      "PLACEHOLDER": "Введите название вашей компании например Wayne Enterprises",
+      "PLACEHOLDER": "Введите название компании, например Wayne Enterprises",
       "ERROR": "Название компании слишком короткое."
     },
     "FULL_NAME": {
       "LABEL": "Полное имя",
-      "PLACEHOLDER": "Введите ваше полное имя. Например: Брюс Уэйн",
-      "ERROR": "Имя слишком короткое."
+      "PLACEHOLDER": "Введите полное имя, например Брюс Уэйн",
+      "ERROR": "Полное имя слишком короткое."
     },
     "EMAIL": {
       "LABEL": "Рабочий email",
-      "PLACEHOLDER": "Введите ваш рабочий адрес электронной почты. Например: bruce{'@'}wayne{'.'}enterprises",
-      "ERROR": "Пожалуйста, введите действительный адрес электронной почты."
+      "PLACEHOLDER": "Введите рабочий email, например bruce{'@'}wayne{'.'}enterprises",
+      "ERROR": "Введите корректный рабочий email."
     },
     "PASSWORD": {
       "LABEL": "Пароль",
       "PLACEHOLDER": "Пароль",
       "ERROR": "Пароль слишком короткий.",
-      "IS_INVALID_PASSWORD": "Пароль должен содержать хотя бы одну заглавную букву, одну строчную букву, 1 цифру и 1 специальный символ.",
-      "REQUIREMENTS_LENGTH": "Длина не менее 6 символов",
-      "REQUIREMENTS_UPPERCASE": "Минимум одна заглавная буква",
-      "REQUIREMENTS_LOWERCASE": "Минимум одна строчная буква",
-      "REQUIREMENTS_NUMBER": "Минимум одно число",
-      "REQUIREMENTS_SPECIAL": "Минимум один специальный символ"
+      "IS_INVALID_PASSWORD": "Пароль должен содержать хотя бы одну заглавную букву, одну строчную букву, одну цифру и один специальный символ.",
+      "REQUIREMENTS_LENGTH": "Не менее 6 символов",
+      "REQUIREMENTS_UPPERCASE": "Хотя бы одна заглавная буква",
+      "REQUIREMENTS_LOWERCASE": "Хотя бы одна строчная буква",
+      "REQUIREMENTS_NUMBER": "Хотя бы одна цифра",
+      "REQUIREMENTS_SPECIAL": "Хотя бы один специальный символ"
     },
     "CONFIRM_PASSWORD": {
-      "LABEL": "Подтвердите пароль",
-      "PLACEHOLDER": "Подтвердите пароль",
+      "LABEL": "Подтверждение пароля",
+      "PLACEHOLDER": "Повторите пароль",
       "ERROR": "Пароли не совпадают."
     },
     "API": {
       "SUCCESS_MESSAGE": "Регистрация прошла успешно",
-      "ERROR_MESSAGE": "Не удалось подключиться к Woot серверу. Пожалуйста, попробуйте еще раз."
+      "ERROR_MESSAGE": "Не удалось подключиться к серверу. Попробуйте ещё раз."
     },
-    "SUBMIT": "Создать новый аккаунт",
+    "SUBMIT": "Создать аккаунт",
     "HAVE_AN_ACCOUNT": "Уже есть аккаунт?",
     "VERIFY_EMAIL": {
-      "TITLE": "Check your inbox",
-      "DESCRIPTION": "We sent a verification link to {email}. Click the link to verify your email and get started.",
-      "RESEND": "Повторно отправить письмо с подтверждением",
-      "RESEND_SUCCESS": "Verification email sent. Please check your inbox.",
-      "RESEND_ERROR": "Could not send verification email. Please try again."
+      "TITLE": "Проверьте почту",
+      "DESCRIPTION": "Мы отправили ссылку для подтверждения на {email}. Перейдите по ней, чтобы подтвердить email и начать работу.",
+      "RESEND": "Отправить письмо ещё раз",
+      "RESEND_SUCCESS": "Письмо с подтверждением отправлено. Проверьте почту.",
+      "RESEND_ERROR": "Не удалось отправить письмо с подтверждением. Попробуйте ещё раз."
     }
   }
 }

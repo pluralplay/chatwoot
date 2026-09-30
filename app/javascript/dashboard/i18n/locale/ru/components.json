@@ -1,30 +1,30 @@
 {
   "PAGINATION_FOOTER": {
-    "SHOWING": "Показаны {startItem}-{endItem} из {totalItems} элементов",
-    "CURRENT_PAGE_INFO": "{currentPage} из {totalPages} страниц"
+    "SHOWING": "Показано {startItem}–{endItem} из {totalItems} элемента | Показано {startItem}–{endItem} из {totalItems} элементов | Показано {startItem}–{endItem} из {totalItems} элементов",
+    "CURRENT_PAGE_INFO": "{currentPage} из {totalPages} страницы | {currentPage} из {totalPages} страниц | {currentPage} из {totalPages} страниц"
   },
   "COMBOBOX": {
-    "PLACEHOLDER": "Выберите параметр...",
-    "EMPTY_SEARCH_RESULTS": "Не найдено элементов для поиска `{searchTerm}`",
-    "EMPTY_STATE": "Результаты не найдены.",
-    "SEARCH_PLACEHOLDER": "Поиск...",
-    "MORE": "+{count} еще"
+    "PLACEHOLDER": "Выберите вариант…",
+    "EMPTY_SEARCH_RESULTS": "По запросу `{searchTerm}` ничего не найдено",
+    "EMPTY_STATE": "Ничего не найдено.",
+    "SEARCH_PLACEHOLDER": "Поиск…",
+    "MORE": "Ещё {count}"
   },
   "DROPDOWN_MENU": {
-    "SEARCH_PLACEHOLDER": "Поиск...",
-    "EMPTY_STATE": "Результаты не найдены.",
-    "SEARCHING": "Идёт поиск..."
+    "SEARCH_PLACEHOLDER": "Поиск…",
+    "EMPTY_STATE": "Ничего не найдено.",
+    "SEARCHING": "Поиск…"
   },
   "DIALOG": {
     "BUTTONS": {
-      "CANCEL": "Отменить",
+      "CANCEL": "Отмена",
       "CONFIRM": "Подтвердить"
     }
   },
   "PHONE_INPUT": {
-    "SEARCH_PLACEHOLDER": "Поиск по стране",
+    "SEARCH_PLACEHOLDER": "Поиск страны",
     "ERROR": "Номер телефона должен быть пустым или в формате E.164",
-    "DIAL_CODE_ERROR": "Пожалуйста, выберите код набора из списка"
+    "DIAL_CODE_ERROR": "Выберите код страны из списка"
   },
   "THUMBNAIL": {
     "AUTHOR": {
@@ -32,52 +32,52 @@
     }
   },
   "BREADCRUMB": {
-    "ARIA_LABEL": "Навигация"
+    "ARIA_LABEL": "Навигационная цепочка"
   },
   "SWITCH": {
-    "TOGGLE": "Переключить"
+    "TOGGLE": "Переключатель"
   },
   "LABEL": {
-    "TAG_BUTTON": "тег"
+    "TAG_BUTTON": "метка"
   },
   "FEATURE_SPOTLIGHT": {
-    "LEARN_MORE": "Узнайте больше",
-    "WATCH_VIDEO": "Watch video"
+    "LEARN_MORE": "Подробнее",
+    "WATCH_VIDEO": "Смотреть видео"
   },
   "DURATION_INPUT": {
-    "MINUTES": "Минут",
-    "HOURS": "Часов",
-    "DAYS": "Дней",
+    "MINUTES": "Минуты",
+    "HOURS": "Часы",
+    "DAYS": "Дни",
     "PLACEHOLDER": "Введите длительность"
   },
   "CHANNEL_SELECTOR": {
     "COMING_SOON": "Скоро!"
   },
   "SLASH_COMMANDS": {
-    "HEADING_1": "Heading 1",
-    "HEADING_2": "Heading 2",
-    "HEADING_3": "Heading 3",
-    "BOLD": "Bold",
-    "ITALIC": "Italic",
-    "STRIKETHROUGH": "Strikethrough",
-    "CODE": "Code",
-    "BULLET_LIST": "Bullet List",
-    "ORDERED_LIST": "Ordered List",
-    "TABLE": "Table",
-    "IMAGE": "Image",
-    "VIDEO": "Video",
-    "DIVIDER": "Divider"
+    "HEADING_1": "Заголовок 1",
+    "HEADING_2": "Заголовок 2",
+    "HEADING_3": "Заголовок 3",
+    "BOLD": "Жирный",
+    "ITALIC": "Курсив",
+    "STRIKETHROUGH": "Зачёркнутый",
+    "CODE": "Код",
+    "BULLET_LIST": "Маркированный список",
+    "ORDERED_LIST": "Нумерованный список",
+    "TABLE": "Таблица",
+    "IMAGE": "Изображение",
+    "VIDEO": "Видео",
+    "DIVIDER": "Разделитель"
   },
   "VIDEO_EMBED": {
-    "TAB_EMBED": "Embed link",
-    "TAB_UPLOAD": "Upload",
-    "PLACEHOLDER": "Paste a video link",
-    "HINT": "Works with YouTube, Vimeo, Loom, Wistia, Arcade, Bunny, CodePen, GuideJar and mp4 links",
-    "ERROR": "That doesn't look like a supported video link",
-    "UPLOAD_LABEL": "Choose a video file",
-    "UPLOAD_HINT": "MP4 · up to {size}MB · or drop it here",
-    "UPLOAD_ERROR": "Only MP4 files can be uploaded",
-    "ADD": "Embed",
-    "CANCEL": "Отменить"
+    "TAB_EMBED": "Ссылка",
+    "TAB_UPLOAD": "Загрузить",
+    "PLACEHOLDER": "Вставьте ссылку на видео",
+    "HINT": "Поддерживаются ссылки YouTube, Vimeo, Loom, Wistia, Arcade, Bunny, CodePen, GuideJar и mp4",
+    "ERROR": "Эта ссылка на видео не поддерживается",
+    "UPLOAD_LABEL": "Выберите видеофайл",
+    "UPLOAD_HINT": "MP4 · до {size} МБ · или перетащите сюда",
+    "UPLOAD_ERROR": "Можно загружать только файлы MP4",
+    "ADD": "Встроить",
+    "CANCEL": "Отмена"
   }
 }

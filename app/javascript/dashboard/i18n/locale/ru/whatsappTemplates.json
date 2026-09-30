@@ -1,27 +1,27 @@
 {
   "WHATSAPP_TEMPLATES": {
     "MODAL": {
-      "TITLE": "Шаблоны Whatsapp",
-      "SUBTITLE": "Выберите шаблон whatsapp, который вы хотите отправить",
+      "TITLE": "Шаблоны WhatsApp",
+      "SUBTITLE": "Выберите шаблон WhatsApp для отправки",
       "TEMPLATE_SELECTED_SUBTITLE": "Настройка шаблона: {templateName}"
     },
     "PICKER": {
-      "SEARCH_PLACEHOLDER": "Найти шаблоны",
-      "NO_TEMPLATES_FOUND": "Не найдено шаблонов для",
+      "SEARCH_PLACEHOLDER": "Поиск шаблонов",
+      "NO_TEMPLATES_FOUND": "Не найдено шаблонов по запросу",
       "HEADER": "Заголовок",
-      "BODY": "Основной текст",
-      "FOOTER": "Нижний текст",
+      "BODY": "Текст",
+      "FOOTER": "Подпись",
       "BUTTONS": "Кнопки",
       "CATEGORY": "Категория",
-      "MEDIA_CONTENT": "Медиа",
-      "MEDIA_CONTENT_FALLBACK": "медиа",
-      "NO_TEMPLATES_AVAILABLE": "Шаблоны WhatsApp недоступны. Нажмите кнопку \"Обновить\", чтобы синхронизировать шаблоны из WhatsApp.",
+      "MEDIA_CONTENT": "Медиаконтент",
+      "MEDIA_CONTENT_FALLBACK": "медиаконтент",
+      "NO_TEMPLATES_AVAILABLE": "Нет доступных шаблонов WhatsApp. Нажмите «Обновить шаблоны», чтобы синхронизировать их с WhatsApp.",
       "REFRESH_BUTTON": "Обновить шаблоны",
-      "REFRESH_SUCCESS": "Обновление шаблонов запущено. Обновление может занять несколько минут.",
+      "REFRESH_SUCCESS": "Обновление шаблонов запущено. Это может занять пару минут.",
       "REFRESH_ERROR": "Не удалось обновить шаблоны. Попробуйте ещё раз.",
       "LABELS": {
         "LANGUAGE": "Язык",
-        "TEMPLATE_BODY": "Тело шаблона",
+        "TEMPLATE_BODY": "Текст шаблона",
         "CATEGORY": "Категория"
       }
     },
@@ -31,16 +31,16 @@
       "LANGUAGE": "Язык",
       "CATEGORY": "Категория",
       "VARIABLE_PLACEHOLDER": "Введите значение {variable}",
-      "GO_BACK_LABEL": "Вернуться",
+      "GO_BACK_LABEL": "Назад",
       "SEND_MESSAGE_LABEL": "Отправить сообщение",
-      "FORM_ERROR_MESSAGE": "Пожалуйста, заполните все переменные перед отправкой",
-      "MEDIA_HEADER_LABEL": "{type} Заголовок",
-      "OTP_CODE": "Введите 4-8 цифр OTP",
+      "FORM_ERROR_MESSAGE": "Заполните все переменные перед отправкой",
+      "MEDIA_HEADER_LABEL": "Заголовок: {type}",
+      "OTP_CODE": "Введите одноразовый код (4–8 цифр)",
       "EXPIRY_MINUTES": "Введите срок действия в минутах",
-      "BUTTON_PARAMETERS": "Параметры кнопки",
+      "BUTTON_PARAMETERS": "Параметры кнопок",
       "BUTTON_LABEL": "Кнопка {index}",
       "COUPON_CODE": "Введите код купона (не более 15 символов)",
-      "MEDIA_URL_LABEL": "Введите {type} URL",
+      "MEDIA_URL_LABEL": "Введите URL ({type})",
       "DOCUMENT_NAME_PLACEHOLDER": "Введите имя файла документа (например, Invoice_2025.pdf)",
       "BUTTON_PARAMETER": "Введите параметр кнопки"
     }

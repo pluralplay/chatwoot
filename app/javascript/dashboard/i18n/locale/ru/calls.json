@@ -1,46 +1,46 @@
 {
   "CALLS_PAGE": {
-    "HEADER": "Calls",
-    "ALL_CALLS": "All Calls",
-    "ALL_CALLS_COUNT": "All Calls ({count})",
-    "EMPTY_STATE": "No calls found",
+    "HEADER": "Звонки",
+    "ALL_CALLS": "Все звонки",
+    "ALL_CALLS_COUNT": "Все звонки ({count})",
+    "EMPTY_STATE": "Звонков не найдено",
     "SETUP": {
-      "TITLE": "Make and receive calls in one place",
-      "SUBTITLE": "Set up a voice channel to start handling calls with your team. Every call, along with its recording, will appear here.",
+      "TITLE": "Входящие и исходящие звонки в одном месте",
+      "SUBTITLE": "Настройте голосовой канал, чтобы обрабатывать звонки вместе с командой. Здесь будут отображаться все звонки вместе с записями.",
       "ACTION": "Настроить голосовой канал"
     },
     "FILTERS": {
-      "MISSED": "Missed",
-      "NO_REPLY": "No reply",
-      "OTHER_ACTIVITY": "Other activity",
-      "INCOMING": "Incoming",
-      "OUTGOING": "Outgoing",
-      "IN_PROGRESS": "In progress",
-      "ASSIGNEE": "Назначено",
-      "ALL_ASSIGNEES": "All assignees",
-      "MORE_FILTERS": "More filters",
-      "INBOX": "Электронная почта",
-      "ALL_INBOXES": "Все письма"
+      "MISSED": "Пропущенные",
+      "NO_REPLY": "Без ответа",
+      "OTHER_ACTIVITY": "Прочие",
+      "INCOMING": "Входящие",
+      "OUTGOING": "Исходящие",
+      "IN_PROGRESS": "Идут сейчас",
+      "ASSIGNEE": "Ответственный",
+      "ALL_ASSIGNEES": "Все ответственные",
+      "MORE_FILTERS": "Другие фильтры",
+      "INBOX": "Канал",
+      "ALL_INBOXES": "Все каналы"
     },
     "STATUS": {
-      "ONGOING": "Повторяющиеся",
-      "INCOMING": "Incoming",
-      "OUTGOING": "Outgoing",
-      "MISSED": "Missed",
-      "NO_REPLY": "No reply",
-      "FAILED": "Не удалось"
+      "ONGOING": "Идёт",
+      "INCOMING": "Входящий",
+      "OUTGOING": "Исходящий",
+      "MISSED": "Пропущенный",
+      "NO_REPLY": "Без ответа",
+      "FAILED": "Сбой"
     },
     "ROW": {
-      "PICKED_BY": "Picked by",
-      "DIALED_BY": "Dialed by",
-      "ANSWERED": "Answered",
-      "RINGING": "Ringing",
-      "IN_PROGRESS": "In progress",
-      "NO_AGENT": "No agent answered this call",
-      "NO_CONTACT_ANSWER": "Contact did not answer",
-      "FAILED": "Этот звонок не может быть подключен",
+      "PICKED_BY": "Принял",
+      "DIALED_BY": "Звонил",
+      "ANSWERED": "Отвечен",
+      "RINGING": "Вызов",
+      "IN_PROGRESS": "Идёт",
+      "NO_AGENT": "Ни один оператор не ответил на звонок",
+      "NO_CONTACT_ANSWER": "Контакт не ответил",
+      "FAILED": "Не удалось соединить звонок",
       "YESTERDAY": "Вчера",
-      "DELETED_CONTACT": "Deleted contact"
+      "DELETED_CONTACT": "Удалённый контакт"
     }
   }
 }

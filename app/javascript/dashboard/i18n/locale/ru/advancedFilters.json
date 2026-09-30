@@ -1,79 +1,81 @@
 {
   "FILTER": {
-    "TITLE": "Фильтровать беседы",
-    "SUBTITLE": "Добавьте фильтры ниже и нажмите «Применить фильтры» для фильтрации диалогов.",
+    "TITLE": "Фильтр обращений",
+    "SUBTITLE": "Добавьте фильтры и нажмите «Применить фильтры», чтобы оставить только нужные обращения.",
     "EDIT_CUSTOM_FILTER": "Изменить папку",
-    "CUSTOM_VIEWS_SUBTITLE": "Добавить или удалить фильтры и обновить свою папку.",
+    "CUSTOM_VIEWS_SUBTITLE": "Добавьте или удалите фильтры, чтобы обновить папку.",
     "ADD_NEW_FILTER": "Добавить фильтр",
-    "FILTER_DELETE_ERROR": "Упс, похоже мы не можем ничего сохранить! Пожалуйста, добавьте хотя бы один фильтр, чтобы сохранить его.",
+    "FILTER_DELETE_ERROR": "Пустой фильтр сохранить нельзя. Добавьте хотя бы одно условие.",
     "SUBMIT_BUTTON_LABEL": "Применить фильтры",
     "UPDATE_BUTTON_LABEL": "Обновить папку",
-    "CANCEL_BUTTON_LABEL": "Отменить",
-    "CLEAR_BUTTON_LABEL": "Очистить фильтры",
+    "CANCEL_BUTTON_LABEL": "Отмена",
+    "CLEAR_BUTTON_LABEL": "Сбросить фильтры",
     "FOLDER_LABEL": "Название папки",
-    "FOLDER_QUERY_LABEL": "Запрос к папке",
-    "EMPTY_VALUE_ERROR": "Необходимо указать значение.",
-    "TOOLTIP_LABEL": "Фильтровать беседы",
+    "FOLDER_QUERY_LABEL": "Условия папки",
+    "EMPTY_VALUE_ERROR": "Укажите значение.",
+    "TOOLTIP_LABEL": "Фильтр обращений",
     "QUERY_DROPDOWN_LABELS": {
       "AND": "И",
       "OR": "ИЛИ"
     },
     "INPUT_PLACEHOLDER": "Введите значение",
-    "MULTI_VALUE_INPUT_PLACEHOLDER": "Type a value, then press Enter to add more",
-    "MULTI_VALUE_INPUT_PLACEHOLDER_SHORT": "Type a value",
+    "MULTI_VALUE_INPUT_PLACEHOLDER": "Введите значение и нажмите Enter, чтобы добавить ещё",
+    "MULTI_VALUE_INPUT_PLACEHOLDER_SHORT": "Введите значение",
     "CONTACT_SEARCH_PLACEHOLDER": "Поиск контактов",
     "CONTACT_FALLBACK": "Контакт #{id}",
     "OPERATOR_LABELS": {
       "equal_to": "Равно",
       "not_equal_to": "Не равно",
       "does_not_contain": "Не содержит",
-      "is_present": "Присутствует",
-      "is_not_present": "Отсутствует",
-      "is_greater_than": "Больше чем",
-      "is_less_than": "Меньше чем",
-      "days_before": "x дней до",
+      "is_present": "Заполнено",
+      "is_not_present": "Не заполнено",
+      "is_greater_than": "Больше",
+      "is_less_than": "Меньше",
+      "days_before": "Более x дней назад",
       "starts_with": "Начинается с",
+      "detects": "Обнаруживает",
+      "does_not_detect": "Не обнаруживает",
       "equalTo": "Равно",
       "notEqualTo": "Не равно",
       "contains": "Содержит",
       "doesNotContain": "Не содержит",
-      "isPresent": "Присутствует",
-      "isNotPresent": "Отсутствует",
-      "isGreaterThan": "Больше чем",
-      "isLessThan": "Меньше чем",
-      "daysBefore": "x дней до",
+      "isPresent": "Заполнено",
+      "isNotPresent": "Не заполнено",
+      "isGreaterThan": "Больше",
+      "isLessThan": "Меньше",
+      "daysBefore": "Более x дней назад",
       "startsWith": "Начинается с"
     },
     "ATTRIBUTE_LABELS": {
-      "TRUE": "Истина",
-      "FALSE": "Ложь"
+      "TRUE": "Да",
+      "FALSE": "Нет"
     },
     "ATTRIBUTES": {
       "STATUS": "Статус",
-      "ASSIGNEE_NAME": "Имя назначенного",
-      "INBOX_NAME": "Имя источника",
-      "TEAM_NAME": "Название команды",
+      "ASSIGNEE_NAME": "Ответственный",
+      "INBOX_NAME": "Канал",
+      "TEAM_NAME": "Команда",
       "CONTACT": "Контакт",
-      "CONVERSATION_IDENTIFIER": "Идентификатор беседы",
-      "CAMPAIGN_NAME": "Название кампании",
-      "LABELS": "Категории",
+      "CONVERSATION_IDENTIFIER": "Идентификатор обращения",
+      "CAMPAIGN_NAME": "Кампания",
+      "LABELS": "Метки",
       "BROWSER_LANGUAGE": "Язык браузера",
       "PRIORITY": "Приоритет",
-      "COUNTRY_NAME": "Название страны",
-      "REFERER_LINK": "Ссылка реферера",
+      "COUNTRY_NAME": "Страна",
+      "REFERER_LINK": "Ссылка-источник",
       "CUSTOM_ATTRIBUTE_LIST": "Список",
       "CUSTOM_ATTRIBUTE_TEXT": "Текст",
       "CUSTOM_ATTRIBUTE_NUMBER": "Число",
       "CUSTOM_ATTRIBUTE_LINK": "Ссылка",
       "CUSTOM_ATTRIBUTE_CHECKBOX": "Флажок",
       "CREATED_AT": "Дата создания",
-      "LAST_ACTIVITY": "Последние действия"
+      "LAST_ACTIVITY": "Последняя активность"
     },
     "ERRORS": {
-      "VALUE_REQUIRED": "Необходимо указать значение",
-      "ATTRIBUTE_KEY_REQUIRED": "Необходимо ввести ключ атрибута",
-      "FILTER_OPERATOR_REQUIRED": "Требуется оператор фильтра",
-      "VALUE_MUST_BE_BETWEEN_1_AND_998": "Значение должно быть между 1 и 998"
+      "VALUE_REQUIRED": "Укажите значение",
+      "ATTRIBUTE_KEY_REQUIRED": "Укажите ключ атрибута",
+      "FILTER_OPERATOR_REQUIRED": "Укажите условие фильтра",
+      "VALUE_MUST_BE_BETWEEN_1_AND_998": "Значение должно быть от 1 до 998"
     },
     "GROUPS": {
       "STANDARD_FILTERS": "Стандартные фильтры",
@@ -82,23 +84,23 @@
     },
     "CUSTOM_VIEWS": {
       "ADD": {
-        "TITLE": "Вы хотите сохранить этот фильтр?",
+        "TITLE": "Сохранить этот фильтр?",
         "LABEL": "Название фильтра",
-        "PLACEHOLDER": "Дайте имя фильтру, чтобы использовать его позже.",
-        "ERROR_MESSAGE": "Необходимо указать имя.",
+        "PLACEHOLDER": "Назовите фильтр, чтобы быстро находить его позже.",
+        "ERROR_MESSAGE": "Укажите название.",
         "SAVE_BUTTON": "Сохранить фильтр",
-        "CANCEL_BUTTON": "Отменить",
+        "CANCEL_BUTTON": "Отмена",
         "API_FOLDERS": {
-          "SUCCESS_MESSAGE": "Папка успешно создана.",
-          "ERROR_MESSAGE": "Ошибка при создании папки."
+          "SUCCESS_MESSAGE": "Папка создана.",
+          "ERROR_MESSAGE": "Не удалось создать папку."
         },
         "API_SEGMENTS": {
-          "SUCCESS_MESSAGE": "Сегмент успешно создан.",
-          "ERROR_MESSAGE": "Ошибка при создании сегмента."
+          "SUCCESS_MESSAGE": "Сегмент создан.",
+          "ERROR_MESSAGE": "Не удалось создать сегмент."
         }
       },
       "EDIT": {
-        "EDIT_BUTTON": "Редактировать папку"
+        "EDIT_BUTTON": "Изменить папку"
       },
       "DELETE": {
         "DELETE_BUTTON": "Удалить фильтр",
@@ -107,16 +109,16 @@
             "TITLE": "Подтвердите удаление",
             "MESSAGE": "Вы уверены, что хотите удалить фильтр ",
             "YES": "Да, удалить",
-            "NO": "Нет, не удалять"
+            "NO": "Нет, оставить"
           }
         },
         "API_FOLDERS": {
-          "SUCCESS_MESSAGE": "Папка успешно удалена.",
-          "ERROR_MESSAGE": "При удалении папки произошла ошибка."
+          "SUCCESS_MESSAGE": "Папка удалена.",
+          "ERROR_MESSAGE": "Не удалось удалить папку."
         },
         "API_SEGMENTS": {
-          "SUCCESS_MESSAGE": "Сегмент успешно удален.",
-          "ERROR_MESSAGE": "При удалении сегмента произошла ошибка."
+          "SUCCESS_MESSAGE": "Сегмент удалён.",
+          "ERROR_MESSAGE": "Не удалось удалить сегмент."
         }
       }
     }
