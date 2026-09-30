@@ -109,6 +109,10 @@ export default {
     formattedWhatsappUsername() {
       return this.whatsappUsername ? `@${this.whatsappUsername}` : '';
     },
+    telegramUserId() {
+      const id = this.additionalAttributes.social_telegram_user_id;
+      return id ? String(id) : '';
+    },
   },
   watch: {
     'contact.id': {
@@ -291,6 +295,14 @@ export default {
             icon="brand-whatsapp"
             emoji="💬"
             :title="$t('CONTACT_PANEL.WHATSAPP_USERNAME')"
+            show-copy
+          />
+          <ContactInfoRow
+            v-if="telegramUserId"
+            :value="telegramUserId"
+            icon="brand-telegram"
+            emoji="✈️"
+            :title="$t('CONTACT_PANEL.TELEGRAM_USER_ID')"
             show-copy
           />
           <ContactInfoRow
