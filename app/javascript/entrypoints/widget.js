@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import { createI18n } from 'vue-i18n';
+import { pluralRules } from 'shared/helpers/i18nPluralRules';
 
 import VueDOMPurifyHTML from 'vue-dompurify-html';
 import store from '../widget/store';
@@ -20,6 +21,7 @@ const i18n = createI18n({
   legacy: false, // https://github.com/intlify/vue-i18n/issues/1902
   locale: 'en',
   messages: i18nMessages,
+  pluralRules,
 });
 
 const app = createApp(App);

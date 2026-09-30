@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import { createI18n } from 'vue-i18n';
+import { pluralRules } from 'shared/helpers/i18nPluralRules';
 import VueDOMPurifyHTML from 'vue-dompurify-html';
 import store from '../survey/store';
 import i18nMessages from '../survey/i18n';
@@ -10,6 +11,7 @@ const app = createApp(App);
 const i18n = createI18n({
   locale: 'en',
   messages: i18nMessages,
+  pluralRules,
 });
 
 app.use(i18n);
