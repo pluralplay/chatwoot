@@ -32,6 +32,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    externalLink: {
+      type: String,
+      default: '',
+    },
     editable: {
       type: Boolean,
       default: false,
@@ -164,6 +168,15 @@ export default {
         icon="i-lucide-clipboard"
         @click="onCopy"
       />
+      <a
+        v-if="externalLink"
+        :href="externalLink"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        class="flex items-center leading-3 ltr:-ml-1 rtl:-mr-1"
+      >
+        <span class="i-lucide-arrow-up-right text-sm text-n-slate-10" />
+      </a>
       <NextButton
         v-if="editable"
         ghost

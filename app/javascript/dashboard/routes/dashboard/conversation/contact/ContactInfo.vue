@@ -113,6 +113,16 @@ export default {
       const id = this.additionalAttributes.social_telegram_user_id;
       return id ? String(id) : '';
     },
+    telegramProfileLink() {
+      const username = this.socialProfiles.telegram.replace(/^@+/, '');
+      if (username) return `https://t.me/${username}`;
+      return `tg://user?id=${this.telegramUserId}`;
+    },
+    // the Telegram ID row already links to the profile, so skip the duplicate icon
+    visibleSocialProfiles() {
+      if (!this.telegramUserId) return this.socialProfiles;
+      return { ...this.socialProfiles, telegram: '' };
+    },
   },
   watch: {
     'contact.id': {
@@ -303,6 +313,7 @@ export default {
             icon="brand-telegram"
             emoji="✈️"
             :title="$t('CONTACT_PANEL.TELEGRAM_USER_ID')"
+            :external-link="telegramProfileLink"
             show-copy
           />
           <ContactInfoRow
@@ -335,7 +346,7 @@ export default {
             emoji="🌍"
             :title="$t('CONTACT_PANEL.LOCATION')"
           />
-          <SocialIcons :social-profiles="socialProfiles" />
+          <SocialIcons :social-profiles="visibleSocialProfiles" />
         </div>
       </div>
       <div class="flex items-center w-full mt-0.5 gap-2">
